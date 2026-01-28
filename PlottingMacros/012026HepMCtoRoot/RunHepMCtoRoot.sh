@@ -4,10 +4,12 @@
 
 # ======== USER SETTINGS ========
 #/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/Jewel_pbpb_HepMC_5360GeV/Jewel_pbpb_5360GeV_ptmin250_nevt10K_103125_vac.hepmc
-INPUT="/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/Jewel_pbpb_HepMC_5360GeV/Jewel_pbpb_5360GeV_ptmin250_nevt10K_103125_vac.hepmc"          # input HepMC file
-OUTPUT="/home/xirong/DijetAnalysis_2025_v3_svmit/PlottingMacros/1014JewelWithJetClustering/RootOutput/Jewel_pbpb_5360GeV_ptmin250_nevt10K_012026_vac_withdphi.root"   # output ROOT file
-SRC="JetClusteringHepMC.cpp"  # your C++ source
-EXE="JetClusteringHepMC"     # compiled binary name
+INPUT_DIR="/home/data/public/xirong/Packages/jewel/jewel-2.4.0/eventfiles/0127Events100K/"
+INPUT="$INPUT_DIR/Jewelpbpb_5360GeV_ptm250_50Kevt_012726_C5_nodum_med_103428.hepmc" # input HepMC file
+OUTPUT_DIR="/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/012726_JewelAndAngantyr/"
+OUTPUT="$OUTPUT_DIR/Jewelpbpb_5360GeV_ptm250_50Kevt_012726_C5_nodum_med_103428_precluster.root"   # output ROOT file
+SRC="HepMCtoRoot.cpp"  # your C++ source
+EXE="HepMCtoRoot"     # compiled binary name
 # ===============================
 
 set -e  # stop if any command fails
@@ -20,8 +22,7 @@ export LD_LIBRARY_PATH="$HEPMC_LIB:$LD_LIBRARY_PATH"
 echo "[build] Compiling $SRC ..."
 g++ -O2 -std=c++17 "$SRC" -o "$EXE" -I"$HEPMC_INC" \
  -L"$HEPMC_LIB" -lHepMC \
-  `root-config --cflags --libs` \
-  `fastjet-config --cxxflags --libs`
+  `root-config --cflags --libs`
 echo "[build] Done."
 
 
