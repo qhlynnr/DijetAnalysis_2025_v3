@@ -13,17 +13,23 @@
 
 using namespace std;
 
-int main() {
-    string outFileName = "Jewel_1K_012726_withFJbkgestimation.root";
+int main(int argc, char** argv) {
+    if (argc < 3){
+        std::cerr << "Usage: " << argv[0] << " <input.root> <output.root>" << std::endl;
+        return 1;
+    }
 
-    TFile *fJ = TFile::Open("/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/012626_JewelTestDummies/Jewelpbpb_5360GeV_ptm250_1Kevt_012226_Dum_C5_med.root");
+    std::string inFileName = argv[1];
+    std::string outFileName = argv[2];
+
+    TFile *fJ = TFile::Open(inFileName.c_str());
     if (!fJ || fJ->IsZombie()) {
-        std::cerr << "Error: Cannot open jewel.root" << std::endl;
+        std::cerr << "Error: Cannot open input file " << inFileName << std::endl;
         return 1;
     }
     TTree* tJ = (TTree*)fJ->Get("ParticleTree");
     if (!tJ) {
-        std::cerr << "Error: Cannot find ParticleTree in jewel.root" << std::endl;
+        std::cerr << "Error: Cannot find ParticleTree in " << inFileName << std::endl;
         return 1;
     }
 
@@ -32,7 +38,7 @@ int main() {
     TTree *particleTree = new TTree("ParticleTree", "Particle-level information from embedded events");
 
     Long64_t nEntriesJ = tJ->GetEntries();
-    std::cout << "Number of entries in jewel.root: " << nEntriesJ << std::endl;
+    std::cout << "Number of entries in " << inFileName << ": " << nEntriesJ << std::endl;
 
     //Input Variables
     
@@ -65,6 +71,7 @@ int main() {
     vector<float>* jetPt = nullptr;
     vector<float>* jetEta = nullptr;
     vector<float>* jetPhi = nullptr;
+    vector<float>* partstatus = nullptr;
 
     vector<float>* partPx = nullptr;
     vector<float>* partPy = nullptr;
@@ -90,6 +97,7 @@ int main() {
     tJ->SetBranchAddress("eta", &etaJ);
     tJ->SetBranchAddress("phi", &phiJ);
     tJ->SetBranchAddress("pdgId", &pdgIdJ);
+    tJ->SetBranchAddress("status", &partstatus);
 
     jetTree->Branch("jet_px", &jetPx);
     jetTree->Branch("jet_py", &jetPy);
@@ -122,6 +130,9 @@ int main() {
     std::vector<fastjet::PseudoJet> particles;
 
     for (int i = 0; i < nEntriesJ; ++i) {
+        if (i%1000 == 0) {
+            std::cout << "Processing event " << i << " / " << nEntriesJ << std::endl;
+        }
         particles.clear();
         tJ->GetEntry(i);
         
@@ -134,12 +145,16 @@ int main() {
         partPt->clear(); partEta->clear(); partPhi->clear(); 
         partPdgId->clear(); partSource->clear();
         
+        if (i%1000 == 0) {
+            std::cout << "  Number of JEWEL particles: " << nJ << std::endl;
+        }
+
         // Add JEWEL particles
         for (int j = 0; j < nJ; ++j) {
             int pid = pdgIdJ->at(j);
             if (std::abs(pid) == 12 || std::abs(pid) == 14 || std::abs(pid) == 16) continue; // skip neutrinos (12,14,16)
+            if (partstatus->at(j) != 1) continue; // only final state particles
             particles.push_back(fastjet::PseudoJet(pxJ->at(j), pyJ->at(j), pzJ->at(j), eJ->at(j)));
-            
             // Store particle-level info
             partPx->push_back(pxJ->at(j));
             partPy->push_back(pyJ->at(j));
@@ -155,9 +170,12 @@ int main() {
             partpy_sum += pyJ->at(j);
             partpz_sum += pzJ->at(j);
         }
+        if (i%1000 == 0) {
+            std::cout << "  Total number of particles for clustering: " << particles.size() << std::endl;
+        }
 
         // Perform jet clustering for this event (subtract first, then sort by pT)
-        fastjet::ClusterSequenceArea cs(particles, jet_def);
+        fastjet::ClusterSequence cs(particles, jet_def);
         std::vector<fastjet::PseudoJet> jets_raw = cs.inclusive_jets(); // get all raw jets
         std::vector<fastjet::PseudoJet> jets = fastjet::sorted_by_pt(jets_raw);
 
@@ -180,10 +198,8 @@ int main() {
 
         jetpt1 = (jetPt->size() > 0) ? jetPt->at(0) : -1.0;
         jetpt2 = (jetPt->size() > 1) ? jetPt->at(1) : -1.0;
-
         jetphi1 = (jetPhi->size() > 0) ? jetPhi->at(0) : -999.0;
         jetphi2 = (jetPhi->size() > 1) ? jetPhi->at(1) : -999.0;
-
 
         if (jetpt1 > 0 && jetpt2 > 0) {
             if (jetpt1 < jetpt2){
@@ -217,7 +233,6 @@ int main() {
         }
         if (i<5){
             std::cout << "Event " << i << " summary:" << std::endl;
-            std::cout << "  Number of Angantyr particles: " << nA << std::endl;
             std::cout << "  Number of JEWEL particles: " << nJ << std::endl;
             std::cout << "  Number of jets found: " << jetPt->size() << std::endl;
             std::cout << "  Leading jet pt: " << jetpt1 << std::endl;

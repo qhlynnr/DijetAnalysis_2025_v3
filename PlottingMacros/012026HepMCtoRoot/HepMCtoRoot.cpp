@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
     std::vector<float>* p_v = new std::vector<float>();
     std::vector<float>* eta_v = new std::vector<float>();
     std::vector<float>* phi_v = new std::vector<float>();
-    std::vector<float>* status_v = new std::vector<float>();
+    std::vector<int>* status_v = new std::vector<int>();
     particleTree->Branch("nEvts", &evtNumber, "nEvts/I");
     particleTree->Branch("nParticles", &nParticles, "nParticles/I");
     particleTree->Branch("nVertices", &nVertices, "nVertices/I");
@@ -107,18 +107,16 @@ int main(int argc, char** argv) {
         if (ievt < 10) {
             std::cout << "Event " << evtNumber << ": nParticles=" << nParticles 
                       << ", nVertices=" << nVertices << std::endl;
-            std::cout << "PdgID\tpx\tpy\tpz\te\tpt\tp\teta\tphi\n";
+            std::cout << "PdgID\tpt\teta\tphi\n";
             for (size_t i = 0; i < 5 && i < pdgId_v->size(); ++i) {
                 std::cout << pdgId_v->at(i) << "\t"
-                          << px_v->at(i) << "\t"
-                          << py_v->at(i) << "\t"
-                          << pz_v->at(i) << "\t"
-                          << e_v->at(i) << "\t"
                           << pt_v->at(i) << "\t"
-                          << p_v->at(i) << "\t"
                           << eta_v->at(i) << "\t"
                           << phi_v->at(i) << "\n";
             }
+        }
+        if (ievt % 100 == 0) {
+                std::cout << "Processed " << ievt << " events." << std::endl;
         }
 
         // Fill tree and free event

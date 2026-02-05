@@ -13,17 +13,35 @@
 
 using namespace std;
 
-int main() {
-    string outFileName = "Jewel_1K_012726_withFJbkgestimation.root";
+int main(int argc, char** argv) {
+    if (argc < 4) {
+        std::cerr << "Usage: " << argv[0] << " outFile angantyrFile jewelFile" << std::endl;
+        return 1;
+    }
 
-    TFile *fJ = TFile::Open("/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/012626_JewelTestDummies/Jewelpbpb_5360GeV_ptm250_1Kevt_012226_Dum_C5_med.root");
+    std::string outFileName = argv[1];
+    std::string angantyrFileName = argv[2];
+    std::string jewelFileName = argv[3];
+
+    TFile *fA = TFile::Open(angantyrFileName.c_str());
+    if (!fA || fA->IsZombie()) {
+        std::cerr << "Error: Cannot open angantyr file: " << angantyrFileName << std::endl;
+        return 1;
+    }
+    TTree* tA = (TTree*)fA->Get("particleTree");
+    if (!tA) {
+        std::cerr << "Error: Cannot find particleTree in " << angantyrFileName << std::endl;
+        return 1;
+    }
+
+    TFile *fJ = TFile::Open(jewelFileName.c_str());
     if (!fJ || fJ->IsZombie()) {
-        std::cerr << "Error: Cannot open jewel.root" << std::endl;
+        std::cerr << "Error: Cannot open jewel file: " << jewelFileName << std::endl;
         return 1;
     }
     TTree* tJ = (TTree*)fJ->Get("ParticleTree");
     if (!tJ) {
-        std::cerr << "Error: Cannot find ParticleTree in jewel.root" << std::endl;
+        std::cerr << "Error: Cannot find ParticleTree in " << jewelFileName << std::endl;
         return 1;
     }
 
@@ -31,12 +49,19 @@ int main() {
     TTree *jetTree = new TTree("JetTree", "Embedded particle-level events");
     TTree *particleTree = new TTree("ParticleTree", "Particle-level information from embedded events");
 
+    Long64_t nEntriesA = tA->GetEntries();
     Long64_t nEntriesJ = tJ->GetEntries();
-    std::cout << "Number of entries in jewel.root: " << nEntriesJ << std::endl;
 
-    //Input Variables
-    
-    int nJ = 0;
+    std::cout << "Number of entries in " << angantyrFileName << ": " << nEntriesA << std::endl;
+    std::cout << "Number of entries in " << jewelFileName << ": " << nEntriesJ << std::endl;
+
+    vector<float>* pxA = nullptr;
+    vector<float>* pyA = nullptr;
+    vector<float>* pzA = nullptr;
+    vector<float>* eA = nullptr;
+    vector<float>* ptA = nullptr;
+    vector<float>* etaA = nullptr;
+    vector<float>* phiA = nullptr;
     vector<float>* pxJ = nullptr;
     vector<float>* pyJ = nullptr;
     vector<float>* pzJ = nullptr;
@@ -44,9 +69,20 @@ int main() {
     vector<float>* ptJ = nullptr;
     vector<float>* etaJ = nullptr;
     vector<float>* phiJ = nullptr;
+    vector<int>* pdgIdA = nullptr;
     vector<int>* pdgIdJ = nullptr;
+    vector<float>* statusJ = nullptr; // Uncomment if status is needed
+    vector<float>* statusA = nullptr; // Uncomment if status is needed
 
     // Jet-level output vectors
+    vector<float>* jetPx = new std::vector<float>();
+    vector<float>* jetPy = new std::vector<float>();
+    vector<float>* jetPz = new std::vector<float>();
+    vector<float>* jetE = new std::vector<float>();
+    vector<float>* jetPt = new std::vector<float>();
+    vector<float>* jetEta = new std::vector<float>();
+    vector<float>* jetPhi = new std::vector<float>();
+
     double jetpt1 = 0;
     double jetpt2 = 0;
     double jetphi1 = 0;
@@ -58,29 +94,38 @@ int main() {
     double ET_miss_particle = 0;
     const double pi = 3.14159265358979323846;
 
-    vector<float>* jetPx = nullptr;
-    vector<float>* jetPy = nullptr;
-    vector<float>* jetPz = nullptr;
-    vector<float>* jetE = nullptr;
-    vector<float>* jetPt = nullptr;
-    vector<float>* jetEta = nullptr;
-    vector<float>* jetPhi = nullptr;
-
-    vector<float>* partPx = nullptr;
-    vector<float>* partPy = nullptr;
-    vector<float>* partPz = nullptr;
-    vector<float>* partE = nullptr;
-    vector<float>* partPt = nullptr;
-    vector<float>* partEta = nullptr;
-    vector<float>* partPhi = nullptr;
-    vector<int>* partPdgId = nullptr; // Combined PDG IDs
-    vector<int>* partSource = nullptr; // 0 = Angantyr, 1 = JEWEL
+    // Particle-level output vectors
+    vector<float>* partPx = new std::vector<float>();
+    vector<float>* partPy = new std::vector<float>();
+    vector<float>* partPz = new std::vector<float>();
+    vector<float>* partE = new std::vector<float>();
+    vector<float>* partPt = new std::vector<float>();
+    vector<float>* partEta = new std::vector<float>();
+    vector<float>* partPhi = new std::vector<float>();
+    vector<int>* partPdgId = new std::vector<int>(); // Combined PDG IDs
+    vector<int>* partSource = new std::vector<int>(); // 0 = Angantyr, 1 = JEWEL
 
     // jet def and bkg subtraction
     const double R = 0.4;
+    fastjet::GhostedAreaSpec area_spec(2.4);              // max ghost rapidity (match your acceptance)
+    fastjet::AreaDefinition area_def(fastjet::active_area_explicit_ghosts, area_spec);
     fastjet::JetDefinition jet_def(fastjet::antikt_algorithm, R);
+    fastjet::JetDefinition jet_def_bkg(fastjet::kt_algorithm, R);
+    fastjet::Selector rho_region = fastjet::SelectorAbsRapMax(2.4) * (!fastjet::SelectorNHardest(2));
   
     double jetPtMin = 5.0;
+    int nA, nJ;
+    tA->SetBranchAddress("nParticles", &nA);
+    tA->SetBranchAddress("px", &pxA);
+    tA->SetBranchAddress("py", &pyA);
+    tA->SetBranchAddress("pz", &pzA);
+    tA->SetBranchAddress("e",  &eA);
+    tA->SetBranchAddress("pdgId", &pdgIdA);
+    tA->SetBranchAddress("pt", &ptA);
+    tA->SetBranchAddress("eta", &etaA);
+    tA->SetBranchAddress("phi", &phiA);
+    tA->SetBranchAddress("status", &statusA);
+
     tJ->SetBranchAddress("nParticles", &nJ);
     tJ->SetBranchAddress("px", &pxJ);
     tJ->SetBranchAddress("py", &pyJ);
@@ -90,6 +135,7 @@ int main() {
     tJ->SetBranchAddress("eta", &etaJ);
     tJ->SetBranchAddress("phi", &phiJ);
     tJ->SetBranchAddress("pdgId", &pdgIdJ);
+    tJ->SetBranchAddress("status", &statusJ); // Uncomment if status is needed
 
     jetTree->Branch("jet_px", &jetPx);
     jetTree->Branch("jet_py", &jetPy);
@@ -98,6 +144,7 @@ int main() {
     jetTree->Branch("jet_pt", &jetPt);
     jetTree->Branch("jet_eta", &jetEta);
     jetTree->Branch("jet_phi", &jetPhi);
+
     jetTree->Branch("A_J", &A_J);
     jetTree->Branch("X_J", &X_J);
     jetTree->Branch("jetpt1", &jetpt1);
@@ -118,11 +165,15 @@ int main() {
     particleTree->Branch("pdgId", &partPdgId);
     particleTree->Branch("ET_miss_particle", &ET_miss_particle);
     particleTree->Branch("source", &partSource); // 0 = Angantyr, 1 = JEWEL
+    particleTree->Branch("status", &statusJ); // Uncomment if status is needed
 
     std::vector<fastjet::PseudoJet> particles;
+    std::vector<fastjet::PseudoJet> particles_bkg;
 
-    for (int i = 0; i < nEntriesJ; ++i) {
+    for (int i = 0; i < std::min(nEntriesA, nEntriesJ); ++i) {
         particles.clear();
+        particles_bkg.clear();
+        tA->GetEntry(i);
         tJ->GetEntry(i);
         
         // Initialize momentum sums for this event
@@ -134,12 +185,34 @@ int main() {
         partPt->clear(); partEta->clear(); partPhi->clear(); 
         partPdgId->clear(); partSource->clear();
         
+        // Add Angantyr particles
+        for (int j = 0; j < nA; ++j) {
+            fastjet::PseudoJet part(pxA->at(j), pyA->at(j), pzA->at(j), eA->at(j));
+            particles.push_back(part);
+            particles_bkg.push_back(part);
+            // Store particle-level info
+            partPx->push_back(pxA->at(j));
+            partPy->push_back(pyA->at(j));
+            partPz->push_back(pzA->at(j));
+            partE->push_back(eA->at(j));
+            partPt->push_back(ptA->at(j));
+            partEta->push_back(etaA->at(j));
+            partPhi->push_back(phiA->at(j));
+            partPdgId->push_back(pdgIdA->at(j));
+            partSource->push_back(0); // 0 = Angantyr
+
+            partpx_sum += pxA->at(j);
+            partpy_sum += pyA->at(j);
+            partpz_sum += pzA->at(j);
+        }
+
         // Add JEWEL particles
         for (int j = 0; j < nJ; ++j) {
-            int pid = pdgIdJ->at(j);
-            if (std::abs(pid) == 12 || std::abs(pid) == 14 || std::abs(pid) == 16) continue; // skip neutrinos (12,14,16)
+            if (std::abs(pdgIdJ->at(j)) == 12 || std::abs(pdgIdJ->at(j)) == 14 || std::abs(pdgIdJ->at(j)) == 16) 
+                continue; // skip neutrinos (12,14,16)
+            if (statusJ->at(j) == 1) 
+                continue; // skip final state particles if needed
             particles.push_back(fastjet::PseudoJet(pxJ->at(j), pyJ->at(j), pzJ->at(j), eJ->at(j)));
-            
             // Store particle-level info
             partPx->push_back(pxJ->at(j));
             partPy->push_back(pyJ->at(j));
@@ -157,9 +230,24 @@ int main() {
         }
 
         // Perform jet clustering for this event (subtract first, then sort by pT)
-        fastjet::ClusterSequenceArea cs(particles, jet_def);
+        fastjet::ClusterSequenceArea cs(particles, jet_def, area_def);
         std::vector<fastjet::PseudoJet> jets_raw = cs.inclusive_jets(); // get all raw jets
-        std::vector<fastjet::PseudoJet> jets = fastjet::sorted_by_pt(jets_raw);
+
+        fastjet::JetMedianBackgroundEstimator bge(rho_region, jet_def_bkg, area_def);
+        bge.set_particles(particles_bkg);
+        fastjet::Subtractor subtractor(&bge);
+
+        // Subtract background from each raw jet and collect surviving jets
+        std::vector<fastjet::PseudoJet> jets_sub;
+        for (const auto& Jraw : jets_raw) {
+            fastjet::PseudoJet J = subtractor(Jraw);
+            if (J.perp() <= 0) continue; // discard zero/negative transverse momentum
+
+            jets_sub.push_back(J);
+        }
+
+        // Now sort by pT after subtraction and apply pt threshold
+        std::vector<fastjet::PseudoJet> jets = fastjet::sorted_by_pt(jets_sub);
 
         // Clear output vectors and fill with jet 4-momenta (apply jetPtMin after subtraction)
         jetPx->clear(); jetPy->clear(); jetPz->clear(); jetE->clear();
@@ -180,8 +268,10 @@ int main() {
 
         jetpt1 = (jetPt->size() > 0) ? jetPt->at(0) : -1.0;
         jetpt2 = (jetPt->size() > 1) ? jetPt->at(1) : -1.0;
+
         jetphi1 = (jetPhi->size() > 0) ? jetPhi->at(0) : -999.0;
         jetphi2 = (jetPhi->size() > 1) ? jetPhi->at(1) : -999.0;
+
 
         if (jetpt1 > 0 && jetpt2 > 0) {
             if (jetpt1 < jetpt2){
@@ -229,11 +319,19 @@ int main() {
     }
 
 
+
     // Write and close files
     outFile->Write();
     outFile->Close();
+    fA->Close();
     fJ->Close();
 
+    // cleanup allocated vectors
+    delete jetPx; delete jetPy; delete jetPz; delete jetE;
+    delete jetPt; delete jetEta; delete jetPhi;
+    delete partPx; delete partPy; delete partPz; delete partE;
+    delete partPt; delete partEta; delete partPhi;
+    delete partPdgId; delete partSource;
 
     return 0;
 }

@@ -4,12 +4,12 @@
 
 # ======== USER SETTINGS ========
 #/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/Jewel_pbpb_HepMC_5360GeV/Jewel_pbpb_5360GeV_ptmin250_nevt10K_103125_vac.hepmc
-INPUT_DIR="/home/data/public/xirong/Packages/jewel/jewel-2.4.0/eventfiles/0127Events100K/"
-INPUT="$INPUT_DIR/Jewelpbpb_5360GeV_ptm250_50Kevt_012726_C5_nodum_med_103428.hepmc" # input HepMC file
-OUTPUT_DIR="/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/012726_JewelAndAngantyr/"
-OUTPUT="$OUTPUT_DIR/Jewelpbpb_5360GeV_ptm250_50Kevt_012726_C5_nodum_med_103428_precluster.root"   # output ROOT file
+INPUT_DIR="/home/data/public/xirong/Packages/jewel/jewel-2.4.0/"
+INPUT="$INPUT_DIR/DebugSet/Jewelpbpb_5360GeV_ptm250_10Kevt_020126_C5_recoff_med_11050627.hepmc" # input HepMC file
+OUTPUT_DIR="/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/020126DebugDummies/"
+OUTPUT="$OUTPUT_DIR/Jewelpbpb_5360GeV_ptm250_10Kevt_020126_C5_recoff_med_11050627.root"   # output ROOT file
 SRC="HepMCtoRoot.cpp"  # your C++ source
-EXE="HepMCtoRoot"     # compiled binary name
+EXE="HepMCtoRoot"  # compiled binary name
 # ===============================
 
 set -e  # stop if any command fails
