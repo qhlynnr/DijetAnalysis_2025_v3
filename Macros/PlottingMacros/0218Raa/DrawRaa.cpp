@@ -20,6 +20,7 @@ int main(){
 
     TFile* f_pp = TFile::Open(ppfilename, "READ");
     TFile* f_pbpb = TFile::Open(pbpbfilename, "READ");
+
     if (!f_pp || f_pp->IsZombie()) {
         std::cerr << "Error: Could not open file " << ppfilename << std::endl;
         return 1;
@@ -29,11 +30,14 @@ int main(){
         return 1;
     }
 
+    f_cmsData->GetDirectory("Table 3")->cd();
+    TH1F *h_cmsData = (TH1F*)gDirectory->Get("Hist1D_y1");
+
     TTree* t_pp_Particle = (TTree*)f_pp->Get("ParticleTree");
     TTree* t_pbpb_Particle = (TTree*)f_pbpb->Get("ParticleTree");
     TTree* t_pp_Jet = (TTree*)f_pp->Get("JetTree");
     TTree* t_pbpb_Jet = (TTree*)f_pbpb->Get("JetTree");
-
+    
     if (!t_pp_Particle || !t_pbpb_Particle) {
         std::cerr << "Error: Could not find ParticleTree in one of the files." << std::endl;
         return 1;
@@ -59,7 +63,6 @@ int main(){
     
     double sumW = 0.0;
     gStyle->SetOptStat(0);
-    gPad->SetTicks();
 
     for (Long64_t i = 0; i < t_pp_Particle->GetEntries(); ++i) {
         t_pp_Particle->GetEntry(i);
@@ -77,9 +80,14 @@ int main(){
 
     }
 
+
     h_particlept_vac->Scale(1.0 / sumW);
     h_particlept->Scale(1.0 / nevents_pbpb);
+
     TCanvas* c2 = new TCanvas("c2", "Particle pT Distribution in Vacuum", 800, 600);
+    
+    FormatCanvas(c2, false, false);
+
     c2->cd();
     h_particlept_vac->SetTitle("Particle p_{T} Distribution in Vacuum");
     h_particlept_vac->GetXaxis()->SetTitle("p_{T} (GeV/c)");
@@ -101,6 +109,7 @@ int main(){
     c2->SetLogy();
 
     TCanvas* c1 = new TCanvas("c1", "Raa Distribution particle", 800, 800);
+    FormatCanvas(c1, false, false);
     TH1D *h_RAA = (TH1D*)h_particlept->Clone("h_RAA");
     h_RAA->Divide(h_particlept_vac);
 
@@ -111,9 +120,18 @@ int main(){
     h_RAA->GetXaxis()->SetRangeUser(250, 100);
     h_RAA->GetYaxis()->SetRangeUser(0, 1.5);
     h_RAA->SetMarkerStyle(20);
+    h_RAA->SetLineColor(kBlue);
     h_RAA->Draw("E1");
-    c1->SaveAs("Raa_Distribution_50Kpbpb.png");
-    c2->SaveAs("Particle_pT_Distribution_Comparison_50Kpbpb.png");
+    h_cmsData->SetMarkerStyle(21);
+    h_cmsData->SetLineColor(kRed);
+    h_cmsData->Draw("E1 SAME");
+
+    TLegend* legend2 = new TLegend(0.6, 0.7, 0.9, 0.9);
+    legend2->AddEntry(h_RAA, "Jewel Simulation", "l");
+    legend2->AddEntry(h_cmsData, "CMS Data", "l");
+    legend2->Draw();
+    c1->SaveAs("Raa_Distribution_50Kpbpb_withdata.png");
+    c2->SaveAs("Particle_pT_Distribution_Comparison_50Kpbpb_withdata.png");
 
 
 

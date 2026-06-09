@@ -50,13 +50,13 @@ int main(int argc, char** argv) {
     //Input Variables
     
     int nJ = 0;
-    vector<float>* pxJ = nullptr;
-    vector<float>* pyJ = nullptr;
-    vector<float>* pzJ = nullptr;
-    vector<float>* eJ = nullptr;
-    vector<float>* ptJ = nullptr;
-    vector<float>* etaJ = nullptr;
-    vector<float>* phiJ = nullptr;
+    vector<double>* pxJ = nullptr;
+    vector<double>* pyJ = nullptr;
+    vector<double>* pzJ = nullptr;
+    vector<double>* eJ = nullptr;
+    vector<double>* ptJ = nullptr;
+    vector<double>* etaJ = nullptr;
+    vector<double>* phiJ = nullptr;
     vector<int>* pdgIdJ = nullptr;
 
     // Jet-level output vectors
@@ -72,46 +72,46 @@ int main(int argc, char** argv) {
     double ET_miss_jet_raw = 0;
     double ET_miss_jet_thermal = 0;
     const double pi = 3.14159265358979323846;
-    float weights;
+    double weights;
 
-    vector<float>* jetPx = nullptr;
-    vector<float>* jetPy = nullptr;
-    vector<float>* jetPz = nullptr;
-    vector<float>* jetE = nullptr;
-    vector<float>* jetPt = nullptr;
-    vector<float>* jetEta = nullptr;
-    vector<float>* jetPhi = nullptr;
+    vector<double>* jetPx = nullptr;
+    vector<double>* jetPy = nullptr;
+    vector<double>* jetPz = nullptr;
+    vector<double>* jetE = nullptr;
+    vector<double>* jetPt = nullptr;
+    vector<double>* jetEta = nullptr;
+    vector<double>* jetPhi = nullptr;
 
-    vector<float>* jetPxRaw = nullptr;
-    vector<float>* jetPyRaw = nullptr; 
-    vector<float>* jetPzRaw = nullptr;
-    vector<float>* jetERaw = nullptr;
-    vector<float>* jetPtRaw = nullptr;
-    vector<float>* jetEtaRaw = nullptr;
-    vector<float>* jetPhiRaw = nullptr;
+    vector<double>* jetPxRaw = nullptr;
+    vector<double>* jetPyRaw = nullptr; 
+    vector<double>* jetPzRaw = nullptr;
+    vector<double>* jetERaw = nullptr;
+    vector<double>* jetPtRaw = nullptr;
+    vector<double>* jetEtaRaw = nullptr;
+    vector<double>* jetPhiRaw = nullptr;
 
-    vector<float>* jetPxThermal = nullptr;
-    vector<float>* jetPyThermal = nullptr;
-    vector<float>* jetPzThermal = nullptr;
-    vector<float>* jetEThermal = nullptr;
-    vector<float>* jetPtThermal = nullptr;
-    vector<float>* jetEtaThermal = nullptr;
-    vector<float>* jetPhiThermal = nullptr;
+    vector<double>* jetPxThermal = nullptr;
+    vector<double>* jetPyThermal = nullptr;
+    vector<double>* jetPzThermal = nullptr;
+    vector<double>* jetEThermal = nullptr;
+    vector<double>* jetPtThermal = nullptr;
+    vector<double>* jetEtaThermal = nullptr;
+    vector<double>* jetPhiThermal = nullptr;
 
-    vector<float>* partstatus = nullptr;
-    vector<float>* partPx = nullptr;
-    vector<float>* partPy = nullptr;
-    vector<float>* partPz = nullptr;
-    vector<float>* partE = nullptr;
-    vector<float>* partPt = nullptr;
-    vector<float>* partEta = nullptr;
-    vector<float>* partPhi = nullptr;
+    vector<double>* partstatus = nullptr;
+    vector<double>* partPx = nullptr;
+    vector<double>* partPy = nullptr;
+    vector<double>* partPz = nullptr;
+    vector<double>* partE = nullptr;
+    vector<double>* partPt = nullptr;
+    vector<double>* partEta = nullptr;
+    vector<double>* partPhi = nullptr;
     vector<int>* partPdgId = nullptr; // Combined PDG IDs
     vector<int>* partSource = nullptr; // 0 = Angantyr, 1 = JEWEL
-    float partWeights = 1.0;
+    double partWeights = 1.0;
 
     // jet def and bkg subtraction
-    const double R = 0.4;
+    const double R = 03;
     fastjet::JetDefinition jet_def(fastjet::antikt_algorithm, R);
   
     double jetPtMin = 5.0;

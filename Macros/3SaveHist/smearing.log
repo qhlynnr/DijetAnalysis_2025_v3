@@ -1,0 +1,1006 @@
+
+Processing SaveHist.cpp("/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/033126ValidationAJ/Jewel_pbpb_100K_2760GeV_ptm250_C10_med_12345_4momsub.root","/0331CheckAJ2760TeV/H_Jewel_pbpb_100K_2760GeV_ptm250_C10_med_12345_4momsub.root")...
+Processing entry 0/99994
+A_J: 0.0583602
+Smeared A_J: 0.295568
+Events passed selection: 0
+Time elapsed: 0 seconds
+Processing entry 1000/99994
+A_J: 0.524204
+Smeared A_J: 0.144486
+Events passed selection: 161
+Time elapsed: 0 seconds
+Processing entry 2000/99994
+A_J: 0.00898417
+Smeared A_J: 0.0910658
+Events passed selection: 308
+Time elapsed: 1 seconds
+Processing entry 3000/99994
+A_J: 0.00399333
+Smeared A_J: 0.0727778
+Events passed selection: 470
+Time elapsed: 1 seconds
+Processing entry 4000/99994
+A_J: 0.0915249
+Smeared A_J: 0.140251
+Events passed selection: 614
+Time elapsed: 2 seconds
+Processing entry 5000/99994
+A_J: 0.164439
+Smeared A_J: 0.0228848
+Events passed selection: 763
+Time elapsed: 3 seconds
+Processing entry 6000/99994
+A_J: 0.0678947
+Smeared A_J: 0.617522
+Events passed selection: 918
+Time elapsed: 3 seconds
+Processing entry 7000/99994
+A_J: 0.109796
+Smeared A_J: 0.076684
+Events passed selection: 1087
+Time elapsed: 4 seconds
+Processing entry 8000/99994
+A_J: 0.202514
+Smeared A_J: 0.158469
+Events passed selection: 1230
+Time elapsed: 4 seconds
+Processing entry 9000/99994
+A_J: 0.0435711
+Smeared A_J: 0.118332
+Events passed selection: 1393
+Time elapsed: 5 seconds
+Processing entry 10000/99994
+A_J: 0.341671
+Smeared A_J: 0.262183
+Events passed selection: 1545
+Time elapsed: 5 seconds
+Processing entry 11000/99994
+A_J: 0.114311
+Smeared A_J: 0.122843
+Events passed selection: 1705
+Time elapsed: 6 seconds
+Processing entry 12000/99994
+A_J: 0.0449273
+Smeared A_J: 0.073077
+Events passed selection: 1860
+Time elapsed: 7 seconds
+Processing entry 13000/99994
+A_J: 0.111811
+Smeared A_J: 0.391756
+Events passed selection: 2005
+Time elapsed: 7 seconds
+Processing entry 14000/99994
+A_J: 0.0631159
+Smeared A_J: 0.345056
+Events passed selection: 2175
+Time elapsed: 8 seconds
+Processing entry 15000/99994
+A_J: 0.28274
+Smeared A_J: 0.180274
+Events passed selection: 2343
+Time elapsed: 8 seconds
+Processing entry 16000/99994
+A_J: 0.186406
+Smeared A_J: 0.222989
+Events passed selection: 2502
+Time elapsed: 9 seconds
+Processing entry 17000/99994
+A_J: 3.94508e-05
+Smeared A_J: 0.0870074
+Events passed selection: 2648
+Time elapsed: 9 seconds
+Processing entry 18000/99994
+A_J: 0.272184
+Smeared A_J: 0.0539352
+Events passed selection: 2817
+Time elapsed: 10 seconds
+Processing entry 19000/99994
+A_J: 0.249912
+Smeared A_J: 0.222659
+Events passed selection: 2959
+Time elapsed: 10 seconds
+Processing entry 20000/99994
+A_J: 0.332005
+Smeared A_J: 0.367749
+Events passed selection: 3113
+Time elapsed: 11 seconds
+Processing entry 21000/99994
+A_J: 0.0194823
+Smeared A_J: 0.315743
+Events passed selection: 3260
+Time elapsed: 11 seconds
+Processing entry 22000/99994
+A_J: 0.152766
+Smeared A_J: 0.165272
+Events passed selection: 3416
+Time elapsed: 12 seconds
+Processing entry 23000/99994
+A_J: 0.0919102
+Smeared A_J: 0.336562
+Events passed selection: 3563
+Time elapsed: 13 seconds
+Processing entry 24000/99994
+A_J: 0.0699195
+Smeared A_J: 0.183358
+Events passed selection: 3732
+Time elapsed: 13 seconds
+Processing entry 25000/99994
+A_J: 0.168766
+Smeared A_J: 0.179266
+Events passed selection: 3884
+Time elapsed: 14 seconds
+Processing entry 26000/99994
+A_J: 0.00130669
+Smeared A_J: 0.181458
+Events passed selection: 4051
+Time elapsed: 14 seconds
+Processing entry 27000/99994
+A_J: 0.0882107
+Smeared A_J: 0.224113
+Events passed selection: 4211
+Time elapsed: 15 seconds
+Processing entry 28000/99994
+A_J: 0.0840794
+Smeared A_J: 0.059851
+Events passed selection: 4363
+Time elapsed: 15 seconds
+Processing entry 29000/99994
+A_J: 0.135304
+Smeared A_J: 0.047599
+Events passed selection: 4521
+Time elapsed: 16 seconds
+Processing entry 30000/99994
+A_J: 0.141895
+Smeared A_J: 0.127537
+Events passed selection: 4687
+Time elapsed: 17 seconds
+Processing entry 31000/99994
+A_J: 0.0374958
+Smeared A_J: 0.0761707
+Events passed selection: 4851
+Time elapsed: 17 seconds
+Processing entry 32000/99994
+A_J: 0.192164
+Smeared A_J: 0.0613612
+Events passed selection: 5031
+Time elapsed: 18 seconds
+Processing entry 33000/99994
+A_J: 0.0344389
+Smeared A_J: 0.0452134
+Events passed selection: 5185
+Time elapsed: 18 seconds
+Processing entry 34000/99994
+A_J: 0.0101966
+Smeared A_J: 0.014271
+Events passed selection: 5332
+Time elapsed: 19 seconds
+Processing entry 35000/99994
+A_J: 0.405443
+Smeared A_J: 0.442889
+Events passed selection: 5503
+Time elapsed: 20 seconds
+Processing entry 36000/99994
+A_J: 0.0497894
+Smeared A_J: 0.148033
+Events passed selection: 5654
+Time elapsed: 20 seconds
+Processing entry 37000/99994
+A_J: 0.0680143
+Smeared A_J: 0.109972
+Events passed selection: 5808
+Time elapsed: 21 seconds
+Processing entry 38000/99994
+A_J: 0.237075
+Smeared A_J: 0.229139
+Events passed selection: 5963
+Time elapsed: 21 seconds
+Processing entry 39000/99994
+A_J: 0.202852
+Smeared A_J: 0.0274655
+Events passed selection: 6134
+Time elapsed: 22 seconds
+Processing entry 40000/99994
+A_J: 0.191071
+Smeared A_J: 0.15902
+Events passed selection: 6277
+Time elapsed: 22 seconds
+Processing entry 41000/99994
+A_J: 0.278054
+Smeared A_J: 0.179388
+Events passed selection: 6449
+Time elapsed: 23 seconds
+Processing entry 42000/99994
+A_J: 0.127628
+Smeared A_J: 0.00528244
+Events passed selection: 6607
+Time elapsed: 23 seconds
+Processing entry 43000/99994
+A_J: 0.0366128
+Smeared A_J: 0.0809024
+Events passed selection: 6769
+Time elapsed: 24 seconds
+Processing entry 44000/99994
+A_J: 0.0278309
+Smeared A_J: 0.00341911
+Events passed selection: 6945
+Time elapsed: 25 seconds
+Processing entry 45000/99994
+A_J: 0.175406
+Smeared A_J: 0.210419
+Events passed selection: 7124
+Time elapsed: 25 seconds
+Processing entry 46000/99994
+A_J: 0.388077
+Smeared A_J: 0.298792
+Events passed selection: 7287
+Time elapsed: 26 seconds
+Processing entry 47000/99994
+A_J: 0.156651
+Smeared A_J: 0.246144
+Events passed selection: 7469
+Time elapsed: 26 seconds
+Processing entry 48000/99994
+A_J: 0.153126
+Smeared A_J: 0.194131
+Events passed selection: 7637
+Time elapsed: 27 seconds
+Processing entry 49000/99994
+A_J: 0.0286783
+Smeared A_J: 0.0748374
+Events passed selection: 7771
+Time elapsed: 27 seconds
+Processing entry 50000/99994
+A_J: 0.0292335
+Smeared A_J: 0.00741966
+Events passed selection: 7918
+Time elapsed: 28 seconds
+Processing entry 51000/99994
+A_J: 0.161369
+Smeared A_J: 0.193105
+Events passed selection: 8068
+Time elapsed: 28 seconds
+Processing entry 52000/99994
+A_J: 0.0175377
+Smeared A_J: 0.00352013
+Events passed selection: 8230
+Time elapsed: 29 seconds
+Processing entry 53000/99994
+A_J: 0.37578
+Smeared A_J: 0.268673
+Events passed selection: 8380
+Time elapsed: 30 seconds
+Processing entry 54000/99994
+A_J: 0.284801
+Smeared A_J: 0.225582
+Events passed selection: 8531
+Time elapsed: 30 seconds
+Processing entry 55000/99994
+A_J: 0.0184195
+Smeared A_J: 0.682258
+Events passed selection: 8697
+Time elapsed: 31 seconds
+Processing entry 56000/99994
+A_J: 0.512067
+Smeared A_J: 0.445043
+Events passed selection: 8864
+Time elapsed: 31 seconds
+Processing entry 57000/99994
+A_J: 0.11982
+Smeared A_J: 0.0376108
+Events passed selection: 9028
+Time elapsed: 32 seconds
+Processing entry 58000/99994
+A_J: 0.0966941
+Smeared A_J: 0.0440121
+Events passed selection: 9175
+Time elapsed: 33 seconds
+Processing entry 59000/99994
+A_J: 0.459048
+Smeared A_J: 0.418212
+Events passed selection: 9329
+Time elapsed: 33 seconds
+Processing entry 60000/99994
+A_J: 0.148888
+Smeared A_J: 0.170211
+Events passed selection: 9486
+Time elapsed: 34 seconds
+Processing entry 61000/99994
+A_J: 0.115672
+Smeared A_J: 0.199507
+Events passed selection: 9646
+Time elapsed: 34 seconds
+Processing entry 62000/99994
+A_J: 0.0110041
+Smeared A_J: 0.102022
+Events passed selection: 9814
+Time elapsed: 35 seconds
+Processing entry 63000/99994
+A_J: 0.0871625
+Smeared A_J: 0.525758
+Events passed selection: 9973
+Time elapsed: 35 seconds
+Processing entry 64000/99994
+A_J: 0.0127081
+Smeared A_J: 0.194091
+Events passed selection: 10114
+Time elapsed: 36 seconds
+Processing entry 65000/99994
+A_J: 0.432655
+Smeared A_J: 0.313974
+Events passed selection: 10252
+Time elapsed: 36 seconds
+Processing entry 66000/99994
+A_J: 0.432468
+Smeared A_J: 0.0620488
+Events passed selection: 10416
+Time elapsed: 37 seconds
+Processing entry 67000/99994
+A_J: 0.0382228
+Smeared A_J: 0.00424652
+Events passed selection: 10597
+Time elapsed: 38 seconds
+Processing entry 68000/99994
+A_J: 0.0205699
+Smeared A_J: 0.105036
+Events passed selection: 10764
+Time elapsed: 38 seconds
+Processing entry 69000/99994
+A_J: 0.354214
+Smeared A_J: 0.492055
+Events passed selection: 10926
+Time elapsed: 39 seconds
+Processing entry 70000/99994
+A_J: 0.566651
+Smeared A_J: 0.55714
+Events passed selection: 11087
+Time elapsed: 39 seconds
+Processing entry 71000/99994
+A_J: 0.0936268
+Smeared A_J: 0.159166
+Events passed selection: 11249
+Time elapsed: 40 seconds
+Processing entry 72000/99994
+A_J: 0.0392581
+Smeared A_J: 0.13572
+Events passed selection: 11410
+Time elapsed: 40 seconds
+Processing entry 73000/99994
+A_J: 0.184529
+Smeared A_J: 0.150276
+Events passed selection: 11580
+Time elapsed: 41 seconds
+Processing entry 74000/99994
+A_J: 0.233792
+Smeared A_J: 0.250716
+Events passed selection: 11725
+Time elapsed: 42 seconds
+Processing entry 75000/99994
+A_J: 0.142933
+Smeared A_J: 0.156242
+Events passed selection: 11867
+Time elapsed: 42 seconds
+Processing entry 76000/99994
+A_J: 0.0212231
+Smeared A_J: 0.139684
+Events passed selection: 12026
+Time elapsed: 43 seconds
+Processing entry 77000/99994
+A_J: 0.00278254
+Smeared A_J: 0.145415
+Events passed selection: 12183
+Time elapsed: 43 seconds
+Processing entry 78000/99994
+A_J: 0.0706889
+Smeared A_J: 0.255693
+Events passed selection: 12342
+Time elapsed: 44 seconds
+Processing entry 79000/99994
+A_J: 0.233782
+Smeared A_J: 0.323906
+Events passed selection: 12514
+Time elapsed: 44 seconds
+Processing entry 80000/99994
+A_J: 0.100554
+Smeared A_J: 0.0382686
+Events passed selection: 12680
+Time elapsed: 45 seconds
+Processing entry 81000/99994
+A_J: 0.260145
+Smeared A_J: 0.234374
+Events passed selection: 12871
+Time elapsed: 45 seconds
+Processing entry 82000/99994
+A_J: 0.432531
+Smeared A_J: 0.487549
+Events passed selection: 13051
+Time elapsed: 46 seconds
+Processing entry 83000/99994
+A_J: 0.338842
+Smeared A_J: 0.0647693
+Events passed selection: 13206
+Time elapsed: 47 seconds
+Processing entry 84000/99994
+A_J: 0.495415
+Smeared A_J: 0.0489424
+Events passed selection: 13366
+Time elapsed: 47 seconds
+Processing entry 85000/99994
+A_J: 0.165548
+Smeared A_J: 0.272124
+Events passed selection: 13530
+Time elapsed: 48 seconds
+Processing entry 86000/99994
+A_J: 0.237839
+Smeared A_J: 0.130599
+Events passed selection: 13697
+Time elapsed: 48 seconds
+Processing entry 87000/99994
+A_J: 0.120716
+Smeared A_J: 0.142297
+Events passed selection: 13837
+Time elapsed: 49 seconds
+Processing entry 88000/99994
+A_J: 0.141795
+Smeared A_J: 0.0628362
+Events passed selection: 14011
+Time elapsed: 50 seconds
+Processing entry 89000/99994
+A_J: 0.00969047
+Smeared A_J: 0.0454975
+Events passed selection: 14150
+Time elapsed: 50 seconds
+Processing entry 90000/99994
+A_J: 0.314519
+Smeared A_J: 0.414323
+Events passed selection: 14295
+Time elapsed: 51 seconds
+Processing entry 91000/99994
+A_J: 0.232119
+Smeared A_J: 0.173033
+Events passed selection: 14434
+Time elapsed: 51 seconds
+Processing entry 92000/99994
+A_J: 0.0739247
+Smeared A_J: 0.0357258
+Events passed selection: 14606
+Time elapsed: 52 seconds
+Processing entry 93000/99994
+A_J: 0.21389
+Smeared A_J: 0.237935
+Events passed selection: 14760
+Time elapsed: 52 seconds
+Processing entry 94000/99994
+A_J: 0.084149
+Smeared A_J: 0.253037
+Events passed selection: 14907
+Time elapsed: 53 seconds
+Processing entry 95000/99994
+A_J: 0.171131
+Smeared A_J: 0.28347
+Events passed selection: 15037
+Time elapsed: 53 seconds
+Processing entry 96000/99994
+A_J: 0.520093
+Smeared A_J: 0.424803
+Events passed selection: 15181
+Time elapsed: 54 seconds
+Processing entry 97000/99994
+A_J: 0.0119906
+Smeared A_J: 0.212371
+Events passed selection: 15336
+Time elapsed: 55 seconds
+Processing entry 98000/99994
+A_J: 0.163494
+Smeared A_J: 0.49645
+Events passed selection: 15500
+Time elapsed: 55 seconds
+Processing entry 99000/99994
+A_J: 0.203137
+Smeared A_J: 0.235844
+Events passed selection: 15650
+Time elapsed: 56 seconds
+(int) 0
+
+Processing SaveHist.cpp("/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/033126ValidationAJ/Jewel_pbpb_100K_2760GeV_ptm250_C10_vac_12345_nobkg.root","/0331CheckAJ2760TeV/H_Jewel_pbpb_100K_2760GeV_ptm250_C10_vac_12345_nobkg.root")...
+Processing entry 0/100000
+A_J: 0.171276
+Smeared A_J: 0.268822
+Events passed selection: 0
+Time elapsed: 0 seconds
+Processing entry 1000/100000
+A_J: 0.0574253
+Smeared A_J: 0.0120146
+Events passed selection: 196
+Time elapsed: 0 seconds
+Processing entry 2000/100000
+A_J: 0.191071
+Smeared A_J: 0.142808
+Events passed selection: 390
+Time elapsed: 0 seconds
+Processing entry 3000/100000
+A_J: 0.176174
+Smeared A_J: 0.135312
+Events passed selection: 568
+Time elapsed: 0 seconds
+Processing entry 4000/100000
+A_J: 0.235333
+Smeared A_J: 0.479407
+Events passed selection: 759
+Time elapsed: 0 seconds
+Processing entry 5000/100000
+A_J: 0.0331529
+Smeared A_J: 0.0312194
+Events passed selection: 956
+Time elapsed: 0 seconds
+Processing entry 6000/100000
+A_J: 0.04178
+Smeared A_J: 0.014974
+Events passed selection: 1147
+Time elapsed: 0 seconds
+Processing entry 7000/100000
+A_J: 0.0112753
+Smeared A_J: 0.0506812
+Events passed selection: 1327
+Time elapsed: 0 seconds
+Processing entry 8000/100000
+A_J: 0.141223
+Smeared A_J: 0.168358
+Events passed selection: 1518
+Time elapsed: 0 seconds
+Processing entry 9000/100000
+A_J: 0.0720914
+Smeared A_J: 0.735393
+Events passed selection: 1704
+Time elapsed: 0 seconds
+Processing entry 10000/100000
+A_J: 0.010234
+Smeared A_J: 0.863564
+Events passed selection: 1896
+Time elapsed: 0 seconds
+Processing entry 11000/100000
+A_J: 0.172331
+Smeared A_J: 0.0922012
+Events passed selection: 2083
+Time elapsed: 0 seconds
+Processing entry 12000/100000
+A_J: 0.0291065
+Smeared A_J: 0.0720217
+Events passed selection: 2270
+Time elapsed: 0 seconds
+Processing entry 13000/100000
+A_J: 0.180897
+Smeared A_J: 0.121
+Events passed selection: 2462
+Time elapsed: 0 seconds
+Processing entry 14000/100000
+A_J: 0.0324435
+Smeared A_J: 0.131236
+Events passed selection: 2640
+Time elapsed: 0 seconds
+Processing entry 15000/100000
+A_J: 0.165696
+Smeared A_J: 1.03352
+Events passed selection: 2822
+Time elapsed: 0 seconds
+Processing entry 16000/100000
+A_J: 0.0324858
+Smeared A_J: 0.0230057
+Events passed selection: 2998
+Time elapsed: 0 seconds
+Processing entry 17000/100000
+A_J: 0.179851
+Smeared A_J: 1.04948
+Events passed selection: 3196
+Time elapsed: 0 seconds
+Processing entry 18000/100000
+A_J: 0.0276354
+Smeared A_J: 0.47653
+Events passed selection: 3377
+Time elapsed: 1 seconds
+Processing entry 19000/100000
+A_J: 0.116522
+Smeared A_J: 0.032307
+Events passed selection: 3568
+Time elapsed: 1 seconds
+Processing entry 20000/100000
+A_J: 0.0682261
+Smeared A_J: 0.0889626
+Events passed selection: 3762
+Time elapsed: 1 seconds
+Processing entry 21000/100000
+A_J: 0.153618
+Smeared A_J: 0.0732603
+Events passed selection: 3934
+Time elapsed: 1 seconds
+Processing entry 22000/100000
+A_J: 0.112481
+Smeared A_J: 0.133748
+Events passed selection: 4114
+Time elapsed: 1 seconds
+Processing entry 23000/100000
+A_J: 0.0133346
+Smeared A_J: 0.222704
+Events passed selection: 4293
+Time elapsed: 1 seconds
+Processing entry 24000/100000
+A_J: 0.228074
+Smeared A_J: 0.280787
+Events passed selection: 4500
+Time elapsed: 1 seconds
+Processing entry 25000/100000
+A_J: 0.032217
+Smeared A_J: 0.00586977
+Events passed selection: 4672
+Time elapsed: 1 seconds
+Processing entry 26000/100000
+A_J: 0.0246845
+Smeared A_J: 0.0509913
+Events passed selection: 4890
+Time elapsed: 1 seconds
+Processing entry 27000/100000
+A_J: 0.0190878
+Smeared A_J: 0.00435372
+Events passed selection: 5072
+Time elapsed: 1 seconds
+Processing entry 28000/100000
+A_J: 0.228156
+Smeared A_J: 0.412151
+Events passed selection: 5281
+Time elapsed: 1 seconds
+Processing entry 29000/100000
+A_J: 0.00468393
+Smeared A_J: 0.112382
+Events passed selection: 5451
+Time elapsed: 1 seconds
+Processing entry 30000/100000
+A_J: 0.0552951
+Smeared A_J: 0.473323
+Events passed selection: 5636
+Time elapsed: 1 seconds
+Processing entry 31000/100000
+A_J: 0.177812
+Smeared A_J: 0.211185
+Events passed selection: 5822
+Time elapsed: 1 seconds
+Processing entry 32000/100000
+A_J: 0.314148
+Smeared A_J: 0.20719
+Events passed selection: 6001
+Time elapsed: 1 seconds
+Processing entry 33000/100000
+A_J: 0.0504488
+Smeared A_J: 0.0903882
+Events passed selection: 6201
+Time elapsed: 1 seconds
+Processing entry 34000/100000
+A_J: 0.0073821
+Smeared A_J: 0.0347127
+Events passed selection: 6372
+Time elapsed: 1 seconds
+Processing entry 35000/100000
+A_J: 0.204172
+Smeared A_J: 0.19931
+Events passed selection: 6565
+Time elapsed: 1 seconds
+Processing entry 36000/100000
+A_J: 0.131158
+Smeared A_J: 0.204492
+Events passed selection: 6771
+Time elapsed: 2 seconds
+Processing entry 37000/100000
+A_J: 0.299886
+Smeared A_J: 0.758596
+Events passed selection: 6971
+Time elapsed: 2 seconds
+Processing entry 38000/100000
+A_J: 0.0897085
+Smeared A_J: 0.0852207
+Events passed selection: 7174
+Time elapsed: 2 seconds
+Processing entry 39000/100000
+A_J: 0.424429
+Smeared A_J: 0.472775
+Events passed selection: 7346
+Time elapsed: 2 seconds
+Processing entry 40000/100000
+A_J: 0.12298
+Smeared A_J: 0.0599889
+Events passed selection: 7517
+Time elapsed: 2 seconds
+Processing entry 41000/100000
+A_J: 0.0637092
+Smeared A_J: 0.665741
+Events passed selection: 7711
+Time elapsed: 2 seconds
+Processing entry 42000/100000
+A_J: 0.286939
+Smeared A_J: 0.0886266
+Events passed selection: 7903
+Time elapsed: 2 seconds
+Processing entry 43000/100000
+A_J: 0.0493906
+Smeared A_J: 0.154104
+Events passed selection: 8105
+Time elapsed: 2 seconds
+Processing entry 44000/100000
+A_J: 0.0996858
+Smeared A_J: 0.142433
+Events passed selection: 8303
+Time elapsed: 2 seconds
+Processing entry 45000/100000
+A_J: 0.0658985
+Smeared A_J: 0.100376
+Events passed selection: 8488
+Time elapsed: 2 seconds
+Processing entry 46000/100000
+A_J: 0.00718487
+Smeared A_J: 1.05665
+Events passed selection: 8685
+Time elapsed: 2 seconds
+Processing entry 47000/100000
+A_J: 0.0604267
+Smeared A_J: 0.149575
+Events passed selection: 8882
+Time elapsed: 2 seconds
+Processing entry 48000/100000
+A_J: 0.336957
+Smeared A_J: 1.03997
+Events passed selection: 9076
+Time elapsed: 2 seconds
+Processing entry 49000/100000
+A_J: 0.0935749
+Smeared A_J: 0.0675819
+Events passed selection: 9253
+Time elapsed: 2 seconds
+Processing entry 50000/100000
+A_J: 0.022316
+Smeared A_J: 0.0649622
+Events passed selection: 9435
+Time elapsed: 2 seconds
+Processing entry 51000/100000
+A_J: 0.00559686
+Smeared A_J: 0.0869993
+Events passed selection: 9644
+Time elapsed: 2 seconds
+Processing entry 52000/100000
+A_J: 0.0761621
+Smeared A_J: 0.103353
+Events passed selection: 9851
+Time elapsed: 2 seconds
+Processing entry 53000/100000
+A_J: 0.116407
+Smeared A_J: 0.0576186
+Events passed selection: 10058
+Time elapsed: 2 seconds
+Processing entry 54000/100000
+A_J: 0.00678044
+Smeared A_J: 0.174154
+Events passed selection: 10251
+Time elapsed: 2 seconds
+Processing entry 55000/100000
+A_J: 0.318176
+Smeared A_J: 0.260655
+Events passed selection: 10451
+Time elapsed: 2 seconds
+Processing entry 56000/100000
+A_J: 0.128109
+Smeared A_J: 0.0736989
+Events passed selection: 10636
+Time elapsed: 2 seconds
+Processing entry 57000/100000
+A_J: 0.0905449
+Smeared A_J: 0.74945
+Events passed selection: 10819
+Time elapsed: 3 seconds
+Processing entry 58000/100000
+A_J: 0.00657092
+Smeared A_J: 0.0731239
+Events passed selection: 10999
+Time elapsed: 3 seconds
+Processing entry 59000/100000
+A_J: 0.11714
+Smeared A_J: 0.0717657
+Events passed selection: 11195
+Time elapsed: 3 seconds
+Processing entry 60000/100000
+A_J: 0.0789672
+Smeared A_J: 0.122146
+Events passed selection: 11393
+Time elapsed: 3 seconds
+Processing entry 61000/100000
+A_J: 0.00912745
+Smeared A_J: 0.0596354
+Events passed selection: 11562
+Time elapsed: 3 seconds
+Processing entry 62000/100000
+A_J: 0.222362
+Smeared A_J: 0.317451
+Events passed selection: 11765
+Time elapsed: 3 seconds
+Processing entry 63000/100000
+A_J: 0.0946968
+Smeared A_J: 1.04878
+Events passed selection: 11963
+Time elapsed: 3 seconds
+Processing entry 64000/100000
+A_J: 0.174581
+Smeared A_J: 0.284128
+Events passed selection: 12153
+Time elapsed: 3 seconds
+Processing entry 65000/100000
+A_J: 0.0115214
+Smeared A_J: 0.053848
+Events passed selection: 12339
+Time elapsed: 3 seconds
+Processing entry 66000/100000
+A_J: 0.00472697
+Smeared A_J: 0.0571449
+Events passed selection: 12517
+Time elapsed: 3 seconds
+Processing entry 67000/100000
+A_J: 0.399644
+Smeared A_J: 0.0403248
+Events passed selection: 12701
+Time elapsed: 3 seconds
+Processing entry 68000/100000
+A_J: 0.0303006
+Smeared A_J: 0.00998533
+Events passed selection: 12890
+Time elapsed: 3 seconds
+Processing entry 69000/100000
+A_J: 0.276239
+Smeared A_J: 1.01908
+Events passed selection: 13077
+Time elapsed: 3 seconds
+Processing entry 70000/100000
+A_J: 0.0975231
+Smeared A_J: 0.122
+Events passed selection: 13264
+Time elapsed: 3 seconds
+Processing entry 71000/100000
+A_J: 0.243409
+Smeared A_J: 0.250313
+Events passed selection: 13436
+Time elapsed: 3 seconds
+Processing entry 72000/100000
+A_J: 0.0038745
+Smeared A_J: 0.204181
+Events passed selection: 13617
+Time elapsed: 3 seconds
+Processing entry 73000/100000
+A_J: 0.174286
+Smeared A_J: 0.00278617
+Events passed selection: 13782
+Time elapsed: 3 seconds
+Processing entry 74000/100000
+A_J: 0.330097
+Smeared A_J: 0.338953
+Events passed selection: 13978
+Time elapsed: 3 seconds
+Processing entry 75000/100000
+A_J: 0.0507611
+Smeared A_J: 0.0237101
+Events passed selection: 14163
+Time elapsed: 4 seconds
+Processing entry 76000/100000
+A_J: 0.031025
+Smeared A_J: 0.0632566
+Events passed selection: 14346
+Time elapsed: 4 seconds
+Processing entry 77000/100000
+A_J: 0.0885222
+Smeared A_J: 0.203704
+Events passed selection: 14525
+Time elapsed: 4 seconds
+Processing entry 78000/100000
+A_J: 0.0361733
+Smeared A_J: 0.042524
+Events passed selection: 14735
+Time elapsed: 4 seconds
+Processing entry 79000/100000
+A_J: 0.098594
+Smeared A_J: 0.156376
+Events passed selection: 14924
+Time elapsed: 4 seconds
+Processing entry 80000/100000
+A_J: 0.445493
+Smeared A_J: 0.664023
+Events passed selection: 15120
+Time elapsed: 4 seconds
+Processing entry 81000/100000
+A_J: 0.144146
+Smeared A_J: 0.212626
+Events passed selection: 15295
+Time elapsed: 4 seconds
+Processing entry 82000/100000
+A_J: 0.0433202
+Smeared A_J: 0.0309038
+Events passed selection: 15485
+Time elapsed: 4 seconds
+Processing entry 83000/100000
+A_J: 0.0112772
+Smeared A_J: 0.0405522
+Events passed selection: 15659
+Time elapsed: 4 seconds
+Processing entry 84000/100000
+A_J: 0.0362722
+Smeared A_J: 0.0518866
+Events passed selection: 15849
+Time elapsed: 4 seconds
+Processing entry 85000/100000
+A_J: 0.0836845
+Smeared A_J: 0.0692404
+Events passed selection: 16023
+Time elapsed: 4 seconds
+Processing entry 86000/100000
+A_J: 0.0575249
+Smeared A_J: 0.0314357
+Events passed selection: 16204
+Time elapsed: 4 seconds
+Processing entry 87000/100000
+A_J: 0.292212
+Smeared A_J: 0.495953
+Events passed selection: 16392
+Time elapsed: 4 seconds
+Processing entry 88000/100000
+A_J: 0.105538
+Smeared A_J: 0.0918227
+Events passed selection: 16578
+Time elapsed: 4 seconds
+Processing entry 89000/100000
+A_J: 0.024981
+Smeared A_J: 0.0409127
+Events passed selection: 16755
+Time elapsed: 4 seconds
+Processing entry 90000/100000
+A_J: 0.0160067
+Smeared A_J: 0.0259094
+Events passed selection: 16923
+Time elapsed: 4 seconds
+Processing entry 91000/100000
+A_J: 0.0237481
+Smeared A_J: 1.0335
+Events passed selection: 17122
+Time elapsed: 4 seconds
+Processing entry 92000/100000
+A_J: 0.0174803
+Smeared A_J: 0.0896013
+Events passed selection: 17291
+Time elapsed: 5 seconds
+Processing entry 93000/100000
+A_J: 0.0606291
+Smeared A_J: 0.00974501
+Events passed selection: 17498
+Time elapsed: 5 seconds
+Processing entry 94000/100000
+A_J: 0.216955
+Smeared A_J: 0.0285152
+Events passed selection: 17676
+Time elapsed: 5 seconds
+Processing entry 95000/100000
+A_J: 0.0206152
+Smeared A_J: 0.0278402
+Events passed selection: 17859
+Time elapsed: 5 seconds
+Processing entry 96000/100000
+A_J: 0.0451258
+Smeared A_J: 0.0869714
+Events passed selection: 18054
+Time elapsed: 5 seconds
+Processing entry 97000/100000
+A_J: 0.105382
+Smeared A_J: 0.15444
+Events passed selection: 18245
+Time elapsed: 5 seconds
+Processing entry 98000/100000
+A_J: 0.0237985
+Smeared A_J: 1.02836
+Events passed selection: 18453
+Time elapsed: 5 seconds
+Processing entry 99000/100000
+A_J: 0.226034
+Smeared A_J: 0.16784
+Events passed selection: 18626
+Time elapsed: 5 seconds
+(int) 0

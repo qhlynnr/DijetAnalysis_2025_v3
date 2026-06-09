@@ -215,8 +215,8 @@ void Draw()
 {
   gStyle->SetOptStat(0);
 
-  const char* f_vac_name = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/022426_JewelPtHat40_10KEvt_2/Jewelpbpb_5360GeV_ptm40_10Kevt_022026_C5_vac_11050627_precluster.root"; // change to your file path
-  const char* f_med_name = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/022426_JewelPtHat40_10KEvt_2/Jewelpbpb_5360GeV_ptm40_10Kevt_022026_C5_med_11050627_precluster.root"; // change to your file path
+  const char* f_vac_name = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/022426_JewelPtHat40_10KEvt_2/Jewelpbpb_5360GeV_ptm40_10Kevt_022026_C5_vac_12345_precluster.root"; // change to your file path
+  const char* f_med_name = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/022426_JewelPtHat40_10KEvt_2/Jewelpbpb_5360GeV_ptm40_10Kevt_022026_C5_med_12345_precluster.root"; // change to your file path
   const char* f_vacref_name = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/Pythia8Jets_pp_5360GeV_HardQCD_pTHatMin40_10KEvts.root"; // change to your file path
 
   TFile *f_vac = TFile::Open(f_vac_name, "READ");
@@ -386,8 +386,8 @@ void Draw()
  // SaveOne(hpt_vac, "pt_vac", "Particle p_{T} (Vacuum)", false, outdir);
  // SaveOne(hpt_med, "pt_med", "Particle p_{T} (Medium)", false, outdir);
  // SaveOne(hpt_vacref, "pt_vacref", "Particle p_{T} (Vacuum Ref)", true, outdir);
-  SaveOne(hptratio, "pt_raa", "Particle p_{T} ratio (Medium/Vacuum)", false, outdir,0,2);
-  SaveTwo(hpt_med, hpt_vac, "ptcheck", "pt med vs vac", {""}, false, false, outdir,"med", "vac");
-  SaveTwo(hpt_med, hpt_vac, "ptcheck_log", "pt med vs vac", {""}, true, false, outdir,"med", "vac");
+  SaveOne(hptratio, "pt_raa_12345", "Particle p_{T} ratio (Medium/Vacuum)", false, outdir,0,2);
+  SaveTwo(hpt_med, hpt_vac, "ptcheck_12345", "pt med vs vac", {""}, false, false, outdir,"med", "vac");
+  SaveTwo(hpt_med, hpt_vac, "ptcheck_log_12345", "pt med vs vac", {""}, true, false, outdir,"med", "vac");
  // SaveTwo(hpt_vac, hpt_vacref, "VacCompare", "pt pythia8 vs jewel debug", {""}, true, false, outdir,"jewel vac", "pythia8 pp");
 }

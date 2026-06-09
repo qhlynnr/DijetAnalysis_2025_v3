@@ -56,19 +56,24 @@ static void StyleH(TH1* h){
   h->GetYaxis()->SetTitleOffset(1.25);
 }
 
+static void FormatCanvas(TCanvas* c, bool logx, bool logy) {
+  c->SetTicks(1,1);
+  c->SetLeftMargin(0.17);
+  c->SetBottomMargin(0.15);
+  c->SetTopMargin(0.08);
+  c->SetRightMargin(0.15);
+
+  if (logx) c->SetLogx();
+  if (logy) c->SetLogy();
+}
+
 static void SaveOne(TH1* h, const char* name, const char* title,
                     bool logy=false, const char* outdir="Plots/Compare/")
 {
   gSystem->mkdir(outdir, kTRUE);
 
   TCanvas c("c","c",800,800);
-  c.SetTicks(1,1);
-  c.SetLeftMargin(0.13);
-  c.SetBottomMargin(0.12);
-  c.SetRightMargin(0.04);
-  c.SetTopMargin(0.08);
-  if (logy) c.SetLogy(1);
-
+  FormatCanvas(&c, false, logy);
   StyleH(h);
   h->Draw("hist");
 
@@ -81,7 +86,6 @@ static void SaveOne(TH1* h, const char* name, const char* title,
   c.SaveAs((std::string(outdir)+"/"+name+".png").c_str());
 }
 
-
 static void SaveTwo(TH1* h1, TH1* h2, const char* name, const char* title,
   const std::vector<std::string>& info,
     bool logy=false, bool normalize=false, const char* outdir="Plots")
@@ -90,12 +94,7 @@ static void SaveTwo(TH1* h1, TH1* h2, const char* name, const char* title,
   gSystem->mkdir(outdir, kTRUE);
 
   TCanvas c("c","c",800,800);
-  c.SetTicks(1,1);
-  c.SetLeftMargin(0.13);
-  c.SetBottomMargin(0.12);
-  c.SetRightMargin(0.04);
-  c.SetTopMargin(0.08);
-  if (logy) c.SetLogy(1);
+  FormatCanvas(&c, false, false);
 
   // Clone histograms so we don't modify originals
   std::string n1 = std::string(h1->GetName()) + "_tmp";
@@ -170,14 +169,98 @@ static void SaveTwo(TH1* h1, TH1* h2, const char* name, const char* title,
   delete h1c;
   delete h2c;
 }
+
+static void DrawAndSave(const std::vector<TH1*>& hs,
+                        const std::vector<std::string>& labels,
+                        const std::string& outPng,
+                        const std::string& xTitle,
+                        const std::string& yTitle = "Normalized entries",
+                        const std::string& title = "",
+                        float xMin = -999, float xMax = -999,
+                        float yMin = -999, float yMax = -999,
+                        bool logx = false,
+                        bool logy = false,
+                        BlockCaptionInfo captionInfo = {}) {
+  if (hs.empty()) return;
+
+  // basic sanity on labels
+  std::vector<std::string> lab = labels;
+  if (lab.size() != hs.size()) {
+    lab.resize(hs.size());
+    for (size_t i = 0; i < hs.size(); ++i) {
+      if (i < labels.size()) lab[i] = labels[i];
+      else lab[i] = std::string("hist") + std::to_string(i+1);
+    }
+  }
+
+  TCanvas* c = new TCanvas("c", "canvas", 800, 800);
+  FormatCanvas(c, logx, logy);
+  // set titles on first histogram
+  TH1* h0 = hs[0];
+  if (!title.empty()) h0->SetTitle(title.c_str());
+  h0->GetXaxis()->SetTitle(xTitle.c_str());
+  h0->GetYaxis()->SetTitle(yTitle.c_str());
+
+  // determine y range using all histograms
+  double maxy = 0;
+  for (auto h : hs) if (h) maxy = std::max(maxy, h->GetMaximum());
+  if (maxy > 0) h0->SetMaximum(1.25 * maxy);
+
+  // allow setting x/y min and max independently (use current axis limits when one side is left as -999)
+  double curXmin = h0->GetXaxis()->GetXmin();
+  double curXmax = h0->GetXaxis()->GetXmax();
+  double newXmin = (xMin != -999) ? xMin : curXmin;
+  double newXmax = (xMax != -999) ? xMax : curXmax;
+  h0->GetXaxis()->SetRangeUser(newXmin, newXmax);
+
+  double curYmin = h0->GetYaxis()->GetXmin();
+  double curYmax = h0->GetYaxis()->GetXmax();
+  double newYmin = (yMin != -999) ? yMin : curYmin;
+  double newYmax = (yMax != -999) ? yMax : curYmax;
+  h0->GetYaxis()->SetRangeUser(newYmin, newYmax);
+  // draw histograms (assume they are already styled)
+  bool first = true;
+  for (auto h : hs) {
+    if (!h) continue;
+    if (first) { h->Draw("E1 HIST"); first = false; }
+    else       { h->Draw("E1 HIST SAME"); }
+  }
+
+  DrawTLatexLines(captionInfo);
+  // legend placement: adapt height to number of entries
+  const size_t n = hs.size();
+  double ly2 = 0.9;
+  double ly1 = ly2 - 0.05 * std::max<size_t>(n, 1);
+  if (ly1 < 0.1) ly1 = 0.1;
+  TLegend* leg = new TLegend(0.5, ly1, 0.9, ly2);
+  leg->SetBorderSize(0);
+  leg->SetFillStyle(0);
+  leg->SetTextFont(132);
+  leg->SetTextSize(0.020);
+  for (size_t i = 0; i < hs.size(); ++i) {
+    if (!hs[i]) continue;
+    leg->AddEntry(hs[i], lab[i].c_str(), "l");
+  }
+  leg->Draw();
+  c->SaveAs(outPng.c_str());
+}
+
+
 void PlotRaa()
 {
   gStyle->SetOptStat(0);
 
   const char* f_vac_name = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/021926_JewelPtHat40_10Kevt/Jewelpbpb_5360GeV_ptm40_10Kevt_021826_C5_vac_11050627_nobkg.root"; // change to your file path
   const char* f_med_name = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/021926_JewelPtHat40_10Kevt/Jewelpbpb_5360GeV_ptm40_10Kevt_021826_C5_med_11050627_jewel4momsub.root"; // change to your file path
+ 
   TFile *f_vac = TFile::Open(f_vac_name, "READ");
   TFile *f_med = TFile::Open(f_med_name, "READ");
+  TFile* f_cmsData = TFile::Open("/home/xirong/DijetAnalysis_2025_v3_svmit/Data/HEPData-ins1496050-v2-root.root", "READ");
+  if (!f_cmsData || f_cmsData->IsZombie()) {
+        std::cerr << "Error: Could not open CMS data file." << std::endl;
+        return 1;
+  }
+
   if (!f_vac || f_vac->IsZombie()) {
     std::cerr << "Error: Cannot open file " << f_vac_name << std::endl;
     return;
@@ -435,5 +518,18 @@ void PlotRaa()
   };
   
   const char* outdir = "/home/xirong/DijetAnalysis_2025_v3_svmit/Plots/022026RaaPthat40/";
-  SaveTwo(hpt_med, hpt_vac, "pt", "pt med vs vac", {""}, true, false, outdir);
+
+  DrawAndSave({hpt_med, hpt_vac},
+              {"Medium", "Vacuum"},
+              std::string(outdir) + "/pt_med_vs_vac.png",
+              "Particle p_{T} (GeV/c)",
+              "Normalized entries",
+              "Particle p_{T} Distribution",
+              200, 1000,
+              0, 0.05,
+              false,
+              false,
+              {}
+  );
+  SaveTwoHistograms(hpt_med, hpt_vac, "pt", "pt med vs vac", {""}, true, false, outdir);
 }

@@ -43,13 +43,13 @@ int main(int argc, char** argv) {
     //Input Variables
     
     int nJ = 0;
-    vector<float>* pxJ = nullptr;
-    vector<float>* pyJ = nullptr;
-    vector<float>* pzJ = nullptr;
-    vector<float>* eJ = nullptr;
-    vector<float>* ptJ = nullptr;
-    vector<float>* etaJ = nullptr;
-    vector<float>* phiJ = nullptr;
+    vector<double>* pxJ = nullptr;
+    vector<double>* pyJ = nullptr;
+    vector<double>* pzJ = nullptr;
+    vector<double>* eJ = nullptr;
+    vector<double>* ptJ = nullptr;
+    vector<double>* etaJ = nullptr;
+    vector<double>* phiJ = nullptr;
     vector<int>* pdgIdJ = nullptr;
 
     // Jet-level output vectors
@@ -63,30 +63,30 @@ int main(int argc, char** argv) {
     double ET_miss_jet = 0;
     double ET_miss_particle = 0;
     const double pi = 3.14159265358979323846;
-    float weights;
+    double weights;
 
-    vector<float>* jetPx = nullptr;
-    vector<float>* jetPy = nullptr;
-    vector<float>* jetPz = nullptr;
-    vector<float>* jetE = nullptr;
-    vector<float>* jetPt = nullptr;
-    vector<float>* jetEta = nullptr;
-    vector<float>* jetPhi = nullptr;
-    vector<float>* partstatus = nullptr;
+    vector<double>* jetPx = nullptr;
+    vector<double>* jetPy = nullptr;
+    vector<double>* jetPz = nullptr;
+    vector<double>* jetE = nullptr;
+    vector<double>* jetPt = nullptr;
+    vector<double>* jetEta = nullptr;
+    vector<double>* jetPhi = nullptr;
+    vector<double>* partstatus = nullptr;
 
-    vector<float>* partPx = nullptr;
-    vector<float>* partPy = nullptr;
-    vector<float>* partPz = nullptr;
-    vector<float>* partE = nullptr;
-    vector<float>* partPt = nullptr;
-    vector<float>* partEta = nullptr;
-    vector<float>* partPhi = nullptr;
+    vector<double>* partPx = nullptr;
+    vector<double>* partPy = nullptr;
+    vector<double>* partPz = nullptr;
+    vector<double>* partE = nullptr;
+    vector<double>* partPt = nullptr;
+    vector<double>* partEta = nullptr;
+    vector<double>* partPhi = nullptr;
     vector<int>* partPdgId = nullptr; // Combined PDG IDs
     vector<int>* partSource = nullptr; // 0 = Angantyr, 1 = JEWEL
-    float partWeights;
+    double partWeights;
 
     // jet def and bkg subtraction
-    const double R = 0.4;
+    const double R = 0.3;
     fastjet::JetDefinition jet_def(fastjet::antikt_algorithm, R);
   
     double jetPtMin = 5.0;
@@ -139,6 +139,7 @@ int main(int argc, char** argv) {
         }
         particles.clear();
         tJ->GetEntry(i);
+
         partWeights = weights; // Store event-level weight for all particles in this event
         
         // Initialize momentum sums for this event

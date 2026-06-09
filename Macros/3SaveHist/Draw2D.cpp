@@ -9,8 +9,8 @@
 using namespace std;
 
 void Draw2D() {
-    const char* filename = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/021326_JewelBkgSubCheck/Jewelpbpb_5360GeV_ptm250_10Kevt_020426_C5_dum_med_jewelbkg_11050627_new.root";
-    const char* filename2 = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/021326_JewelBkgSubCheck/Jewelpbpb_5360GeV_ptm250_10Kevt_020126_C5_dum_med_11050627_nobkgsub.root";
+    const char* filename = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/022426_JewelPtHat40_10KEvt_2/Jewelpbpb_5360GeV_ptm40_10Kevt_022026_C5_med_12345_jewel4momsub.root";
+    const char* filename2 = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/021326_JewelBkgSubCheck/Jewelpbpb_5360GeV_ptm250_10Kevt_020126_C5_dum_med_12345_nobkgsub.root";
     TFile* file = TFile::Open(filename, "READ");
     TFile* file2 = TFile::Open(filename2, "READ");
     if (!file || file->IsZombie()) {

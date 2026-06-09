@@ -104,23 +104,6 @@ static void DrawAndSave(const std::vector<TH1*>& hs,
   c->SaveAs(outPng.c_str());
 }
 
-static void DrawAndSave(TH1* hA, TH1* hB,
-                        const char* labelA, const char* labelB,
-                        const std::string& outPng,
-                        const std::string& xTitle,
-                        const std::string& yTitle = "Normalized entries",
-                        const std::string& title = "",
-                        bool logx = false,
-                        bool logy = false) {
-  std::vector<TH1*> hs;
-  hs.push_back(hA);
-  hs.push_back(hB);
-  std::vector<std::string> labs;
-  labs.push_back(labelA ? labelA : "A");
-  labs.push_back(labelB ? labelB : "B");
-  DrawAndSave(hs, labs, outPng, xTitle, yTitle, title, logx, logy);
-}
-
 void Draw() {
     // Hard-coded input files and output directory
     const char* pythiaFile = "/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/021026_ppComparison/Pythia8Jets_pp_5360GeV_HardQCD_pTHatMin250_10000Evts_withjets.root";

@@ -1,0 +1,2285 @@
+[build] Compiling HepMCtoRoot.cpp ...
+[build] Done.
+[run] Running HepMCtoRoot on /home/data/public/xirong/Packages/jewel/jewel-2.4.0//Jewel_pbpb_100K_2760GeV_ptm250_C10_med_12345.hepmc → /home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo//033126ValidationAJ/Jewel_pbpb_100K_2760GeV_ptm250_C10_med_12345.root ...
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:2
+E:5.08356
+Status:3, PdgID:21
+E:1.68482
+Status:3, PdgID:2
+E:0.763951
+Event 0: nVertices=1, weights=4.98357e-09
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+2	0.808608	2.52229	-0.210258
+21	0.342875	2.14927	1.54464
+2	0.13754	2.0916	1.39322
+Processed 0 events.
+Weights: 4.98357e-09
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:0.741627
+Status:3, PdgID:21
+E:1.40271
+Status:3, PdgID:21
+E:1.13597
+Event 1: nVertices=1, weights=1.2623e-11
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+21	0.493525	-0.16643	-0.757407
+21	0.520359	-1.4193	-1.30016
+21	0.495024	-0.750533	-2.5229
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:5.29095
+Status:3, PdgID:21
+E:4.17414
+Status:3, PdgID:21
+E:4.2761
+Event 2: nVertices=1, weights=3.33188e-09
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+21	0.537656	-2.97093	1.37495
+21	0.815664	-2.29784	-2.0254
+21	1.32672	-1.82281	-1.60621
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:2.28269
+Status:3, PdgID:2
+E:1.49544
+Status:3, PdgID:21
+E:1.26168
+Event 3: nVertices=1, weights=1.34067e-10
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+21	0.545946	-2.05434	0.333584
+2	0.874705	-1.05968	-1.70726
+21	0.331365	-1.85164	-2.51882
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:2.08716
+Status:3, PdgID:2
+E:3.35541
+Status:3, PdgID:2
+E:2.42749
+Event 4: nVertices=1, weights=9.63564e-10
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+21	0.685812	1.74432	1.59623
+2	0.564997	2.46192	-1.00762
+2	0.114108	3.73956	0.69711
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:2
+E:2.44609
+Status:3, PdgID:2
+E:0.864162
+Status:3, PdgID:21
+E:3.34593
+Event 5: nVertices=1, weights=9.99856e-12
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+2	1.28445	1.23095	1.90033
+2	0.733157	0.191842	-2.99799
+21	0.420686	2.74717	-2.61046
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:1.49635
+Status:3, PdgID:21
+E:0.732529
+Status:3, PdgID:21
+E:1.02387
+Event 6: nVertices=1, weights=8.23824e-10
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+21	1.40804	0.0181766	-2.87504
+21	0.0921349	2.34475	2.47008
+21	0.755002	-0.530606	-2.31497
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:2
+E:1.08956
+Status:3, PdgID:21
+E:1.19919
+Status:3, PdgID:2
+E:1.59753
+Event 7: nVertices=1, weights=7.98414e-10
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+2	0.962903	-0.127665	3.14017
+21	0.978299	0.259782	-1.3145
+2	1.13585	0.812333	1.37356
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:0.962007
+Status:3, PdgID:21
+E:0.699145
+Status:3, PdgID:21
+E:1.73724
+Event 8: nVertices=1, weights=2.60211e-12
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+21	0.631587	-0.722952	2.4102
+21	0.351929	-0.43918	1.89813
+21	1.57218	-0.166819	-2.59641
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:2
+E:0.584906
+Status:3, PdgID:21
+E:1.00482
+Status:3, PdgID:21
+E:1.41578
+Event 9: nVertices=1, weights=3.13364e-11
+
+PdgID	pt	eta	phi
+2212	0	-999	0
+2212	0	-999	0
+2	0.0784722	-2.50544	-2.75904
+21	0.554365	-0.593568	-1.49852
+21	0.870848	0.845964	0.494969
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:1.44231
+Status:3, PdgID:21
+E:1.88755
+Status:3, PdgID:21
+E:11.4832
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:1.39508
+Status:3, PdgID:21
+E:0.855367
+Status:3, PdgID:21
+E:0.856699
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:1.07558
+Status:3, PdgID:21
+E:1.39114
+Status:3, PdgID:21
+E:0.674337
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:2
+E:1.08464
+Status:3, PdgID:21
+E:2.97192
+Status:3, PdgID:21
+E:1.44091
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:1.42815
+Status:3, PdgID:21
+E:1.37909
+Status:3, PdgID:2
+E:0.604621
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:3.91973
+Status:3, PdgID:2
+E:2.67029
+Status:3, PdgID:21
+E:1.07378
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:2
+E:1.73808
+Status:3, PdgID:2
+E:1.10925
+Status:3, PdgID:21
+E:1.45479
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:1.6182
+Status:3, PdgID:21
+E:5.99523
+Status:3, PdgID:21
+E:5.23916
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:2.37352
+Status:3, PdgID:21
+E:1.05552
+Status:3, PdgID:2
+E:1.08178
+Status:2, PdgID:2212
+E:1380
+Status:2, PdgID:2212
+E:1380
+Status:3, PdgID:21
+E:0.801422
+Status:3, PdgID:2
+E:0.61712
+Status:3, PdgID:2
+E:1.71233
+Processed 100 events.
+Weights: 7.72417e-10
+Processed 200 events.
+Weights: 3.51743e-09
+Processed 300 events.
+Weights: 5.90421e-11
+Processed 400 events.
+Weights: 1.08887e-12
+Processed 500 events.
+Weights: 4.77243e-10
+Processed 600 events.
+Weights: 8.84385e-10
+Processed 700 events.
+Weights: 6.86315e-09
+Processed 800 events.
+Weights: 4.20503e-12
+Processed 900 events.
+Weights: 7.55668e-13
+Processed 1000 events.
+Weights: 4.25129e-09
+Processed 1100 events.
+Weights: 1.85156e-12
+Processed 1200 events.
+Weights: 1.494e-11
+Processed 1300 events.
+Weights: 2.50104e-13
+Processed 1400 events.
+Weights: 6.3119e-10
+Processed 1500 events.
+Weights: 4.17892e-11
+Processed 1600 events.
+Weights: 1.91644e-09
+Processed 1700 events.
+Weights: 2.07448e-09
+Processed 1800 events.
+Weights: 3.19446e-10
+Processed 1900 events.
+Weights: 5.35496e-11
+Processed 2000 events.
+Weights: 4.88905e-10
+Processed 2100 events.
+Weights: 2.27667e-09
+Processed 2200 events.
+Weights: 2.5952e-12
+Processed 2300 events.
+Weights: 6.07693e-13
+Processed 2400 events.
+Weights: 5.54429e-12
+Processed 2500 events.
+Weights: 4.93733e-11
+Processed 2600 events.
+Weights: 3.60901e-10
+Processed 2700 events.
+Weights: 1.4775e-10
+Processed 2800 events.
+Weights: 4.02431e-12
+Processed 2900 events.
+Weights: 1.0599e-10
+Processed 3000 events.
+Weights: 3.13376e-14
+Processed 3100 events.
+Weights: 9.99833e-13
+Processed 3200 events.
+Weights: 2.51794e-09
+Processed 3300 events.
+Weights: 2.41178e-11
+Processed 3400 events.
+Weights: 1.54275e-12
+Processed 3500 events.
+Weights: 6.46421e-13
+Processed 3600 events.
+Weights: 1.01538e-12
+Processed 3700 events.
+Weights: 1.29228e-11
+Processed 3800 events.
+Weights: 9.76807e-10
+Processed 3900 events.
+Weights: 4.99963e-10
+Processed 4000 events.
+Weights: 5.66431e-12
+Processed 4100 events.
+Weights: 2.46154e-10
+Processed 4200 events.
+Weights: 4.66705e-09
+Processed 4300 events.
+Weights: 3.27335e-09
+Processed 4400 events.
+Weights: 1.54044e-11
+Processed 4500 events.
+Weights: 3.93209e-11
+Processed 4600 events.
+Weights: 3.09416e-10
+Processed 4700 events.
+Weights: 3.17237e-11
+Processed 4800 events.
+Weights: 2.60691e-09
+Processed 4900 events.
+Weights: 2.27332e-11
+Processed 5000 events.
+Weights: 1.07225e-10
+Processed 5100 events.
+Weights: 6.58445e-11
+Processed 5200 events.
+Weights: 2.6186e-11
+Processed 5300 events.
+Weights: 8.55417e-09
+Processed 5400 events.
+Weights: 2.07805e-09
+Processed 5500 events.
+Weights: 1.08034e-12
+Processed 5600 events.
+Weights: 4.68053e-13
+Processed 5700 events.
+Weights: 2.40689e-12
+Processed 5800 events.
+Weights: 8.71042e-14
+Processed 5900 events.
+Weights: 5.76468e-09
+Processed 6000 events.
+Weights: 5.90529e-11
+Processed 6100 events.
+Weights: 2.61929e-09
+Processed 6200 events.
+Weights: 2.03793e-10
+Processed 6300 events.
+Weights: 2.62096e-11
+Processed 6400 events.
+Weights: 5.34176e-09
+Processed 6500 events.
+Weights: 3.71784e-10
+Processed 6600 events.
+Weights: 1.8514e-11
+Processed 6700 events.
+Weights: 9.97432e-11
+Processed 6800 events.
+Weights: 1.89385e-12
+Processed 6900 events.
+Weights: 1.69587e-11
+Processed 7000 events.
+Weights: 4.34092e-11
+Processed 7100 events.
+Weights: 2.20671e-09
+Processed 7200 events.
+Weights: 8.45533e-11
+Processed 7300 events.
+Weights: 6.79682e-12
+Processed 7400 events.
+Weights: 2.45834e-12
+Processed 7500 events.
+Weights: 7.64787e-12
+Processed 7600 events.
+Weights: 3.20662e-11
+Processed 7700 events.
+Weights: 3.05639e-09
+Processed 7800 events.
+Weights: 6.36661e-10
+Processed 7900 events.
+Weights: 2.58409e-10
+Processed 8000 events.
+Weights: 1.96461e-11
+Processed 8100 events.
+Weights: 3.11119e-10
+Processed 8200 events.
+Weights: 7.17416e-11
+Processed 8300 events.
+Weights: 3.68694e-10
+Processed 8400 events.
+Weights: 1.22246e-10
+Processed 8500 events.
+Weights: 1.60201e-13
+Processed 8600 events.
+Weights: 4.61292e-10
+Processed 8700 events.
+Weights: 4.11328e-11
+Processed 8800 events.
+Weights: 6.84612e-14
+Processed 8900 events.
+Weights: 3.63591e-12
+Processed 9000 events.
+Weights: 1.2326e-11
+Processed 9100 events.
+Weights: 2.38282e-10
+Processed 9200 events.
+Weights: 4.83549e-11
+Processed 9300 events.
+Weights: 1.64244e-10
+Processed 9400 events.
+Weights: 2.75717e-09
+Processed 9500 events.
+Weights: 2.299e-11
+Processed 9600 events.
+Weights: 2.0718e-09
+Processed 9700 events.
+Weights: 4.0831e-09
+Processed 9800 events.
+Weights: 4.88273e-11
+Processed 9900 events.
+Weights: 8.8088e-10
+Processed 10000 events.
+Weights: 3.77937e-09
+Processed 10100 events.
+Weights: 1.46324e-13
+Processed 10200 events.
+Weights: 2.37505e-10
+Processed 10300 events.
+Weights: 6.06623e-09
+Processed 10400 events.
+Weights: 3.39276e-09
+Processed 10500 events.
+Weights: 8.40508e-13
+Processed 10600 events.
+Weights: 6.14745e-12
+Processed 10700 events.
+Weights: 2.46686e-13
+Processed 10800 events.
+Weights: 2.26603e-09
+Processed 10900 events.
+Weights: 8.52895e-09
+Processed 11000 events.
+Weights: 5.95127e-13
+Processed 11100 events.
+Weights: 6.2875e-12
+Processed 11200 events.
+Weights: 1.10328e-11
+Processed 11300 events.
+Weights: 3.09101e-11
+Processed 11400 events.
+Weights: 4.48848e-12
+Processed 11500 events.
+Weights: 2.50158e-12
+Processed 11600 events.
+Weights: 4.20942e-13
+Processed 11700 events.
+Weights: 7.4373e-11
+Processed 11800 events.
+Weights: 5.91821e-12
+Processed 11900 events.
+Weights: 3.92157e-12
+Processed 12000 events.
+Weights: 1.9768e-12
+Processed 12100 events.
+Weights: 2.19615e-12
+Processed 12200 events.
+Weights: 8.27682e-12
+Processed 12300 events.
+Weights: 8.21357e-10
+Processed 12400 events.
+Weights: 2.88031e-12
+Processed 12500 events.
+Weights: 4.73218e-09
+Processed 12600 events.
+Weights: 2.13544e-11
+Processed 12700 events.
+Weights: 2.29667e-12
+Processed 12800 events.
+Weights: 1.63906e-12
+Processed 12900 events.
+Weights: 7.3428e-09
+Processed 13000 events.
+Weights: 6.75124e-09
+Processed 13100 events.
+Weights: 2.35205e-10
+Processed 13200 events.
+Weights: 2.01853e-12
+Processed 13300 events.
+Weights: 5.61045e-10
+Processed 13400 events.
+Weights: 8.24159e-10
+Processed 13500 events.
+Weights: 8.61789e-09
+Processed 13600 events.
+Weights: 5.77343e-11
+Processed 13700 events.
+Weights: 5.18898e-11
+Processed 13800 events.
+Weights: 2.13189e-12
+Processed 13900 events.
+Weights: 3.26011e-10
+Processed 14000 events.
+Weights: 4.05166e-10
+Processed 14100 events.
+Weights: 8.83446e-11
+Processed 14200 events.
+Weights: 2.74506e-09
+Processed 14300 events.
+Weights: 2.31115e-10
+Processed 14400 events.
+Weights: 9.1388e-09
+Processed 14500 events.
+Weights: 2.51562e-10
+Processed 14600 events.
+Weights: 1.77018e-09
+Processed 14700 events.
+Weights: 1.93504e-11
+Processed 14800 events.
+Weights: 3.91509e-12
+Processed 14900 events.
+Weights: 1.2881e-12
+Processed 15000 events.
+Weights: 2.03492e-11
+Processed 15100 events.
+Weights: 6.56877e-12
+Processed 15200 events.
+Weights: 6.59696e-10
+Processed 15300 events.
+Weights: 1.67971e-09
+Processed 15400 events.
+Weights: 8.33132e-11
+Processed 15500 events.
+Weights: 7.09918e-12
+Processed 15600 events.
+Weights: 1.76694e-11
+Processed 15700 events.
+Weights: 6.73127e-12
+Processed 15800 events.
+Weights: 4.28181e-09
+Processed 15900 events.
+Weights: 1.88476e-09
+Processed 16000 events.
+Weights: 3.69701e-10
+Processed 16100 events.
+Weights: 5.4307e-12
+Processed 16200 events.
+Weights: 9.47049e-10
+Processed 16300 events.
+Weights: 1.20959e-11
+Processed 16400 events.
+Weights: 2.69378e-10
+Processed 16500 events.
+Weights: 8.78521e-13
+Processed 16600 events.
+Weights: 3.59887e-12
+Processed 16700 events.
+Weights: 1.79739e-11
+Processed 16800 events.
+Weights: 5.85815e-13
+Processed 16900 events.
+Weights: 1.17111e-09
+Processed 17000 events.
+Weights: 3.81001e-09
+Processed 17100 events.
+Weights: 9.67158e-10
+Processed 17200 events.
+Weights: 2.19335e-09
+Processed 17300 events.
+Weights: 1.77545e-12
+Processed 17400 events.
+Weights: 8.43738e-11
+Processed 17500 events.
+Weights: 8.52414e-10
+Processed 17600 events.
+Weights: 8.42839e-11
+Processed 17700 events.
+Weights: 4.03605e-11
+Processed 17800 events.
+Weights: 5.46784e-10
+Processed 17900 events.
+Weights: 4.63844e-09
+Processed 18000 events.
+Weights: 1.69778e-10
+Processed 18100 events.
+Weights: 1.3945e-12
+Processed 18200 events.
+Weights: 2.80966e-10
+Processed 18300 events.
+Weights: 3.37451e-10
+Processed 18400 events.
+Weights: 2.65409e-13
+Processed 18500 events.
+Weights: 2.23432e-10
+Processed 18600 events.
+Weights: 4.13877e-10
+Processed 18700 events.
+Weights: 2.62339e-09
+Processed 18800 events.
+Weights: 2.70041e-12
+Processed 18900 events.
+Weights: 6.91663e-13
+Processed 19000 events.
+Weights: 3.43138e-11
+Processed 19100 events.
+Weights: 1.94973e-09
+Processed 19200 events.
+Weights: 1.91302e-11
+Processed 19300 events.
+Weights: 1.26591e-10
+Processed 19400 events.
+Weights: 1.09344e-10
+Processed 19500 events.
+Weights: 3.15435e-10
+Processed 19600 events.
+Weights: 2.65293e-10
+Processed 19700 events.
+Weights: 4.07977e-09
+Processed 19800 events.
+Weights: 4.65566e-09
+Processed 19900 events.
+Weights: 3.33723e-09
+Processed 20000 events.
+Weights: 1.47522e-11
+Processed 20100 events.
+Weights: 2.03286e-11
+Processed 20200 events.
+Weights: 1.0552e-10
+Processed 20300 events.
+Weights: 5.85534e-10
+Processed 20400 events.
+Weights: 3.61159e-10
+Processed 20500 events.
+Weights: 3.63499e-13
+Processed 20600 events.
+Weights: 8.29669e-10
+Processed 20700 events.
+Weights: 3.23377e-10
+Processed 20800 events.
+Weights: 2.60695e-11
+Processed 20900 events.
+Weights: 2.51605e-09
+Processed 21000 events.
+Weights: 9.11887e-10
+Processed 21100 events.
+Weights: 4.26937e-09
+Processed 21200 events.
+Weights: 4.87778e-09
+Processed 21300 events.
+Weights: 9.20176e-11
+Processed 21400 events.
+Weights: 2.30509e-10
+Processed 21500 events.
+Weights: 2.82123e-11
+Processed 21600 events.
+Weights: 1.1216e-10
+Processed 21700 events.
+Weights: 1.63776e-10
+Processed 21800 events.
+Weights: 1.25748e-11
+Processed 21900 events.
+Weights: 9.24548e-12
+Processed 22000 events.
+Weights: 7.09e-12
+Processed 22100 events.
+Weights: 1.46784e-13
+Processed 22200 events.
+Weights: 3.64265e-12
+Processed 22300 events.
+Weights: 2.77455e-12
+Processed 22400 events.
+Weights: 1.13769e-11
+Processed 22500 events.
+Weights: 4.22365e-09
+Processed 22600 events.
+Weights: 3.24369e-12
+Processed 22700 events.
+Weights: 6.38108e-09
+Processed 22800 events.
+Weights: 1.89904e-11
+Processed 22900 events.
+Weights: 5.74743e-11
+Processed 23000 events.
+Weights: 2.52549e-10
+Processed 23100 events.
+Weights: 2.03742e-12
+Processed 23200 events.
+Weights: 7.27735e-13
+Processed 23300 events.
+Weights: 8.57276e-11
+Processed 23400 events.
+Weights: 7.76645e-10
+Processed 23500 events.
+Weights: 1.58318e-10
+Processed 23600 events.
+Weights: 4.7501e-11
+Processed 23700 events.
+Weights: 5.28788e-09
+Processed 23800 events.
+Weights: 6.46667e-12
+Processed 23900 events.
+Weights: 6.6988e-12
+Processed 24000 events.
+Weights: 8.61956e-10
+Processed 24100 events.
+Weights: 7.3826e-09
+Processed 24200 events.
+Weights: 4.33929e-12
+Processed 24300 events.
+Weights: 2.1211e-10
+Processed 24400 events.
+Weights: 7.73258e-09
+Processed 24500 events.
+Weights: 2.90148e-11
+Processed 24600 events.
+Weights: 1.12802e-10
+Processed 24700 events.
+Weights: 1.32249e-11
+Processed 24800 events.
+Weights: 1.14932e-09
+Processed 24900 events.
+Weights: 1.73768e-10
+Processed 25000 events.
+Weights: 5.40212e-09
+Processed 25100 events.
+Weights: 7.57366e-09
+Processed 25200 events.
+Weights: 1.21119e-12
+Processed 25300 events.
+Weights: 1.51887e-12
+Processed 25400 events.
+Weights: 3.83578e-10
+Processed 25500 events.
+Weights: 1.3596e-10
+Processed 25600 events.
+Weights: 5.6492e-11
+Processed 25700 events.
+Weights: 9.4424e-11
+Processed 25800 events.
+Weights: 1.70888e-12
+Processed 25900 events.
+Weights: 3.03941e-11
+Processed 26000 events.
+Weights: 1.48719e-09
+Processed 26100 events.
+Weights: 5.85644e-11
+Processed 26200 events.
+Weights: 1.01365e-09
+Processed 26300 events.
+Weights: 5.68918e-09
+Processed 26400 events.
+Weights: 6.09205e-12
+Processed 26500 events.
+Weights: 2.70781e-11
+Processed 26600 events.
+Weights: 2.45663e-09
+Processed 26700 events.
+Weights: 1.53114e-10
+Processed 26800 events.
+Weights: 4.31135e-12
+Processed 26900 events.
+Weights: 1.12266e-09
+Processed 27000 events.
+Weights: 4.02896e-11
+Processed 27100 events.
+Weights: 3.92619e-12
+Processed 27200 events.
+Weights: 1.93505e-09
+Processed 27300 events.
+Weights: 1.31168e-10
+Processed 27400 events.
+Weights: 1.36946e-09
+Processed 27500 events.
+Weights: 4.94568e-10
+Processed 27600 events.
+Weights: 6.48106e-12
+Processed 27700 events.
+Weights: 3.30625e-10
+Processed 27800 events.
+Weights: 1.74362e-12
+Processed 27900 events.
+Weights: 5.66293e-13
+Processed 28000 events.
+Weights: 3.40889e-09
+Processed 28100 events.
+Weights: 5.07059e-11
+Processed 28200 events.
+Weights: 2.73241e-13
+Processed 28300 events.
+Weights: 5.57894e-10
+Processed 28400 events.
+Weights: 1.8174e-13
+Processed 28500 events.
+Weights: 2.94518e-12
+Processed 28600 events.
+Weights: 6.67304e-09
+Processed 28700 events.
+Weights: 4.22919e-12
+Processed 28800 events.
+Weights: 1.89379e-13
+Processed 28900 events.
+Weights: 3.13393e-10
+Processed 29000 events.
+Weights: 2.78656e-10
+Processed 29100 events.
+Weights: 1.0809e-13
+Processed 29200 events.
+Weights: 4.07565e-11
+Processed 29300 events.
+Weights: 2.31945e-11
+Processed 29400 events.
+Weights: 2.51081e-10
+Processed 29500 events.
+Weights: 1.14084e-09
+Processed 29600 events.
+Weights: 8.42605e-12
+Processed 29700 events.
+Weights: 5.75379e-09
+Processed 29800 events.
+Weights: 1.01321e-13
+Processed 29900 events.
+Weights: 1.14974e-12
+Processed 30000 events.
+Weights: 2.43218e-11
+Processed 30100 events.
+Weights: 1.09038e-10
+Processed 30200 events.
+Weights: 4.11743e-11
+Processed 30300 events.
+Weights: 1.83506e-11
+Processed 30400 events.
+Weights: 3.50774e-11
+Processed 30500 events.
+Weights: 9.94998e-13
+Processed 30600 events.
+Weights: 1.1025e-12
+Processed 30700 events.
+Weights: 1.78222e-10
+Processed 30800 events.
+Weights: 5.2907e-10
+Processed 30900 events.
+Weights: 1.18224e-14
+Processed 31000 events.
+Weights: 1.55565e-13
+Processed 31100 events.
+Weights: 4.66665e-11
+Processed 31200 events.
+Weights: 7.07509e-11
+Processed 31300 events.
+Weights: 2.81683e-09
+Processed 31400 events.
+Weights: 4.86025e-11
+Processed 31500 events.
+Weights: 6.8524e-09
+Processed 31600 events.
+Weights: 1.43853e-09
+Processed 31700 events.
+Weights: 7.80615e-09
+Processed 31800 events.
+Weights: 1.54749e-09
+Processed 31900 events.
+Weights: 1.90243e-12
+Processed 32000 events.
+Weights: 2.97217e-09
+Processed 32100 events.
+Weights: 4.77369e-12
+Processed 32200 events.
+Weights: 6.34087e-11
+Processed 32300 events.
+Weights: 4.7893e-12
+Processed 32400 events.
+Weights: 3.06545e-13
+Processed 32500 events.
+Weights: 5.7913e-12
+Processed 32600 events.
+Weights: 1.2629e-12
+Processed 32700 events.
+Weights: 2.43908e-10
+Processed 32800 events.
+Weights: 5.75393e-12
+Processed 32900 events.
+Weights: 9.27219e-11
+Processed 33000 events.
+Weights: 3.3804e-13
+Processed 33100 events.
+Weights: 3.13077e-10
+Processed 33200 events.
+Weights: 6.81174e-09
+Processed 33300 events.
+Weights: 2.03775e-11
+Processed 33400 events.
+Weights: 2.30292e-12
+Processed 33500 events.
+Weights: 6.65226e-10
+Processed 33600 events.
+Weights: 6.61054e-10
+Processed 33700 events.
+Weights: 2.25288e-11
+Processed 33800 events.
+Weights: 7.07103e-11
+Processed 33900 events.
+Weights: 7.01127e-13
+Processed 34000 events.
+Weights: 9.54935e-10
+Processed 34100 events.
+Weights: 4.20208e-09
+Processed 34200 events.
+Weights: 1.35879e-10
+Processed 34300 events.
+Weights: 8.86459e-14
+Processed 34400 events.
+Weights: 1.87652e-10
+Processed 34500 events.
+Weights: 8.25029e-11
+Processed 34600 events.
+Weights: 7.13907e-12
+Processed 34700 events.
+Weights: 7.96623e-10
+Processed 34800 events.
+Weights: 9.35196e-11
+Processed 34900 events.
+Weights: 3.17944e-11
+Processed 35000 events.
+Weights: 1.83864e-09
+Processed 35100 events.
+Weights: 1.4946e-11
+Processed 35200 events.
+Weights: 7.7769e-13
+Processed 35300 events.
+Weights: 7.56746e-11
+Processed 35400 events.
+Weights: 1.04182e-12
+Processed 35500 events.
+Weights: 5.34821e-09
+Processed 35600 events.
+Weights: 4.10243e-11
+Processed 35700 events.
+Weights: 9.35908e-10
+Processed 35800 events.
+Weights: 4.62036e-13
+Processed 35900 events.
+Weights: 1.05621e-10
+Processed 36000 events.
+Weights: 2.5106e-11
+Processed 36100 events.
+Weights: 8.05148e-12
+Processed 36200 events.
+Weights: 6.10509e-10
+Processed 36300 events.
+Weights: 7.70928e-12
+Processed 36400 events.
+Weights: 2.52704e-10
+Processed 36500 events.
+Weights: 1.5729e-10
+Processed 36600 events.
+Weights: 8.76002e-11
+Processed 36700 events.
+Weights: 2.03006e-10
+Processed 36800 events.
+Weights: 1.28675e-10
+Processed 36900 events.
+Weights: 3.72784e-10
+Processed 37000 events.
+Weights: 6.5016e-11
+Processed 37100 events.
+Weights: 8.00011e-11
+Processed 37200 events.
+Weights: 7.85474e-12
+Processed 37300 events.
+Weights: 4.43176e-10
+Processed 37400 events.
+Weights: 2.51346e-10
+Processed 37500 events.
+Weights: 1.90592e-09
+Processed 37600 events.
+Weights: 6.26935e-12
+Processed 37700 events.
+Weights: 1.18257e-10
+Processed 37800 events.
+Weights: 1.29922e-09
+Processed 37900 events.
+Weights: 2.75623e-10
+Processed 38000 events.
+Weights: 2.978e-09
+Processed 38100 events.
+Weights: 1.37261e-11
+Processed 38200 events.
+Weights: 7.02135e-13
+Processed 38300 events.
+Weights: 3.73177e-13
+Processed 38400 events.
+Weights: 1.34492e-10
+Processed 38500 events.
+Weights: 2.80152e-10
+Processed 38600 events.
+Weights: 1.88822e-14
+Processed 38700 events.
+Weights: 1.31966e-09
+Processed 38800 events.
+Weights: 7.19993e-09
+Processed 38900 events.
+Weights: 5.07171e-12
+Processed 39000 events.
+Weights: 5.47833e-09
+Processed 39100 events.
+Weights: 8.16834e-13
+Processed 39200 events.
+Weights: 8.59779e-09
+Processed 39300 events.
+Weights: 3.2657e-09
+Processed 39400 events.
+Weights: 5.59895e-10
+Processed 39500 events.
+Weights: 6.93116e-09
+Processed 39600 events.
+Weights: 2.9343e-11
+Processed 39700 events.
+Weights: 2.41885e-09
+Processed 39800 events.
+Weights: 7.16041e-09
+Processed 39900 events.
+Weights: 1.49848e-11
+Processed 40000 events.
+Weights: 2.90472e-11
+Processed 40100 events.
+Weights: 4.54959e-12
+Processed 40200 events.
+Weights: 1.99657e-11
+Processed 40300 events.
+Weights: 3.12581e-09
+Processed 40400 events.
+Weights: 1.03853e-10
+Processed 40500 events.
+Weights: 1.45841e-12
+Processed 40600 events.
+Weights: 5.68479e-12
+Processed 40700 events.
+Weights: 2.80127e-09
+Processed 40800 events.
+Weights: 7.25941e-11
+Processed 40900 events.
+Weights: 3.1194e-13
+Processed 41000 events.
+Weights: 2.26807e-09
+Processed 41100 events.
+Weights: 6.46453e-12
+Processed 41200 events.
+Weights: 9.3593e-11
+Processed 41300 events.
+Weights: 1.00864e-11
+Processed 41400 events.
+Weights: 7.59019e-10
+Processed 41500 events.
+Weights: 7.77442e-11
+Processed 41600 events.
+Weights: 1.2428e-09
+Processed 41700 events.
+Weights: 4.65595e-13
+Processed 41800 events.
+Weights: 3.92595e-09
+Processed 41900 events.
+Weights: 2.4115e-10
+Processed 42000 events.
+Weights: 3.72352e-11
+Processed 42100 events.
+Weights: 7.02972e-11
+Processed 42200 events.
+Weights: 4.88533e-09
+Processed 42300 events.
+Weights: 3.8545e-10
+Processed 42400 events.
+Weights: 3.63374e-11
+Processed 42500 events.
+Weights: 4.02456e-10
+Processed 42600 events.
+Weights: 3.06947e-10
+Processed 42700 events.
+Weights: 3.20675e-09
+Processed 42800 events.
+Weights: 9.6318e-13
+Processed 42900 events.
+Weights: 2.56308e-11
+Processed 43000 events.
+Weights: 2.94386e-13
+Processed 43100 events.
+Weights: 3.63066e-10
+Processed 43200 events.
+Weights: 6.63038e-10
+Processed 43300 events.
+Weights: 1.6105e-12
+Processed 43400 events.
+Weights: 1.36976e-10
+Processed 43500 events.
+Weights: 1.73509e-11
+Processed 43600 events.
+Weights: 2.1224e-11
+Processed 43700 events.
+Weights: 2.50424e-11
+Processed 43800 events.
+Weights: 1.81054e-11
+Processed 43900 events.
+Weights: 1.05005e-11
+Processed 44000 events.
+Weights: 7.07443e-13
+Processed 44100 events.
+Weights: 4.07775e-10
+Processed 44200 events.
+Weights: 7.68468e-10
+Processed 44300 events.
+Weights: 3.0527e-09
+Processed 44400 events.
+Weights: 2.30832e-12
+Processed 44500 events.
+Weights: 6.29472e-11
+Processed 44600 events.
+Weights: 2.29693e-10
+Processed 44700 events.
+Weights: 1.4975e-12
+Processed 44800 events.
+Weights: 8.14433e-11
+Processed 44900 events.
+Weights: 3.88196e-14
+Processed 45000 events.
+Weights: 3.22605e-12
+Processed 45100 events.
+Weights: 3.54713e-09
+Processed 45200 events.
+Weights: 1.56943e-11
+Processed 45300 events.
+Weights: 7.87644e-09
+Processed 45400 events.
+Weights: 2.83597e-11
+Processed 45500 events.
+Weights: 2.34263e-11
+Processed 45600 events.
+Weights: 5.83531e-11
+Processed 45700 events.
+Weights: 4.42692e-09
+Processed 45800 events.
+Weights: 3.81384e-10
+Processed 45900 events.
+Weights: 3.00969e-10
+Processed 46000 events.
+Weights: 1.51457e-11
+Processed 46100 events.
+Weights: 2.19452e-10
+Processed 46200 events.
+Weights: 2.62324e-13
+Processed 46300 events.
+Weights: 2.78946e-10
+Processed 46400 events.
+Weights: 8.10644e-10
+Processed 46500 events.
+Weights: 5.40637e-11
+Processed 46600 events.
+Weights: 2.52915e-12
+Processed 46700 events.
+Weights: 4.47201e-09
+Processed 46800 events.
+Weights: 1.17163e-09
+Processed 46900 events.
+Weights: 1.01895e-11
+Processed 47000 events.
+Weights: 2.49437e-10
+Processed 47100 events.
+Weights: 1.37797e-11
+Processed 47200 events.
+Weights: 1.01905e-10
+Processed 47300 events.
+Weights: 1.72814e-09
+Processed 47400 events.
+Weights: 1.37293e-09
+Processed 47500 events.
+Weights: 1.21045e-09
+Processed 47600 events.
+Weights: 1.07786e-11
+Processed 47700 events.
+Weights: 2.30027e-11
+Processed 47800 events.
+Weights: 7.60098e-13
+Processed 47900 events.
+Weights: 1.48642e-10
+Processed 48000 events.
+Weights: 1.78932e-11
+Processed 48100 events.
+Weights: 1.33025e-12
+Processed 48200 events.
+Weights: 1.40497e-09
+Processed 48300 events.
+Weights: 1.74074e-10
+Processed 48400 events.
+Weights: 7.08565e-11
+Processed 48500 events.
+Weights: 1.05662e-09
+Processed 48600 events.
+Weights: 3.69329e-10
+Processed 48700 events.
+Weights: 1.11429e-11
+Processed 48800 events.
+Weights: 3.02021e-13
+Processed 48900 events.
+Weights: 3.32873e-10
+Processed 49000 events.
+Weights: 6.05352e-12
+Processed 49100 events.
+Weights: 5.37486e-09
+Processed 49200 events.
+Weights: 7.28809e-09
+Processed 49300 events.
+Weights: 2.5153e-14
+Processed 49400 events.
+Weights: 7.95554e-12
+Processed 49500 events.
+Weights: 8.56261e-11
+Processed 49600 events.
+Weights: 2.47844e-10
+Processed 49700 events.
+Weights: 1.18815e-09
+Processed 49800 events.
+Weights: 4.78785e-09
+Processed 49900 events.
+Weights: 4.80146e-11
+Processed 50000 events.
+Weights: 3.18784e-13
+Processed 50100 events.
+Weights: 6.41331e-12
+Processed 50200 events.
+Weights: 4.243e-12
+Processed 50300 events.
+Weights: 4.87703e-09
+Processed 50400 events.
+Weights: 1.16006e-09
+Processed 50500 events.
+Weights: 2.20752e-12
+Processed 50600 events.
+Weights: 5.58753e-11
+Processed 50700 events.
+Weights: 7.53492e-11
+Processed 50800 events.
+Weights: 4.91942e-10
+Processed 50900 events.
+Weights: 1.16265e-11
+Processed 51000 events.
+Weights: 2.47504e-13
+Processed 51100 events.
+Weights: 6.82417e-09
+Processed 51200 events.
+Weights: 5.45242e-11
+Processed 51300 events.
+Weights: 1.30553e-13
+Processed 51400 events.
+Weights: 2.67919e-11
+Processed 51500 events.
+Weights: 4.95094e-12
+Processed 51600 events.
+Weights: 2.1123e-13
+Processed 51700 events.
+Weights: 9.12805e-11
+Processed 51800 events.
+Weights: 8.36248e-10
+Processed 51900 events.
+Weights: 1.40055e-09
+Processed 52000 events.
+Weights: 2.35712e-09
+Processed 52100 events.
+Weights: 4.60732e-09
+Processed 52200 events.
+Weights: 7.4807e-11
+Processed 52300 events.
+Weights: 4.95871e-09
+Processed 52400 events.
+Weights: 3.89372e-13
+Processed 52500 events.
+Weights: 1.09993e-12
+Processed 52600 events.
+Weights: 1.04154e-09
+Processed 52700 events.
+Weights: 1.06643e-09
+Processed 52800 events.
+Weights: 3.74467e-10
+Processed 52900 events.
+Weights: 5.48378e-11
+Processed 53000 events.
+Weights: 4.71569e-12
+Processed 53100 events.
+Weights: 3.98369e-12
+Processed 53200 events.
+Weights: 4.81707e-11
+Processed 53300 events.
+Weights: 3.29825e-13
+Processed 53400 events.
+Weights: 4.38434e-09
+Processed 53500 events.
+Weights: 9.6134e-13
+Processed 53600 events.
+Weights: 5.48576e-10
+Processed 53700 events.
+Weights: 6.3659e-12
+Processed 53800 events.
+Weights: 1.11786e-10
+Processed 53900 events.
+Weights: 1.9052e-09
+Processed 54000 events.
+Weights: 2.02269e-09
+Processed 54100 events.
+Weights: 3.30562e-10
+Processed 54200 events.
+Weights: 6.13152e-09
+Processed 54300 events.
+Weights: 3.58595e-11
+Processed 54400 events.
+Weights: 1.14583e-09
+Processed 54500 events.
+Weights: 6.23652e-13
+Processed 54600 events.
+Weights: 2.75713e-11
+Processed 54700 events.
+Weights: 1.62347e-09
+Processed 54800 events.
+Weights: 2.56623e-10
+Processed 54900 events.
+Weights: 1.01794e-10
+Processed 55000 events.
+Weights: 1.37083e-09
+Processed 55100 events.
+Weights: 3.64599e-12
+Processed 55200 events.
+Weights: 1.06104e-11
+Processed 55300 events.
+Weights: 5.1995e-09
+Processed 55400 events.
+Weights: 5.42384e-10
+Processed 55500 events.
+Weights: 7.20172e-09
+Processed 55600 events.
+Weights: 1.71623e-11
+Processed 55700 events.
+Weights: 2.23291e-09
+Processed 55800 events.
+Weights: 1.01005e-10
+Processed 55900 events.
+Weights: 5.04912e-10
+Processed 56000 events.
+Weights: 3.27883e-11
+Processed 56100 events.
+Weights: 6.30272e-12
+Processed 56200 events.
+Weights: 3.14421e-12
+Processed 56300 events.
+Weights: 1.15439e-13
+Processed 56400 events.
+Weights: 2.13284e-11
+Processed 56500 events.
+Weights: 1.0208e-12
+Processed 56600 events.
+Weights: 1.22153e-12
+Processed 56700 events.
+Weights: 3.34349e-10
+Processed 56800 events.
+Weights: 4.47812e-13
+Processed 56900 events.
+Weights: 1.88269e-11
+Processed 57000 events.
+Weights: 3.54493e-11
+Processed 57100 events.
+Weights: 1.06919e-11
+Processed 57200 events.
+Weights: 2.55137e-09
+Processed 57300 events.
+Weights: 6.38904e-10
+Processed 57400 events.
+Weights: 7.26349e-09
+Processed 57500 events.
+Weights: 8.60535e-09
+Processed 57600 events.
+Weights: 3.03783e-09
+Processed 57700 events.
+Weights: 2.32614e-10
+Processed 57800 events.
+Weights: 6.91784e-11
+Processed 57900 events.
+Weights: 2.5553e-09
+Processed 58000 events.
+Weights: 1.56703e-12
+Processed 58100 events.
+Weights: 2.72219e-11
+Processed 58200 events.
+Weights: 1.42858e-10
+Processed 58300 events.
+Weights: 1.1833e-10
+Processed 58400 events.
+Weights: 1.77715e-09
+Processed 58500 events.
+Weights: 4.06442e-09
+Processed 58600 events.
+Weights: 6.45184e-09
+Processed 58700 events.
+Weights: 4.00844e-11
+Processed 58800 events.
+Weights: 3.59735e-13
+Processed 58900 events.
+Weights: 1.61541e-11
+Processed 59000 events.
+Weights: 3.21862e-11
+Processed 59100 events.
+Weights: 1.38978e-09
+Processed 59200 events.
+Weights: 4.34556e-09
+Processed 59300 events.
+Weights: 1.15316e-12
+Processed 59400 events.
+Weights: 5.0252e-11
+Processed 59500 events.
+Weights: 6.37481e-11
+Processed 59600 events.
+Weights: 6.15495e-10
+Processed 59700 events.
+Weights: 3.30979e-11
+Processed 59800 events.
+Weights: 3.63036e-09
+Processed 59900 events.
+Weights: 4.06875e-09
+Processed 60000 events.
+Weights: 1.25646e-09
+Processed 60100 events.
+Weights: 2.06807e-12
+Processed 60200 events.
+Weights: 5.0444e-11
+Processed 60300 events.
+Weights: 2.25745e-12
+Processed 60400 events.
+Weights: 1.35183e-13
+Processed 60500 events.
+Weights: 2.75865e-13
+Processed 60600 events.
+Weights: 2.35291e-11
+Processed 60700 events.
+Weights: 7.51167e-10
+Processed 60800 events.
+Weights: 2.33522e-13
+Processed 60900 events.
+Weights: 7.34538e-13
+Processed 61000 events.
+Weights: 3.98558e-09
+Processed 61100 events.
+Weights: 8.99301e-12
+Processed 61200 events.
+Weights: 6.90657e-12
+Processed 61300 events.
+Weights: 4.168e-11
+Processed 61400 events.
+Weights: 1.89189e-12
+Processed 61500 events.
+Weights: 1.99938e-09
+Processed 61600 events.
+Weights: 1.96184e-11
+Processed 61700 events.
+Weights: 1.02824e-10
+Processed 61800 events.
+Weights: 1.86335e-09
+Processed 61900 events.
+Weights: 3.30106e-10
+Processed 62000 events.
+Weights: 2.68149e-10
+Processed 62100 events.
+Weights: 5.27774e-09
+Processed 62200 events.
+Weights: 5.3948e-13
+Processed 62300 events.
+Weights: 6.7367e-11
+Processed 62400 events.
+Weights: 1.5165e-10
+Processed 62500 events.
+Weights: 3.00355e-09
+Processed 62600 events.
+Weights: 2.58854e-10
+Processed 62700 events.
+Weights: 1.42228e-11
+Processed 62800 events.
+Weights: 2.92478e-09
+Processed 62900 events.
+Weights: 1.3405e-09
+Processed 63000 events.
+Weights: 5.7076e-11
+Processed 63100 events.
+Weights: 1.43454e-11
+Processed 63200 events.
+Weights: 6.09448e-09
+Processed 63300 events.
+Weights: 6.59652e-10
+Processed 63400 events.
+Weights: 5.11256e-09
+Processed 63500 events.
+Weights: 1.56239e-11
+Processed 63600 events.
+Weights: 1.60944e-10
+Processed 63700 events.
+Weights: 2.27176e-11
+Processed 63800 events.
+Weights: 1.27035e-10
+Processed 63900 events.
+Weights: 1.34105e-10
+Processed 64000 events.
+Weights: 8.39306e-10
+Processed 64100 events.
+Weights: 4.44502e-12
+Processed 64200 events.
+Weights: 1.51373e-11
+Processed 64300 events.
+Weights: 4.64612e-09
+Processed 64400 events.
+Weights: 4.215e-10
+Processed 64500 events.
+Weights: 2.24924e-11
+Processed 64600 events.
+Weights: 1.03099e-09
+Processed 64700 events.
+Weights: 1.90939e-09
+Processed 64800 events.
+Weights: 4.09755e-11
+Processed 64900 events.
+Weights: 1.52918e-09
+Processed 65000 events.
+Weights: 1.53183e-09
+Processed 65100 events.
+Weights: 4.30019e-10
+Processed 65200 events.
+Weights: 5.06887e-11
+Processed 65300 events.
+Weights: 1.84643e-10
+Processed 65400 events.
+Weights: 4.91682e-10
+Processed 65500 events.
+Weights: 5.13904e-10
+Processed 65600 events.
+Weights: 8.74106e-12
+Processed 65700 events.
+Weights: 2.65666e-12
+Processed 65800 events.
+Weights: 2.37431e-10
+Processed 65900 events.
+Weights: 8.31626e-12
+Processed 66000 events.
+Weights: 3.64383e-09
+Processed 66100 events.
+Weights: 4.24702e-09
+Processed 66200 events.
+Weights: 1.04927e-11
+Processed 66300 events.
+Weights: 9.41662e-13
+Processed 66400 events.
+Weights: 4.51878e-11
+Processed 66500 events.
+Weights: 3.55638e-09
+Processed 66600 events.
+Weights: 6.71356e-13
+Processed 66700 events.
+Weights: 4.76046e-11
+Processed 66800 events.
+Weights: 4.60989e-10
+Processed 66900 events.
+Weights: 6.6486e-11
+Processed 67000 events.
+Weights: 2.14374e-13
+Processed 67100 events.
+Weights: 2.89304e-12
+Processed 67200 events.
+Weights: 6.80047e-10
+Processed 67300 events.
+Weights: 1.18306e-09
+Processed 67400 events.
+Weights: 1.5293e-10
+Processed 67500 events.
+Weights: 1.10512e-11
+Processed 67600 events.
+Weights: 4.99007e-12
+Processed 67700 events.
+Weights: 3.73409e-11
+Processed 67800 events.
+Weights: 2.81118e-12
+Processed 67900 events.
+Weights: 3.69936e-10
+Processed 68000 events.
+Weights: 4.98262e-13
+Processed 68100 events.
+Weights: 2.90098e-12
+Processed 68200 events.
+Weights: 8.266e-12
+Processed 68300 events.
+Weights: 4.82011e-10
+Processed 68400 events.
+Weights: 5.90821e-10
+Processed 68500 events.
+Weights: 8.43329e-09
+Processed 68600 events.
+Weights: 3.22357e-10
+Processed 68700 events.
+Weights: 2.18731e-12
+Processed 68800 events.
+Weights: 2.15044e-09
+Processed 68900 events.
+Weights: 2.04449e-10
+Processed 69000 events.
+Weights: 8.95892e-10
+Processed 69100 events.
+Weights: 4.10203e-13
+Processed 69200 events.
+Weights: 1.43659e-09
+Processed 69300 events.
+Weights: 5.71382e-11
+Processed 69400 events.
+Weights: 6.93456e-11
+Processed 69500 events.
+Weights: 7.19571e-11
+Processed 69600 events.
+Weights: 1.38501e-13
+Processed 69700 events.
+Weights: 4.75794e-09
+Processed 69800 events.
+Weights: 3.09153e-09
+Processed 69900 events.
+Weights: 2.73491e-11
+Processed 70000 events.
+Weights: 9.97046e-10
+Processed 70100 events.
+Weights: 6.47691e-13
+Processed 70200 events.
+Weights: 7.35473e-10
+Processed 70300 events.
+Weights: 1.54348e-09
+Processed 70400 events.
+Weights: 3.10784e-10
+Processed 70500 events.
+Weights: 6.90988e-10
+Processed 70600 events.
+Weights: 6.13842e-10
+Processed 70700 events.
+Weights: 2.33547e-10
+Processed 70800 events.
+Weights: 3.57419e-11
+Processed 70900 events.
+Weights: 1.76688e-12
+Processed 71000 events.
+Weights: 1.24204e-11
+Processed 71100 events.
+Weights: 5.38999e-10
+Processed 71200 events.
+Weights: 9.97151e-10
+Processed 71300 events.
+Weights: 2.18551e-11
+Processed 71400 events.
+Weights: 8.41482e-11
+Processed 71500 events.
+Weights: 7.58303e-10
+Processed 71600 events.
+Weights: 5.17052e-09
+Processed 71700 events.
+Weights: 2.96716e-10
+Processed 71800 events.
+Weights: 1.79635e-09
+Processed 71900 events.
+Weights: 7.09262e-12
+Processed 72000 events.
+Weights: 5.81059e-11
+Processed 72100 events.
+Weights: 1.2508e-09
+Processed 72200 events.
+Weights: 7.33848e-09
+Processed 72300 events.
+Weights: 8.83365e-11
+Processed 72400 events.
+Weights: 1.46207e-09
+Processed 72500 events.
+Weights: 2.82299e-09
+Processed 72600 events.
+Weights: 4.53988e-12
+Processed 72700 events.
+Weights: 1.9178e-10
+Processed 72800 events.
+Weights: 9.12014e-11
+Processed 72900 events.
+Weights: 2.58155e-09
+Processed 73000 events.
+Weights: 3.62279e-13
+Processed 73100 events.
+Weights: 1.56083e-10
+Processed 73200 events.
+Weights: 1.23487e-10
+Processed 73300 events.
+Weights: 6.34799e-10
+Processed 73400 events.
+Weights: 2.7736e-09
+Processed 73500 events.
+Weights: 4.03478e-11
+Processed 73600 events.
+Weights: 1.45231e-09
+Processed 73700 events.
+Weights: 4.65497e-12
+Processed 73800 events.
+Weights: 3.25358e-10
+Processed 73900 events.
+Weights: 1.9576e-09
+Processed 74000 events.
+Weights: 4.88238e-09
+Processed 74100 events.
+Weights: 2.2519e-11
+Processed 74200 events.
+Weights: 1.06125e-10
+Processed 74300 events.
+Weights: 4.28986e-11
+Processed 74400 events.
+Weights: 1.86106e-11
+Processed 74500 events.
+Weights: 4.13861e-10
+Processed 74600 events.
+Weights: 2.80038e-12
+Processed 74700 events.
+Weights: 2.20263e-09
+Processed 74800 events.
+Weights: 1.73289e-12
+Processed 74900 events.
+Weights: 5.0721e-12
+Processed 75000 events.
+Weights: 1.10175e-11
+Processed 75100 events.
+Weights: 1.40428e-10
+Processed 75200 events.
+Weights: 9.4323e-11
+Processed 75300 events.
+Weights: 2.4582e-09
+Processed 75400 events.
+Weights: 2.19934e-11
+Processed 75500 events.
+Weights: 1.8471e-11
+Processed 75600 events.
+Weights: 1.8139e-09
+Processed 75700 events.
+Weights: 4.19489e-10
+Processed 75800 events.
+Weights: 2.14046e-11
+Processed 75900 events.
+Weights: 1.96077e-11
+Processed 76000 events.
+Weights: 7.2176e-13
+Processed 76100 events.
+Weights: 1.54042e-10
+Processed 76200 events.
+Weights: 1.71177e-11
+Processed 76300 events.
+Weights: 2.17269e-10
+Processed 76400 events.
+Weights: 3.81515e-09
+Processed 76500 events.
+Weights: 7.5624e-12
+Processed 76600 events.
+Weights: 4.58878e-12
+Processed 76700 events.
+Weights: 3.73216e-10
+Processed 76800 events.
+Weights: 4.61549e-13
+Processed 76900 events.
+Weights: 1.50879e-10
+Processed 77000 events.
+Weights: 3.64221e-09
+Processed 77100 events.
+Weights: 2.06131e-09
+Processed 77200 events.
+Weights: 3.09382e-12
+Processed 77300 events.
+Weights: 2.67022e-12
+Processed 77400 events.
+Weights: 3.68405e-10
+Processed 77500 events.
+Weights: 2.7154e-10
+Processed 77600 events.
+Weights: 2.42287e-10
+Processed 77700 events.
+Weights: 2.80229e-12
+Processed 77800 events.
+Weights: 1.71977e-10
+Processed 77900 events.
+Weights: 1.13367e-10
+Processed 78000 events.
+Weights: 4.74106e-12
+Processed 78100 events.
+Weights: 1.6209e-11
+Processed 78200 events.
+Weights: 6.43857e-10
+Processed 78300 events.
+Weights: 8.63753e-10
+Processed 78400 events.
+Weights: 4.38075e-11
+Processed 78500 events.
+Weights: 3.8713e-12
+Processed 78600 events.
+Weights: 5.39037e-11
+Processed 78700 events.
+Weights: 1.54886e-12
+Processed 78800 events.
+Weights: 1.03931e-09
+Processed 78900 events.
+Weights: 1.07458e-09
+Processed 79000 events.
+Weights: 3.50687e-10
+Processed 79100 events.
+Weights: 3.70045e-11
+Processed 79200 events.
+Weights: 3.56124e-12
+Processed 79300 events.
+Weights: 2.32069e-11
+Processed 79400 events.
+Weights: 2.57047e-13
+Processed 79500 events.
+Weights: 1.72231e-11
+Processed 79600 events.
+Weights: 1.09704e-09
+Processed 79700 events.
+Weights: 7.85829e-11
+Processed 79800 events.
+Weights: 4.32267e-10
+Processed 79900 events.
+Weights: 4.53868e-12
+Processed 80000 events.
+Weights: 1.07269e-10
+Processed 80100 events.
+Weights: 4.83554e-10
+Processed 80200 events.
+Weights: 1.57135e-12
+Processed 80300 events.
+Weights: 3.66736e-10
+Processed 80400 events.
+Weights: 4.19983e-09
+Processed 80500 events.
+Weights: 9.39157e-13
+Processed 80600 events.
+Weights: 1.90966e-10
+Processed 80700 events.
+Weights: 1.45745e-11
+Processed 80800 events.
+Weights: 5.36948e-10
+Processed 80900 events.
+Weights: 6.3949e-12
+Processed 81000 events.
+Weights: 3.38526e-11
+Processed 81100 events.
+Weights: 4.61889e-12
+Processed 81200 events.
+Weights: 6.56404e-12
+Processed 81300 events.
+Weights: 1.8334e-09
+Processed 81400 events.
+Weights: 2.59405e-09
+Processed 81500 events.
+Weights: 7.35656e-11
+Processed 81600 events.
+Weights: 2.63038e-10
+Processed 81700 events.
+Weights: 2.4655e-11
+Processed 81800 events.
+Weights: 1.14082e-11
+Processed 81900 events.
+Weights: 1.22103e-12
+Processed 82000 events.
+Weights: 1.83581e-09
+Processed 82100 events.
+Weights: 1.85929e-10
+Processed 82200 events.
+Weights: 3.07524e-09
+Processed 82300 events.
+Weights: 2.61764e-10
+Processed 82400 events.
+Weights: 4.24729e-11
+Processed 82500 events.
+Weights: 2.29113e-10
+Processed 82600 events.
+Weights: 4.55772e-09
+Processed 82700 events.
+Weights: 2.87788e-12
+Processed 82800 events.
+Weights: 3.22455e-11
+Processed 82900 events.
+Weights: 5.70733e-11
+Processed 83000 events.
+Weights: 8.12747e-09
+Processed 83100 events.
+Weights: 6.90355e-10
+Processed 83200 events.
+Weights: 5.9644e-10
+Processed 83300 events.
+Weights: 3.20973e-09
+Processed 83400 events.
+Weights: 1.55553e-12
+Processed 83500 events.
+Weights: 1.97218e-11
+Processed 83600 events.
+Weights: 9.65454e-12
+Processed 83700 events.
+Weights: 1.85705e-09
+Processed 83800 events.
+Weights: 5.62101e-12
+Processed 83900 events.
+Weights: 3.19016e-10
+Processed 84000 events.
+Weights: 3.81771e-10
+Processed 84100 events.
+Weights: 7.96573e-10
+Processed 84200 events.
+Weights: 7.29767e-12
+Processed 84300 events.
+Weights: 2.31266e-10
+Processed 84400 events.
+Weights: 3.30548e-12
+Processed 84500 events.
+Weights: 9.16893e-12
+Processed 84600 events.
+Weights: 2.2081e-09
+Processed 84700 events.
+Weights: 5.84749e-11
+Processed 84800 events.
+Weights: 7.49104e-13
+Processed 84900 events.
+Weights: 4.29409e-10
+Processed 85000 events.
+Weights: 6.32306e-10
+Processed 85100 events.
+Weights: 8.21942e-13
+Processed 85200 events.
+Weights: 6.12836e-11
+Processed 85300 events.
+Weights: 1.15024e-09
+Processed 85400 events.
+Weights: 1.00694e-13
+Processed 85500 events.
+Weights: 3.04847e-13
+Processed 85600 events.
+Weights: 3.15265e-12
+Processed 85700 events.
+Weights: 9.09484e-10
+Processed 85800 events.
+Weights: 4.81461e-12
+Processed 85900 events.
+Weights: 8.81038e-10
+Processed 86000 events.
+Weights: 1.30636e-11
+Processed 86100 events.
+Weights: 1.64314e-10
+Processed 86200 events.
+Weights: 1.0941e-11
+Processed 86300 events.
+Weights: 9.39642e-11
+Processed 86400 events.
+Weights: 9.70381e-14
+Processed 86500 events.
+Weights: 3.11594e-09
+Processed 86600 events.
+Weights: 2.68723e-10
+Processed 86700 events.
+Weights: 3.59231e-14
+Processed 86800 events.
+Weights: 6.70853e-10
+Processed 86900 events.
+Weights: 4.99496e-09
+Processed 87000 events.
+Weights: 6.21065e-10
+Processed 87100 events.
+Weights: 4.25709e-10
+Processed 87200 events.
+Weights: 7.15681e-12
+Processed 87300 events.
+Weights: 1.76689e-09
+Processed 87400 events.
+Weights: 2.12132e-12
+Processed 87500 events.
+Weights: 3.96795e-09
+Processed 87600 events.
+Weights: 5.87137e-09
+Processed 87700 events.
+Weights: 1.42815e-09
+Processed 87800 events.
+Weights: 3.91462e-12
+Processed 87900 events.
+Weights: 6.95693e-12
+Processed 88000 events.
+Weights: 2.87635e-10
+Processed 88100 events.
+Weights: 4.60653e-10
+Processed 88200 events.
+Weights: 3.66179e-10
+Processed 88300 events.
+Weights: 4.37955e-12
+Processed 88400 events.
+Weights: 4.19226e-11
+Processed 88500 events.
+Weights: 9.62949e-12
+Processed 88600 events.
+Weights: 1.4113e-10
+Processed 88700 events.
+Weights: 1.29148e-11
+Processed 88800 events.
+Weights: 2.07107e-11
+Processed 88900 events.
+Weights: 1.93391e-09
+Processed 89000 events.
+Weights: 1.06979e-09
+Processed 89100 events.
+Weights: 1.08146e-11
+Processed 89200 events.
+Weights: 6.57313e-11
+Processed 89300 events.
+Weights: 2.32371e-10
+Processed 89400 events.
+Weights: 5.13582e-12
+Processed 89500 events.
+Weights: 4.66652e-09
+Processed 89600 events.
+Weights: 1.26967e-09
+Processed 89700 events.
+Weights: 9.2716e-10
+Processed 89800 events.
+Weights: 3.33817e-09
+Processed 89900 events.
+Weights: 6.00695e-13
+Processed 90000 events.
+Weights: 2.10746e-09
+Processed 90100 events.
+Weights: 6.32416e-11
+Processed 90200 events.
+Weights: 2.98421e-10
+Processed 90300 events.
+Weights: 1.87269e-12
+Processed 90400 events.
+Weights: 5.69005e-12
+Processed 90500 events.
+Weights: 1.1139e-11
+Processed 90600 events.
+Weights: 8.48122e-11
+Processed 90700 events.
+Weights: 6.78134e-09
+Processed 90800 events.
+Weights: 1.1569e-13
+Processed 90900 events.
+Weights: 4.72828e-09
+Processed 91000 events.
+Weights: 2.30758e-12
+Processed 91100 events.
+Weights: 6.47632e-11
+Processed 91200 events.
+Weights: 1.48463e-11
+Processed 91300 events.
+Weights: 6.70339e-11
+Processed 91400 events.
+Weights: 3.81831e-11
+Processed 91500 events.
+Weights: 1.88004e-12
+Processed 91600 events.
+Weights: 4.16989e-10
+Processed 91700 events.
+Weights: 4.14595e-12
+Processed 91800 events.
+Weights: 1.31334e-11
+Processed 91900 events.
+Weights: 9.81623e-12
+Processed 92000 events.
+Weights: 1.57428e-09
+Processed 92100 events.
+Weights: 3.5755e-11
+Processed 92200 events.
+Weights: 2.92399e-11
+Processed 92300 events.
+Weights: 2.42337e-11
+Processed 92400 events.
+Weights: 5.5053e-11
+Processed 92500 events.
+Weights: 1.13248e-10
+Processed 92600 events.
+Weights: 3.71959e-12
+Processed 92700 events.
+Weights: 7.04385e-09
+Processed 92800 events.
+Weights: 1.11641e-12
+Processed 92900 events.
+Weights: 9.07207e-10
+Processed 93000 events.
+Weights: 5.16506e-10
+Processed 93100 events.
+Weights: 6.16932e-09
+Processed 93200 events.
+Weights: 4.04209e-09
+Processed 93300 events.
+Weights: 1.71817e-12
+Processed 93400 events.
+Weights: 4.08817e-11
+Processed 93500 events.
+Weights: 6.34827e-11
+Processed 93600 events.
+Weights: 2.10814e-12
+Processed 93700 events.
+Weights: 2.45303e-09
+Processed 93800 events.
+Weights: 7.61906e-09
+Processed 93900 events.
+Weights: 1.59401e-11
+Processed 94000 events.
+Weights: 3.35275e-10
+Processed 94100 events.
+Weights: 1.10264e-11
+Processed 94200 events.
+Weights: 4.45074e-11
+Processed 94300 events.
+Weights: 1.58176e-13
+Processed 94400 events.
+Weights: 5.55735e-09
+Processed 94500 events.
+Weights: 1.95294e-10
+Processed 94600 events.
+Weights: 8.73828e-11
+Processed 94700 events.
+Weights: 3.73489e-09
+Processed 94800 events.
+Weights: 2.55715e-13
+Processed 94900 events.
+Weights: 6.86364e-09
+Processed 95000 events.
+Weights: 1.27941e-10
+Processed 95100 events.
+Weights: 4.5774e-11
+Processed 95200 events.
+Weights: 1.24137e-12
+Processed 95300 events.
+Weights: 3.87118e-09
+Processed 95400 events.
+Weights: 4.37796e-12
+Processed 95500 events.
+Weights: 3.13685e-11
+Processed 95600 events.
+Weights: 5.23302e-09
+Processed 95700 events.
+Weights: 1.14959e-10
+Processed 95800 events.
+Weights: 6.87871e-11
+Processed 95900 events.
+Weights: 1.41434e-10
+Processed 96000 events.
+Weights: 2.30063e-10
+Processed 96100 events.
+Weights: 2.20777e-09
+Processed 96200 events.
+Weights: 1.61871e-11
+Processed 96300 events.
+Weights: 1.77185e-10
+Processed 96400 events.
+Weights: 1.26975e-12
+Processed 96500 events.
+Weights: 1.44065e-10
+Processed 96600 events.
+Weights: 2.06509e-11
+Processed 96700 events.
+Weights: 3.43507e-09
+Processed 96800 events.
+Weights: 1.04726e-10
+Processed 96900 events.
+Weights: 1.9393e-10
+Processed 97000 events.
+Weights: 2.48696e-09
+Processed 97100 events.
+Weights: 7.2622e-09
+Processed 97200 events.
+Weights: 6.38538e-12
+Processed 97300 events.
+Weights: 4.50255e-09
+Processed 97400 events.
+Weights: 1.94886e-09
+Processed 97500 events.
+Weights: 5.04335e-09
+Processed 97600 events.
+Weights: 1.86066e-11
+Processed 97700 events.
+Weights: 1.00963e-09
+Processed 97800 events.
+Weights: 2.26813e-11
+Processed 97900 events.
+Weights: 6.94313e-14
+Processed 98000 events.
+Weights: 2.48646e-10
+Processed 98100 events.
+Weights: 1.47521e-11
+Processed 98200 events.
+Weights: 3.20668e-10
+Processed 98300 events.
+Weights: 4.62986e-11
+Processed 98400 events.
+Weights: 2.35964e-10
+Processed 98500 events.
+Weights: 1.18182e-12
+Processed 98600 events.
+Weights: 1.02263e-09
+Processed 98700 events.
+Weights: 9.24403e-10
+Processed 98800 events.
+Weights: 4.20622e-10
+Processed 98900 events.
+Weights: 2.24682e-11
+Processed 99000 events.
+Weights: 8.54898e-10
+Processed 99100 events.
+Weights: 2.5198e-10
+Processed 99200 events.
+Weights: 2.14734e-10
+Processed 99300 events.
+Weights: 1.01399e-09
+Processed 99400 events.
+Weights: 1.36794e-11
+Processed 99500 events.
+Weights: 3.33343e-12
+Processed 99600 events.
+Weights: 3.82269e-13
+Processed 99700 events.
+Weights: 3.96637e-11
+Processed 99800 events.
+Weights: 2.56936e-10
+Processed 99900 events.
+Weights: 5.96196e-10
+Done. Processed 99994 events.
+[run] Finished. Output written to /home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo//033126ValidationAJ/Jewel_pbpb_100K_2760GeV_ptm250_C10_med_12345.root

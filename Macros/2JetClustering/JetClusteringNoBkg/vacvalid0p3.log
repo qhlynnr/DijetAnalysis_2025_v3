@@ -1,0 +1,2366 @@
+Compiling JetClusteringWithNoBkg.cpp ...
+Running JetClusteringWithNoBkg ...
+Number of entries in /home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/033126ValidationAJ/Jewel_pbpb_100K_2760GeV_ptm250_C10_vac_12345.root: 100000
+Processing event 0 / 100000
+  Number of JEWEL particles: 222
+  Total number of particles for clustering: 220
+#--------------------------------------------------------------------------
+#                         FastJet release 3.4.2
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the GNU GPL v2 or higher.  
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+Processed 0 events.
+Event weight: 8.03886e-11
+Event 0 summary:
+  Number of particles: 222
+  Number of jets found: 6
+  Leading jet pt: 88.46
+  Subleading jet pt: 63.989
+  A_J: 0.16052
+  X_J: 0.723366
+  dPhi: 2.98815
+  ET_miss_jet: 6.43563
+  ET_miss_particle: 8.8871e-05
+Event 1 summary:
+  Number of particles: 188
+  Number of jets found: 3
+  Leading jet pt: 64.1288
+  Subleading jet pt: 57.7312
+  A_J: 0.0524996
+  X_J: 0.900238
+  dPhi: -2.96093
+  ET_miss_jet: 9.33855
+  ET_miss_particle: 4.02707e-05
+Event 2 summary:
+  Number of particles: 118
+  Number of jets found: 2
+  Leading jet pt: 64.8899
+  Subleading jet pt: 59.4708
+  A_J: 0.0435753
+  X_J: 0.916488
+  dPhi: 3.0921
+  ET_miss_jet: 6.23047
+  ET_miss_particle: 4.05136e-05
+Event 3 summary:
+  Number of particles: 214
+  Number of jets found: 5
+  Leading jet pt: 62.7226
+  Subleading jet pt: 38.5087
+  A_J: 0.239193
+  X_J: 0.613953
+  dPhi: -2.87094
+  ET_miss_jet: 23.1498
+  ET_miss_particle: 1.56301e-05
+Event 4 summary:
+  Number of particles: 123
+  Number of jets found: 4
+  Leading jet pt: 38.8407
+  Subleading jet pt: 36.2524
+  A_J: 0.0344674
+  X_J: 0.933362
+  dPhi: 2.67331
+  ET_miss_jet: 9.94489
+  ET_miss_particle: 3.39049e-05
+Processed 100 events.
+Event weight: 2.51906e-12
+Processed 200 events.
+Event weight: 4.38048e-09
+Processed 300 events.
+Event weight: 1.10005e-11
+Processed 400 events.
+Event weight: 3.57011e-10
+Processed 500 events.
+Event weight: 1.02471e-12
+Processed 600 events.
+Event weight: 5.09308e-10
+Processed 700 events.
+Event weight: 2.94969e-12
+Processed 800 events.
+Event weight: 6.54246e-10
+Processed 900 events.
+Event weight: 3.84348e-11
+Processing event 1000 / 100000
+  Number of JEWEL particles: 143
+  Total number of particles for clustering: 141
+Processed 1000 events.
+Event weight: 4.66216e-10
+Processed 1100 events.
+Event weight: 1.55139e-09
+Processed 1200 events.
+Event weight: 2.3963e-11
+Processed 1300 events.
+Event weight: 3.82025e-12
+Processed 1400 events.
+Event weight: 3.68862e-09
+Processed 1500 events.
+Event weight: 1.42865e-11
+Processed 1600 events.
+Event weight: 1.01656e-09
+Processed 1700 events.
+Event weight: 1.44615e-09
+Processed 1800 events.
+Event weight: 2.701e-11
+Processed 1900 events.
+Event weight: 4.96368e-09
+Processing event 2000 / 100000
+  Number of JEWEL particles: 129
+  Total number of particles for clustering: 127
+Processed 2000 events.
+Event weight: 6.20366e-10
+Processed 2100 events.
+Event weight: 2.72377e-10
+Processed 2200 events.
+Event weight: 1.34071e-09
+Processed 2300 events.
+Event weight: 1.94746e-10
+Processed 2400 events.
+Event weight: 3.10921e-11
+Processed 2500 events.
+Event weight: 5.07917e-11
+Processed 2600 events.
+Event weight: 4.63249e-11
+Processed 2700 events.
+Event weight: 1.32042e-12
+Processed 2800 events.
+Event weight: 3.36583e-11
+Processed 2900 events.
+Event weight: 1.16814e-12
+Processing event 3000 / 100000
+  Number of JEWEL particles: 157
+  Total number of particles for clustering: 155
+Processed 3000 events.
+Event weight: 8.36698e-12
+Processed 3100 events.
+Event weight: 2.16467e-10
+Processed 3200 events.
+Event weight: 1.96538e-09
+Processed 3300 events.
+Event weight: 7.33366e-10
+Processed 3400 events.
+Event weight: 2.95574e-10
+Processed 3500 events.
+Event weight: 2.42483e-11
+Processed 3600 events.
+Event weight: 3.92723e-09
+Processed 3700 events.
+Event weight: 9.64539e-09
+Processed 3800 events.
+Event weight: 3.61617e-09
+Processed 3900 events.
+Event weight: 9.76494e-10
+Processing event 4000 / 100000
+  Number of JEWEL particles: 116
+  Total number of particles for clustering: 114
+Processed 4000 events.
+Event weight: 7.37768e-09
+Processed 4100 events.
+Event weight: 2.80041e-11
+Processed 4200 events.
+Event weight: 2.14675e-11
+Processed 4300 events.
+Event weight: 1.77582e-13
+Processed 4400 events.
+Event weight: 4.10462e-12
+Processed 4500 events.
+Event weight: 1.41074e-09
+Processed 4600 events.
+Event weight: 2.05221e-09
+Processed 4700 events.
+Event weight: 4.40763e-09
+Processed 4800 events.
+Event weight: 1.73374e-10
+Processed 4900 events.
+Event weight: 1.22319e-10
+Processing event 5000 / 100000
+  Number of JEWEL particles: 164
+  Total number of particles for clustering: 162
+Processed 5000 events.
+Event weight: 6.42125e-12
+Processed 5100 events.
+Event weight: 1.31017e-13
+Processed 5200 events.
+Event weight: 4.31589e-13
+Processed 5300 events.
+Event weight: 2.07464e-09
+Processed 5400 events.
+Event weight: 8.88635e-10
+Processed 5500 events.
+Event weight: 1.29257e-10
+Processed 5600 events.
+Event weight: 4.40912e-09
+Processed 5700 events.
+Event weight: 5.67525e-13
+Processed 5800 events.
+Event weight: 9.02698e-11
+Processed 5900 events.
+Event weight: 2.32556e-10
+Processing event 6000 / 100000
+  Number of JEWEL particles: 188
+  Total number of particles for clustering: 185
+Processed 6000 events.
+Event weight: 1.66293e-09
+Processed 6100 events.
+Event weight: 2.71018e-13
+Processed 6200 events.
+Event weight: 3.80759e-12
+Processed 6300 events.
+Event weight: 3.85911e-11
+Processed 6400 events.
+Event weight: 9.29876e-11
+Processed 6500 events.
+Event weight: 4.46135e-14
+Processed 6600 events.
+Event weight: 6.13112e-13
+Processed 6700 events.
+Event weight: 5.10617e-10
+Processed 6800 events.
+Event weight: 4.96602e-09
+Processed 6900 events.
+Event weight: 8.55354e-13
+Processing event 7000 / 100000
+  Number of JEWEL particles: 165
+  Total number of particles for clustering: 163
+Processed 7000 events.
+Event weight: 3.47958e-12
+Processed 7100 events.
+Event weight: 4.82378e-09
+Processed 7200 events.
+Event weight: 3.34922e-10
+Processed 7300 events.
+Event weight: 2.67644e-13
+Processed 7400 events.
+Event weight: 1.07575e-13
+Processed 7500 events.
+Event weight: 1.15014e-09
+Processed 7600 events.
+Event weight: 2.01556e-11
+Processed 7700 events.
+Event weight: 4.92176e-11
+Processed 7800 events.
+Event weight: 2.15111e-12
+Processed 7900 events.
+Event weight: 2.85651e-10
+Processing event 8000 / 100000
+  Number of JEWEL particles: 249
+  Total number of particles for clustering: 247
+Processed 8000 events.
+Event weight: 1.93547e-11
+Processed 8100 events.
+Event weight: 7.65877e-10
+Processed 8200 events.
+Event weight: 1.14824e-11
+Processed 8300 events.
+Event weight: 3.0683e-12
+Processed 8400 events.
+Event weight: 2.93334e-12
+Processed 8500 events.
+Event weight: 6.20588e-09
+Processed 8600 events.
+Event weight: 5.37221e-13
+Processed 8700 events.
+Event weight: 7.89865e-10
+Processed 8800 events.
+Event weight: 1.8237e-09
+Processed 8900 events.
+Event weight: 5.54446e-10
+Processing event 9000 / 100000
+  Number of JEWEL particles: 148
+  Total number of particles for clustering: 146
+Processed 9000 events.
+Event weight: 2.9466e-10
+Processed 9100 events.
+Event weight: 3.48874e-11
+Processed 9200 events.
+Event weight: 5.26229e-09
+Processed 9300 events.
+Event weight: 6.08202e-12
+Processed 9400 events.
+Event weight: 2.61503e-10
+Processed 9500 events.
+Event weight: 1.55097e-12
+Processed 9600 events.
+Event weight: 1.13457e-11
+Processed 9700 events.
+Event weight: 5.91711e-10
+Processed 9800 events.
+Event weight: 3.72548e-15
+Processed 9900 events.
+Event weight: 3.38599e-11
+Processing event 10000 / 100000
+  Number of JEWEL particles: 171
+  Total number of particles for clustering: 169
+Processed 10000 events.
+Event weight: 2.4631e-09
+Processed 10100 events.
+Event weight: 1.37968e-11
+Processed 10200 events.
+Event weight: 1.99075e-09
+Processed 10300 events.
+Event weight: 2.39723e-10
+Processed 10400 events.
+Event weight: 6.43524e-11
+Processed 10500 events.
+Event weight: 4.04206e-11
+Processed 10600 events.
+Event weight: 3.03834e-10
+Processed 10700 events.
+Event weight: 2.77865e-12
+Processed 10800 events.
+Event weight: 4.85998e-13
+Processed 10900 events.
+Event weight: 6.61412e-11
+Processing event 11000 / 100000
+  Number of JEWEL particles: 141
+  Total number of particles for clustering: 139
+Processed 11000 events.
+Event weight: 6.44265e-12
+Processed 11100 events.
+Event weight: 8.924e-09
+Processed 11200 events.
+Event weight: 1.18864e-12
+Processed 11300 events.
+Event weight: 8.80722e-10
+Processed 11400 events.
+Event weight: 9.13869e-09
+Processed 11500 events.
+Event weight: 3.82887e-11
+Processed 11600 events.
+Event weight: 9.0552e-12
+Processed 11700 events.
+Event weight: 1.10774e-09
+Processed 11800 events.
+Event weight: 3.47163e-12
+Processed 11900 events.
+Event weight: 5.54754e-12
+Processing event 12000 / 100000
+  Number of JEWEL particles: 141
+  Total number of particles for clustering: 139
+Processed 12000 events.
+Event weight: 8.19741e-11
+Processed 12100 events.
+Event weight: 2.86743e-13
+Processed 12200 events.
+Event weight: 1.93681e-10
+Processed 12300 events.
+Event weight: 7.54654e-11
+Processed 12400 events.
+Event weight: 1.16162e-12
+Processed 12500 events.
+Event weight: 9.75613e-10
+Processed 12600 events.
+Event weight: 1.45516e-13
+Processed 12700 events.
+Event weight: 7.23192e-12
+Processed 12800 events.
+Event weight: 4.18057e-13
+Processed 12900 events.
+Event weight: 5.42074e-11
+Processing event 13000 / 100000
+  Number of JEWEL particles: 137
+  Total number of particles for clustering: 135
+Processed 13000 events.
+Event weight: 5.43657e-09
+Processed 13100 events.
+Event weight: 4.55498e-12
+Processed 13200 events.
+Event weight: 1.13186e-12
+Processed 13300 events.
+Event weight: 3.12367e-09
+Processed 13400 events.
+Event weight: 4.2225e-09
+Processed 13500 events.
+Event weight: 9.349e-09
+Processed 13600 events.
+Event weight: 6.11391e-11
+Processed 13700 events.
+Event weight: 1.63623e-12
+Processed 13800 events.
+Event weight: 8.53099e-13
+Processed 13900 events.
+Event weight: 1.59734e-09
+Processing event 14000 / 100000
+  Number of JEWEL particles: 117
+  Total number of particles for clustering: 115
+Processed 14000 events.
+Event weight: 3.82966e-13
+Processed 14100 events.
+Event weight: 1.46176e-12
+Processed 14200 events.
+Event weight: 2.35611e-09
+Processed 14300 events.
+Event weight: 8.48933e-11
+Processed 14400 events.
+Event weight: 9.66258e-11
+Processed 14500 events.
+Event weight: 7.02804e-11
+Processed 14600 events.
+Event weight: 9.28429e-09
+Processed 14700 events.
+Event weight: 3.51101e-11
+Processed 14800 events.
+Event weight: 2.17492e-09
+Processed 14900 events.
+Event weight: 5.16593e-11
+Processing event 15000 / 100000
+  Number of JEWEL particles: 126
+  Total number of particles for clustering: 124
+Processed 15000 events.
+Event weight: 7.76281e-10
+Processed 15100 events.
+Event weight: 1.9253e-12
+Processed 15200 events.
+Event weight: 5.52386e-09
+Processed 15300 events.
+Event weight: 7.40964e-10
+Processed 15400 events.
+Event weight: 1.68745e-12
+Processed 15500 events.
+Event weight: 5.24132e-13
+Processed 15600 events.
+Event weight: 4.59937e-11
+Processed 15700 events.
+Event weight: 7.85665e-09
+Processed 15800 events.
+Event weight: 9.66162e-13
+Processed 15900 events.
+Event weight: 1.57169e-11
+Processing event 16000 / 100000
+  Number of JEWEL particles: 126
+  Total number of particles for clustering: 124
+Processed 16000 events.
+Event weight: 1.00792e-11
+Processed 16100 events.
+Event weight: 1.39095e-12
+Processed 16200 events.
+Event weight: 8.89428e-11
+Processed 16300 events.
+Event weight: 6.11891e-11
+Processed 16400 events.
+Event weight: 4.39077e-09
+Processed 16500 events.
+Event weight: 6.21125e-13
+Processed 16600 events.
+Event weight: 8.28028e-13
+Processed 16700 events.
+Event weight: 5.18746e-10
+Processed 16800 events.
+Event weight: 7.30593e-10
+Processed 16900 events.
+Event weight: 4.23976e-12
+Processing event 17000 / 100000
+  Number of JEWEL particles: 142
+  Total number of particles for clustering: 140
+Processed 17000 events.
+Event weight: 5.17404e-09
+Processed 17100 events.
+Event weight: 4.28318e-10
+Processed 17200 events.
+Event weight: 8.17903e-11
+Processed 17300 events.
+Event weight: 2.62452e-10
+Processed 17400 events.
+Event weight: 1.88006e-09
+Processed 17500 events.
+Event weight: 4.12224e-11
+Processed 17600 events.
+Event weight: 8.44147e-11
+Processed 17700 events.
+Event weight: 3.86532e-09
+Processed 17800 events.
+Event weight: 9.33317e-09
+Processed 17900 events.
+Event weight: 1.43856e-11
+Processing event 18000 / 100000
+  Number of JEWEL particles: 189
+  Total number of particles for clustering: 187
+Processed 18000 events.
+Event weight: 7.30066e-10
+Processed 18100 events.
+Event weight: 1.95738e-10
+Processed 18200 events.
+Event weight: 1.6089e-13
+Processed 18300 events.
+Event weight: 2.44275e-12
+Processed 18400 events.
+Event weight: 4.43168e-09
+Processed 18500 events.
+Event weight: 7.66391e-12
+Processed 18600 events.
+Event weight: 4.94746e-09
+Processed 18700 events.
+Event weight: 4.09035e-09
+Processed 18800 events.
+Event weight: 6.62247e-10
+Processed 18900 events.
+Event weight: 2.05964e-12
+Processing event 19000 / 100000
+  Number of JEWEL particles: 154
+  Total number of particles for clustering: 152
+Processed 19000 events.
+Event weight: 6.56062e-09
+Processed 19100 events.
+Event weight: 4.10429e-11
+Processed 19200 events.
+Event weight: 3.47046e-09
+Processed 19300 events.
+Event weight: 3.80216e-11
+Processed 19400 events.
+Event weight: 1.06808e-09
+Processed 19500 events.
+Event weight: 1.41628e-09
+Processed 19600 events.
+Event weight: 4.62967e-13
+Processed 19700 events.
+Event weight: 8.89136e-13
+Processed 19800 events.
+Event weight: 1.36749e-09
+Processed 19900 events.
+Event weight: 1.39323e-12
+Processing event 20000 / 100000
+  Number of JEWEL particles: 187
+  Total number of particles for clustering: 185
+Processed 20000 events.
+Event weight: 1.99778e-10
+Processed 20100 events.
+Event weight: 5.77459e-11
+Processed 20200 events.
+Event weight: 4.63256e-12
+Processed 20300 events.
+Event weight: 5.63764e-11
+Processed 20400 events.
+Event weight: 5.26962e-10
+Processed 20500 events.
+Event weight: 1.1727e-10
+Processed 20600 events.
+Event weight: 3.01815e-09
+Processed 20700 events.
+Event weight: 5.50141e-09
+Processed 20800 events.
+Event weight: 7.18046e-13
+Processed 20900 events.
+Event weight: 6.00924e-09
+Processing event 21000 / 100000
+  Number of JEWEL particles: 160
+  Total number of particles for clustering: 158
+Processed 21000 events.
+Event weight: 3.03667e-12
+Processed 21100 events.
+Event weight: 1.44668e-10
+Processed 21200 events.
+Event weight: 5.03949e-12
+Processed 21300 events.
+Event weight: 6.41722e-09
+Processed 21400 events.
+Event weight: 2.54193e-09
+Processed 21500 events.
+Event weight: 7.03817e-10
+Processed 21600 events.
+Event weight: 9.59809e-09
+Processed 21700 events.
+Event weight: 1.70547e-12
+Processed 21800 events.
+Event weight: 2.48457e-12
+Processed 21900 events.
+Event weight: 1.67812e-11
+Processing event 22000 / 100000
+  Number of JEWEL particles: 198
+  Total number of particles for clustering: 196
+Processed 22000 events.
+Event weight: 1.34981e-11
+Processed 22100 events.
+Event weight: 3.24565e-12
+Processed 22200 events.
+Event weight: 1.59164e-12
+Processed 22300 events.
+Event weight: 1.97703e-09
+Processed 22400 events.
+Event weight: 3.33067e-10
+Processed 22500 events.
+Event weight: 8.91015e-10
+Processed 22600 events.
+Event weight: 3.07042e-10
+Processed 22700 events.
+Event weight: 1.67516e-10
+Processed 22800 events.
+Event weight: 1.3636e-12
+Processed 22900 events.
+Event weight: 1.05084e-09
+Processing event 23000 / 100000
+  Number of JEWEL particles: 85
+  Total number of particles for clustering: 83
+Processed 23000 events.
+Event weight: 8.67577e-09
+Processed 23100 events.
+Event weight: 1.70383e-10
+Processed 23200 events.
+Event weight: 3.34477e-09
+Processed 23300 events.
+Event weight: 6.64471e-09
+Processed 23400 events.
+Event weight: 5.63676e-11
+Processed 23500 events.
+Event weight: 1.48815e-09
+Processed 23600 events.
+Event weight: 9.34149e-12
+Processed 23700 events.
+Event weight: 5.8027e-11
+Processed 23800 events.
+Event weight: 2.69711e-11
+Processed 23900 events.
+Event weight: 1.35613e-09
+Processing event 24000 / 100000
+  Number of JEWEL particles: 211
+  Total number of particles for clustering: 209
+Processed 24000 events.
+Event weight: 4.02033e-11
+Processed 24100 events.
+Event weight: 3.08164e-09
+Processed 24200 events.
+Event weight: 1.84664e-10
+Processed 24300 events.
+Event weight: 1.78611e-10
+Processed 24400 events.
+Event weight: 1.78241e-10
+Processed 24500 events.
+Event weight: 1.64916e-11
+Processed 24600 events.
+Event weight: 1.88783e-11
+Processed 24700 events.
+Event weight: 2.91228e-10
+Processed 24800 events.
+Event weight: 6.41204e-09
+Processed 24900 events.
+Event weight: 6.32027e-11
+Processing event 25000 / 100000
+  Number of JEWEL particles: 181
+  Total number of particles for clustering: 179
+Processed 25000 events.
+Event weight: 3.94974e-11
+Processed 25100 events.
+Event weight: 4.18223e-10
+Processed 25200 events.
+Event weight: 6.93147e-10
+Processed 25300 events.
+Event weight: 5.34932e-13
+Processed 25400 events.
+Event weight: 1.70732e-09
+Processed 25500 events.
+Event weight: 2.42433e-10
+Processed 25600 events.
+Event weight: 3.65947e-10
+Processed 25700 events.
+Event weight: 1.56882e-12
+Processed 25800 events.
+Event weight: 4.95487e-12
+Processed 25900 events.
+Event weight: 2.45528e-10
+Processing event 26000 / 100000
+  Number of JEWEL particles: 116
+  Total number of particles for clustering: 114
+Processed 26000 events.
+Event weight: 1.09626e-09
+Processed 26100 events.
+Event weight: 6.55903e-10
+Processed 26200 events.
+Event weight: 1.98366e-13
+Processed 26300 events.
+Event weight: 2.88375e-09
+Processed 26400 events.
+Event weight: 8.4026e-13
+Processed 26500 events.
+Event weight: 3.90264e-10
+Processed 26600 events.
+Event weight: 3.26628e-12
+Processed 26700 events.
+Event weight: 1.4848e-11
+Processed 26800 events.
+Event weight: 3.30461e-09
+Processed 26900 events.
+Event weight: 4.74245e-10
+Processing event 27000 / 100000
+  Number of JEWEL particles: 198
+  Total number of particles for clustering: 196
+Processed 27000 events.
+Event weight: 1.05776e-11
+Processed 27100 events.
+Event weight: 5.45292e-11
+Processed 27200 events.
+Event weight: 1.29421e-10
+Processed 27300 events.
+Event weight: 2.46166e-12
+Processed 27400 events.
+Event weight: 1.12334e-12
+Processed 27500 events.
+Event weight: 2.47413e-10
+Processed 27600 events.
+Event weight: 3.04248e-12
+Processed 27700 events.
+Event weight: 3.85532e-11
+Processed 27800 events.
+Event weight: 1.74883e-12
+Processed 27900 events.
+Event weight: 2.36207e-10
+Processing event 28000 / 100000
+  Number of JEWEL particles: 200
+  Total number of particles for clustering: 198
+Processed 28000 events.
+Event weight: 5.11168e-10
+Processed 28100 events.
+Event weight: 3.0382e-13
+Processed 28200 events.
+Event weight: 5.37348e-11
+Processed 28300 events.
+Event weight: 2.89788e-10
+Processed 28400 events.
+Event weight: 1.29027e-10
+Processed 28500 events.
+Event weight: 1.03289e-09
+Processed 28600 events.
+Event weight: 5.19932e-11
+Processed 28700 events.
+Event weight: 3.26798e-10
+Processed 28800 events.
+Event weight: 6.10978e-11
+Processed 28900 events.
+Event weight: 7.22419e-12
+Processing event 29000 / 100000
+  Number of JEWEL particles: 150
+  Total number of particles for clustering: 148
+Processed 29000 events.
+Event weight: 3.86929e-09
+Processed 29100 events.
+Event weight: 1.08923e-10
+Processed 29200 events.
+Event weight: 1.00774e-10
+Processed 29300 events.
+Event weight: 7.40512e-12
+Processed 29400 events.
+Event weight: 8.77833e-10
+Processed 29500 events.
+Event weight: 1.21821e-11
+Processed 29600 events.
+Event weight: 1.60377e-11
+Processed 29700 events.
+Event weight: 1.17856e-14
+Processed 29800 events.
+Event weight: 5.72645e-12
+Processed 29900 events.
+Event weight: 3.39288e-10
+Processing event 30000 / 100000
+  Number of JEWEL particles: 135
+  Total number of particles for clustering: 133
+Processed 30000 events.
+Event weight: 5.01169e-09
+Processed 30100 events.
+Event weight: 1.53806e-12
+Processed 30200 events.
+Event weight: 1.04996e-11
+Processed 30300 events.
+Event weight: 2.31493e-13
+Processed 30400 events.
+Event weight: 3.74549e-10
+Processed 30500 events.
+Event weight: 4.56715e-13
+Processed 30600 events.
+Event weight: 3.48813e-09
+Processed 30700 events.
+Event weight: 2.29772e-10
+Processed 30800 events.
+Event weight: 1.05663e-11
+Processed 30900 events.
+Event weight: 1.74799e-10
+Processing event 31000 / 100000
+  Number of JEWEL particles: 162
+  Total number of particles for clustering: 160
+Processed 31000 events.
+Event weight: 5.04092e-10
+Processed 31100 events.
+Event weight: 5.90159e-12
+Processed 31200 events.
+Event weight: 7.95165e-10
+Processed 31300 events.
+Event weight: 2.25675e-13
+Processed 31400 events.
+Event weight: 3.73113e-10
+Processed 31500 events.
+Event weight: 1.83086e-12
+Processed 31600 events.
+Event weight: 8.67834e-10
+Processed 31700 events.
+Event weight: 3.71926e-10
+Processed 31800 events.
+Event weight: 2.71374e-13
+Processed 31900 events.
+Event weight: 2.98543e-12
+Processing event 32000 / 100000
+  Number of JEWEL particles: 223
+  Total number of particles for clustering: 221
+Processed 32000 events.
+Event weight: 5.50981e-13
+Processed 32100 events.
+Event weight: 3.38803e-11
+Processed 32200 events.
+Event weight: 5.27414e-13
+Processed 32300 events.
+Event weight: 1.49789e-09
+Processed 32400 events.
+Event weight: 7.46097e-12
+Processed 32500 events.
+Event weight: 2.89115e-13
+Processed 32600 events.
+Event weight: 1.01749e-10
+Processed 32700 events.
+Event weight: 3.08652e-09
+Processed 32800 events.
+Event weight: 8.3123e-12
+Processed 32900 events.
+Event weight: 6.8628e-11
+Processing event 33000 / 100000
+  Number of JEWEL particles: 168
+  Total number of particles for clustering: 166
+Processed 33000 events.
+Event weight: 6.41261e-12
+Processed 33100 events.
+Event weight: 3.34442e-11
+Processed 33200 events.
+Event weight: 8.5818e-14
+Processed 33300 events.
+Event weight: 8.17713e-09
+Processed 33400 events.
+Event weight: 7.53017e-13
+Processed 33500 events.
+Event weight: 1.3948e-09
+Processed 33600 events.
+Event weight: 4.57197e-11
+Processed 33700 events.
+Event weight: 1.30763e-11
+Processed 33800 events.
+Event weight: 5.89213e-11
+Processed 33900 events.
+Event weight: 9.83961e-12
+Processing event 34000 / 100000
+  Number of JEWEL particles: 111
+  Total number of particles for clustering: 109
+Processed 34000 events.
+Event weight: 2.69513e-13
+Processed 34100 events.
+Event weight: 2.10218e-10
+Processed 34200 events.
+Event weight: 1.10341e-12
+Processed 34300 events.
+Event weight: 3.44588e-14
+Processed 34400 events.
+Event weight: 2.33045e-09
+Processed 34500 events.
+Event weight: 7.78865e-13
+Processed 34600 events.
+Event weight: 2.59311e-11
+Processed 34700 events.
+Event weight: 1.15772e-11
+Processed 34800 events.
+Event weight: 2.12743e-11
+Processed 34900 events.
+Event weight: 9.71498e-12
+Processing event 35000 / 100000
+  Number of JEWEL particles: 113
+  Total number of particles for clustering: 111
+Processed 35000 events.
+Event weight: 1.13985e-12
+Processed 35100 events.
+Event weight: 4.61349e-09
+Processed 35200 events.
+Event weight: 1.4159e-10
+Processed 35300 events.
+Event weight: 2.91081e-11
+Processed 35400 events.
+Event weight: 2.8529e-11
+Processed 35500 events.
+Event weight: 7.59606e-11
+Processed 35600 events.
+Event weight: 2.96657e-09
+Processed 35700 events.
+Event weight: 1.21041e-10
+Processed 35800 events.
+Event weight: 2.30422e-11
+Processed 35900 events.
+Event weight: 1.03977e-10
+Processing event 36000 / 100000
+  Number of JEWEL particles: 180
+  Total number of particles for clustering: 178
+Processed 36000 events.
+Event weight: 3.31992e-09
+Processed 36100 events.
+Event weight: 1.18089e-10
+Processed 36200 events.
+Event weight: 1.33752e-13
+Processed 36300 events.
+Event weight: 2.88996e-09
+Processed 36400 events.
+Event weight: 3.04635e-10
+Processed 36500 events.
+Event weight: 1.6592e-12
+Processed 36600 events.
+Event weight: 1.49498e-09
+Processed 36700 events.
+Event weight: 2.42297e-10
+Processed 36800 events.
+Event weight: 8.06068e-13
+Processed 36900 events.
+Event weight: 9.08232e-13
+Processing event 37000 / 100000
+  Number of JEWEL particles: 167
+  Total number of particles for clustering: 165
+Processed 37000 events.
+Event weight: 3.21405e-09
+Processed 37100 events.
+Event weight: 7.62005e-11
+Processed 37200 events.
+Event weight: 2.18639e-10
+Processed 37300 events.
+Event weight: 9.78706e-10
+Processed 37400 events.
+Event weight: 8.24361e-11
+Processed 37500 events.
+Event weight: 2.79183e-09
+Processed 37600 events.
+Event weight: 8.35243e-12
+Processed 37700 events.
+Event weight: 1.12174e-11
+Processed 37800 events.
+Event weight: 2.83488e-09
+Processed 37900 events.
+Event weight: 1.82641e-10
+Processing event 38000 / 100000
+  Number of JEWEL particles: 224
+  Total number of particles for clustering: 222
+Processed 38000 events.
+Event weight: 1.19424e-12
+Processed 38100 events.
+Event weight: 2.90691e-10
+Processed 38200 events.
+Event weight: 6.85599e-11
+Processed 38300 events.
+Event weight: 5.03136e-11
+Processed 38400 events.
+Event weight: 3.35846e-12
+Processed 38500 events.
+Event weight: 2.99791e-11
+Processed 38600 events.
+Event weight: 1.8785e-09
+Processed 38700 events.
+Event weight: 3.60504e-14
+Processed 38800 events.
+Event weight: 2.4191e-10
+Processed 38900 events.
+Event weight: 4.55823e-11
+Processing event 39000 / 100000
+  Number of JEWEL particles: 165
+  Total number of particles for clustering: 163
+Processed 39000 events.
+Event weight: 9.76194e-11
+Processed 39100 events.
+Event weight: 2.51707e-12
+Processed 39200 events.
+Event weight: 3.64698e-12
+Processed 39300 events.
+Event weight: 2.60941e-10
+Processed 39400 events.
+Event weight: 1.12917e-12
+Processed 39500 events.
+Event weight: 7.96231e-11
+Processed 39600 events.
+Event weight: 1.15183e-09
+Processed 39700 events.
+Event weight: 3.54801e-11
+Processed 39800 events.
+Event weight: 4.92886e-09
+Processed 39900 events.
+Event weight: 4.40959e-11
+Processing event 40000 / 100000
+  Number of JEWEL particles: 173
+  Total number of particles for clustering: 171
+Processed 40000 events.
+Event weight: 1.19071e-10
+Processed 40100 events.
+Event weight: 3.63612e-11
+Processed 40200 events.
+Event weight: 4.61631e-13
+Processed 40300 events.
+Event weight: 1.85874e-11
+Processed 40400 events.
+Event weight: 1.28923e-10
+Processed 40500 events.
+Event weight: 1.31296e-10
+Processed 40600 events.
+Event weight: 7.62142e-10
+Processed 40700 events.
+Event weight: 3.63549e-09
+Processed 40800 events.
+Event weight: 6.78601e-10
+Processed 40900 events.
+Event weight: 6.57398e-10
+Processing event 41000 / 100000
+  Number of JEWEL particles: 134
+  Total number of particles for clustering: 132
+Processed 41000 events.
+Event weight: 9.48463e-10
+Processed 41100 events.
+Event weight: 2.04622e-13
+Processed 41200 events.
+Event weight: 2.4113e-09
+Processed 41300 events.
+Event weight: 5.23791e-12
+Processed 41400 events.
+Event weight: 5.99472e-09
+Processed 41500 events.
+Event weight: 1.0344e-10
+Processed 41600 events.
+Event weight: 7.0502e-14
+Processed 41700 events.
+Event weight: 7.96186e-14
+Processed 41800 events.
+Event weight: 1.66459e-09
+Processed 41900 events.
+Event weight: 7.97503e-09
+Processing event 42000 / 100000
+  Number of JEWEL particles: 154
+  Total number of particles for clustering: 152
+Processed 42000 events.
+Event weight: 6.29819e-10
+Processed 42100 events.
+Event weight: 1.246e-12
+Processed 42200 events.
+Event weight: 1.80506e-09
+Processed 42300 events.
+Event weight: 5.83382e-11
+Processed 42400 events.
+Event weight: 2.43519e-11
+Processed 42500 events.
+Event weight: 1.51409e-12
+Processed 42600 events.
+Event weight: 1.36881e-11
+Processed 42700 events.
+Event weight: 3.26603e-09
+Processed 42800 events.
+Event weight: 4.04768e-10
+Processed 42900 events.
+Event weight: 6.6239e-09
+Processing event 43000 / 100000
+  Number of JEWEL particles: 262
+  Total number of particles for clustering: 260
+Processed 43000 events.
+Event weight: 6.08528e-13
+Processed 43100 events.
+Event weight: 7.4181e-12
+Processed 43200 events.
+Event weight: 1.59685e-10
+Processed 43300 events.
+Event weight: 1.62388e-10
+Processed 43400 events.
+Event weight: 2.39539e-10
+Processed 43500 events.
+Event weight: 3.77069e-10
+Processed 43600 events.
+Event weight: 6.20644e-09
+Processed 43700 events.
+Event weight: 6.06622e-11
+Processed 43800 events.
+Event weight: 5.03498e-12
+Processed 43900 events.
+Event weight: 1.19037e-11
+Processing event 44000 / 100000
+  Number of JEWEL particles: 125
+  Total number of particles for clustering: 123
+Processed 44000 events.
+Event weight: 7.50069e-10
+Processed 44100 events.
+Event weight: 1.14233e-11
+Processed 44200 events.
+Event weight: 3.24119e-10
+Processed 44300 events.
+Event weight: 2.01991e-13
+Processed 44400 events.
+Event weight: 8.79063e-11
+Processed 44500 events.
+Event weight: 3.17066e-11
+Processed 44600 events.
+Event weight: 2.92583e-12
+Processed 44700 events.
+Event weight: 1.86338e-10
+Processed 44800 events.
+Event weight: 9.56506e-12
+Processed 44900 events.
+Event weight: 1.52331e-12
+Processing event 45000 / 100000
+  Number of JEWEL particles: 237
+  Total number of particles for clustering: 235
+Processed 45000 events.
+Event weight: 1.46235e-11
+Processed 45100 events.
+Event weight: 1.32047e-11
+Processed 45200 events.
+Event weight: 7.94056e-09
+Processed 45300 events.
+Event weight: 3.4861e-12
+Processed 45400 events.
+Event weight: 3.85191e-09
+Processed 45500 events.
+Event weight: 3.84893e-13
+Processed 45600 events.
+Event weight: 3.00299e-12
+Processed 45700 events.
+Event weight: 2.52163e-10
+Processed 45800 events.
+Event weight: 5.69492e-12
+Processed 45900 events.
+Event weight: 2.15133e-12
+Processing event 46000 / 100000
+  Number of JEWEL particles: 92
+  Total number of particles for clustering: 90
+Processed 46000 events.
+Event weight: 2.8098e-09
+Processed 46100 events.
+Event weight: 1.40406e-09
+Processed 46200 events.
+Event weight: 1.40815e-10
+Processed 46300 events.
+Event weight: 2.33121e-09
+Processed 46400 events.
+Event weight: 5.44612e-10
+Processed 46500 events.
+Event weight: 9.28497e-13
+Processed 46600 events.
+Event weight: 9.08583e-13
+Processed 46700 events.
+Event weight: 3.18617e-11
+Processed 46800 events.
+Event weight: 4.83295e-09
+Processed 46900 events.
+Event weight: 2.557e-14
+Processing event 47000 / 100000
+  Number of JEWEL particles: 243
+  Total number of particles for clustering: 241
+Processed 47000 events.
+Event weight: 7.24565e-12
+Processed 47100 events.
+Event weight: 6.36937e-10
+Processed 47200 events.
+Event weight: 2.09709e-09
+Processed 47300 events.
+Event weight: 7.08295e-12
+Processed 47400 events.
+Event weight: 1.34771e-13
+Processed 47500 events.
+Event weight: 5.32933e-10
+Processed 47600 events.
+Event weight: 2.54777e-09
+Processed 47700 events.
+Event weight: 1.64348e-10
+Processed 47800 events.
+Event weight: 2.07367e-10
+Processed 47900 events.
+Event weight: 1.5051e-11
+Processing event 48000 / 100000
+  Number of JEWEL particles: 162
+  Total number of particles for clustering: 160
+Processed 48000 events.
+Event weight: 1.12895e-09
+Processed 48100 events.
+Event weight: 4.16854e-09
+Processed 48200 events.
+Event weight: 1.98017e-10
+Processed 48300 events.
+Event weight: 2.01169e-10
+Processed 48400 events.
+Event weight: 2.60259e-09
+Processed 48500 events.
+Event weight: 2.19803e-09
+Processed 48600 events.
+Event weight: 1.47863e-09
+Processed 48700 events.
+Event weight: 1.95629e-11
+Processed 48800 events.
+Event weight: 1.18439e-11
+Processed 48900 events.
+Event weight: 5.78602e-10
+Processing event 49000 / 100000
+  Number of JEWEL particles: 169
+  Total number of particles for clustering: 167
+Processed 49000 events.
+Event weight: 1.90974e-14
+Processed 49100 events.
+Event weight: 6.55023e-09
+Processed 49200 events.
+Event weight: 4.06032e-09
+Processed 49300 events.
+Event weight: 1.29907e-10
+Processed 49400 events.
+Event weight: 3.31996e-10
+Processed 49500 events.
+Event weight: 6.02926e-13
+Processed 49600 events.
+Event weight: 2.5105e-11
+Processed 49700 events.
+Event weight: 1.19936e-12
+Processed 49800 events.
+Event weight: 1.48721e-11
+Processed 49900 events.
+Event weight: 1.21363e-13
+Processing event 50000 / 100000
+  Number of JEWEL particles: 183
+  Total number of particles for clustering: 181
+Processed 50000 events.
+Event weight: 7.38624e-12
+Processed 50100 events.
+Event weight: 2.87896e-13
+Processed 50200 events.
+Event weight: 3.66836e-11
+Processed 50300 events.
+Event weight: 1.33143e-09
+Processed 50400 events.
+Event weight: 1.3148e-11
+Processed 50500 events.
+Event weight: 1.45622e-10
+Processed 50600 events.
+Event weight: 5.04858e-09
+Processed 50700 events.
+Event weight: 3.23546e-12
+Processed 50800 events.
+Event weight: 1.48949e-11
+Processed 50900 events.
+Event weight: 3.9873e-14
+Processing event 51000 / 100000
+  Number of JEWEL particles: 144
+  Total number of particles for clustering: 142
+Processed 51000 events.
+Event weight: 8.91678e-12
+Processed 51100 events.
+Event weight: 4.18281e-11
+Processed 51200 events.
+Event weight: 1.19868e-10
+Processed 51300 events.
+Event weight: 1.6281e-11
+Processed 51400 events.
+Event weight: 9.33856e-09
+Processed 51500 events.
+Event weight: 4.40429e-13
+Processed 51600 events.
+Event weight: 7.58439e-14
+Processed 51700 events.
+Event weight: 9.70976e-12
+Processed 51800 events.
+Event weight: 2.74695e-10
+Processed 51900 events.
+Event weight: 7.96821e-09
+Processing event 52000 / 100000
+  Number of JEWEL particles: 163
+  Total number of particles for clustering: 161
+Processed 52000 events.
+Event weight: 2.44343e-13
+Processed 52100 events.
+Event weight: 3.9064e-11
+Processed 52200 events.
+Event weight: 4.65269e-11
+Processed 52300 events.
+Event weight: 1.51857e-09
+Processed 52400 events.
+Event weight: 8.5133e-10
+Processed 52500 events.
+Event weight: 3.57238e-11
+Processed 52600 events.
+Event weight: 7.43777e-09
+Processed 52700 events.
+Event weight: 5.13653e-09
+Processed 52800 events.
+Event weight: 1.7573e-09
+Processed 52900 events.
+Event weight: 4.08311e-11
+Processing event 53000 / 100000
+  Number of JEWEL particles: 194
+  Total number of particles for clustering: 192
+Processed 53000 events.
+Event weight: 3.39879e-09
+Processed 53100 events.
+Event weight: 2.15147e-14
+Processed 53200 events.
+Event weight: 7.02924e-12
+Processed 53300 events.
+Event weight: 8.41748e-11
+Processed 53400 events.
+Event weight: 3.6075e-10
+Processed 53500 events.
+Event weight: 7.47101e-09
+Processed 53600 events.
+Event weight: 4.18603e-11
+Processed 53700 events.
+Event weight: 4.94058e-11
+Processed 53800 events.
+Event weight: 2.93197e-09
+Processed 53900 events.
+Event weight: 1.28396e-11
+Processing event 54000 / 100000
+  Number of JEWEL particles: 84
+  Total number of particles for clustering: 82
+Processed 54000 events.
+Event weight: 1.95718e-09
+Processed 54100 events.
+Event weight: 9.75704e-11
+Processed 54200 events.
+Event weight: 8.65109e-12
+Processed 54300 events.
+Event weight: 4.14332e-13
+Processed 54400 events.
+Event weight: 7.0363e-12
+Processed 54500 events.
+Event weight: 1.58927e-11
+Processed 54600 events.
+Event weight: 1.10481e-09
+Processed 54700 events.
+Event weight: 2.54314e-09
+Processed 54800 events.
+Event weight: 5.01246e-12
+Processed 54900 events.
+Event weight: 8.77352e-10
+Processing event 55000 / 100000
+  Number of JEWEL particles: 182
+  Total number of particles for clustering: 180
+Processed 55000 events.
+Event weight: 3.17839e-09
+Processed 55100 events.
+Event weight: 2.13829e-09
+Processed 55200 events.
+Event weight: 4.2656e-13
+Processed 55300 events.
+Event weight: 1.29861e-12
+Processed 55400 events.
+Event weight: 9.06508e-12
+Processed 55500 events.
+Event weight: 4.69944e-14
+Processed 55600 events.
+Event weight: 3.50622e-10
+Processed 55700 events.
+Event weight: 9.18771e-11
+Processed 55800 events.
+Event weight: 2.9547e-10
+Processed 55900 events.
+Event weight: 1.24356e-10
+Processing event 56000 / 100000
+  Number of JEWEL particles: 185
+  Total number of particles for clustering: 183
+Processed 56000 events.
+Event weight: 2.14656e-10
+Processed 56100 events.
+Event weight: 7.40118e-10
+Processed 56200 events.
+Event weight: 1.68692e-13
+Processed 56300 events.
+Event weight: 1.70071e-10
+Processed 56400 events.
+Event weight: 6.13225e-09
+Processed 56500 events.
+Event weight: 7.77907e-11
+Processed 56600 events.
+Event weight: 1.3724e-12
+Processed 56700 events.
+Event weight: 1.11851e-11
+Processed 56800 events.
+Event weight: 3.18162e-09
+Processed 56900 events.
+Event weight: 2.24205e-09
+Processing event 57000 / 100000
+  Number of JEWEL particles: 189
+  Total number of particles for clustering: 187
+Processed 57000 events.
+Event weight: 2.03399e-11
+Processed 57100 events.
+Event weight: 4.26946e-09
+Processed 57200 events.
+Event weight: 3.04052e-13
+Processed 57300 events.
+Event weight: 4.27054e-13
+Processed 57400 events.
+Event weight: 2.8379e-09
+Processed 57500 events.
+Event weight: 2.60729e-13
+Processed 57600 events.
+Event weight: 1.74898e-09
+Processed 57700 events.
+Event weight: 2.24532e-14
+Processed 57800 events.
+Event weight: 4.2818e-09
+Processed 57900 events.
+Event weight: 3.56122e-11
+Processing event 58000 / 100000
+  Number of JEWEL particles: 152
+  Total number of particles for clustering: 150
+Processed 58000 events.
+Event weight: 1.92792e-13
+Processed 58100 events.
+Event weight: 1.16865e-11
+Processed 58200 events.
+Event weight: 3.47116e-10
+Processed 58300 events.
+Event weight: 3.29752e-13
+Processed 58400 events.
+Event weight: 8.94161e-09
+Processed 58500 events.
+Event weight: 1.31543e-11
+Processed 58600 events.
+Event weight: 5.36872e-13
+Processed 58700 events.
+Event weight: 1.10708e-10
+Processed 58800 events.
+Event weight: 8.17406e-12
+Processed 58900 events.
+Event weight: 7.00303e-11
+Processing event 59000 / 100000
+  Number of JEWEL particles: 219
+  Total number of particles for clustering: 217
+Processed 59000 events.
+Event weight: 1.07267e-10
+Processed 59100 events.
+Event weight: 2.26785e-09
+Processed 59200 events.
+Event weight: 1.41845e-09
+Processed 59300 events.
+Event weight: 4.78329e-11
+Processed 59400 events.
+Event weight: 3.88929e-12
+Processed 59500 events.
+Event weight: 9.09337e-10
+Processed 59600 events.
+Event weight: 5.87822e-11
+Processed 59700 events.
+Event weight: 4.38288e-09
+Processed 59800 events.
+Event weight: 8.61899e-12
+Processed 59900 events.
+Event weight: 1.13713e-10
+Processing event 60000 / 100000
+  Number of JEWEL particles: 213
+  Total number of particles for clustering: 211
+Processed 60000 events.
+Event weight: 2.76167e-10
+Processed 60100 events.
+Event weight: 2.41358e-09
+Processed 60200 events.
+Event weight: 5.62087e-11
+Processed 60300 events.
+Event weight: 8.90582e-10
+Processed 60400 events.
+Event weight: 6.76521e-12
+Processed 60500 events.
+Event weight: 4.42965e-12
+Processed 60600 events.
+Event weight: 5.33226e-10
+Processed 60700 events.
+Event weight: 2.0964e-09
+Processed 60800 events.
+Event weight: 4.09186e-10
+Processed 60900 events.
+Event weight: 2.55956e-09
+Processing event 61000 / 100000
+  Number of JEWEL particles: 145
+  Total number of particles for clustering: 143
+Processed 61000 events.
+Event weight: 5.62523e-11
+Processed 61100 events.
+Event weight: 1.80778e-14
+Processed 61200 events.
+Event weight: 3.77709e-14
+Processed 61300 events.
+Event weight: 5.46146e-14
+Processed 61400 events.
+Event weight: 1.36771e-10
+Processed 61500 events.
+Event weight: 3.5239e-12
+Processed 61600 events.
+Event weight: 2.75912e-11
+Processed 61700 events.
+Event weight: 6.10076e-09
+Processed 61800 events.
+Event weight: 3.04528e-12
+Processed 61900 events.
+Event weight: 3.64438e-11
+Processing event 62000 / 100000
+  Number of JEWEL particles: 168
+  Total number of particles for clustering: 166
+Processed 62000 events.
+Event weight: 1.15637e-09
+Processed 62100 events.
+Event weight: 2.14051e-11
+Processed 62200 events.
+Event weight: 3.30167e-12
+Processed 62300 events.
+Event weight: 1.99187e-12
+Processed 62400 events.
+Event weight: 3.85635e-14
+Processed 62500 events.
+Event weight: 1.3731e-09
+Processed 62600 events.
+Event weight: 1.96989e-10
+Processed 62700 events.
+Event weight: 1.61546e-09
+Processed 62800 events.
+Event weight: 4.04106e-12
+Processed 62900 events.
+Event weight: 2.23694e-09
+Processing event 63000 / 100000
+  Number of JEWEL particles: 157
+  Total number of particles for clustering: 155
+Processed 63000 events.
+Event weight: 8.12222e-10
+Processed 63100 events.
+Event weight: 2.02993e-09
+Processed 63200 events.
+Event weight: 8.31759e-11
+Processed 63300 events.
+Event weight: 2.78957e-09
+Processed 63400 events.
+Event weight: 5.46517e-11
+Processed 63500 events.
+Event weight: 1.3134e-10
+Processed 63600 events.
+Event weight: 1.9016e-10
+Processed 63700 events.
+Event weight: 3.86856e-09
+Processed 63800 events.
+Event weight: 1.28703e-09
+Processed 63900 events.
+Event weight: 7.5987e-11
+Processing event 64000 / 100000
+  Number of JEWEL particles: 123
+  Total number of particles for clustering: 121
+Processed 64000 events.
+Event weight: 7.59814e-11
+Processed 64100 events.
+Event weight: 4.20296e-09
+Processed 64200 events.
+Event weight: 7.66519e-12
+Processed 64300 events.
+Event weight: 1.12086e-10
+Processed 64400 events.
+Event weight: 1.61267e-11
+Processed 64500 events.
+Event weight: 1.31137e-11
+Processed 64600 events.
+Event weight: 6.32317e-10
+Processed 64700 events.
+Event weight: 6.30963e-10
+Processed 64800 events.
+Event weight: 1.77728e-10
+Processed 64900 events.
+Event weight: 1.73661e-10
+Processing event 65000 / 100000
+  Number of JEWEL particles: 195
+  Total number of particles for clustering: 193
+Processed 65000 events.
+Event weight: 3.95004e-11
+Processed 65100 events.
+Event weight: 2.23874e-10
+Processed 65200 events.
+Event weight: 1.99891e-09
+Processed 65300 events.
+Event weight: 2.69833e-09
+Processed 65400 events.
+Event weight: 1.25781e-10
+Processed 65500 events.
+Event weight: 1.27919e-10
+Processed 65600 events.
+Event weight: 2.64432e-11
+Processed 65700 events.
+Event weight: 6.88613e-10
+Processed 65800 events.
+Event weight: 1.85579e-12
+Processed 65900 events.
+Event weight: 5.51184e-09
+Processing event 66000 / 100000
+  Number of JEWEL particles: 138
+  Total number of particles for clustering: 136
+Processed 66000 events.
+Event weight: 1.80847e-11
+Processed 66100 events.
+Event weight: 5.59602e-13
+Processed 66200 events.
+Event weight: 5.72181e-13
+Processed 66300 events.
+Event weight: 1.95784e-10
+Processed 66400 events.
+Event weight: 2.02809e-10
+Processed 66500 events.
+Event weight: 5.01162e-11
+Processed 66600 events.
+Event weight: 1.46249e-12
+Processed 66700 events.
+Event weight: 2.27381e-10
+Processed 66800 events.
+Event weight: 1.62628e-12
+Processed 66900 events.
+Event weight: 1.19626e-10
+Processing event 67000 / 100000
+  Number of JEWEL particles: 179
+  Total number of particles for clustering: 177
+Processed 67000 events.
+Event weight: 3.38567e-10
+Processed 67100 events.
+Event weight: 3.58461e-10
+Processed 67200 events.
+Event weight: 3.9994e-09
+Processed 67300 events.
+Event weight: 2.83059e-11
+Processed 67400 events.
+Event weight: 1.98184e-09
+Processed 67500 events.
+Event weight: 2.25459e-11
+Processed 67600 events.
+Event weight: 3.26313e-09
+Processed 67700 events.
+Event weight: 1.07944e-10
+Processed 67800 events.
+Event weight: 1.54779e-10
+Processed 67900 events.
+Event weight: 1.09057e-10
+Processing event 68000 / 100000
+  Number of JEWEL particles: 137
+  Total number of particles for clustering: 135
+Processed 68000 events.
+Event weight: 1.64317e-09
+Processed 68100 events.
+Event weight: 1.04363e-10
+Processed 68200 events.
+Event weight: 1.81404e-09
+Processed 68300 events.
+Event weight: 2.91931e-11
+Processed 68400 events.
+Event weight: 6.4536e-11
+Processed 68500 events.
+Event weight: 6.33714e-09
+Processed 68600 events.
+Event weight: 2.87524e-10
+Processed 68700 events.
+Event weight: 7.16382e-13
+Processed 68800 events.
+Event weight: 4.54141e-10
+Processed 68900 events.
+Event weight: 9.73438e-12
+Processing event 69000 / 100000
+  Number of JEWEL particles: 117
+  Total number of particles for clustering: 115
+Processed 69000 events.
+Event weight: 9.04578e-11
+Processed 69100 events.
+Event weight: 3.22197e-13
+Processed 69200 events.
+Event weight: 6.1593e-14
+Processed 69300 events.
+Event weight: 3.93264e-09
+Processed 69400 events.
+Event weight: 4.8094e-10
+Processed 69500 events.
+Event weight: 3.51455e-11
+Processed 69600 events.
+Event weight: 4.59377e-11
+Processed 69700 events.
+Event weight: 7.06456e-11
+Processed 69800 events.
+Event weight: 5.31964e-12
+Processed 69900 events.
+Event weight: 4.9995e-10
+Processing event 70000 / 100000
+  Number of JEWEL particles: 111
+  Total number of particles for clustering: 109
+Processed 70000 events.
+Event weight: 2.20309e-09
+Processed 70100 events.
+Event weight: 2.72414e-12
+Processed 70200 events.
+Event weight: 2.81025e-10
+Processed 70300 events.
+Event weight: 4.67487e-12
+Processed 70400 events.
+Event weight: 4.76029e-12
+Processed 70500 events.
+Event weight: 1.76888e-09
+Processed 70600 events.
+Event weight: 5.22249e-11
+Processed 70700 events.
+Event weight: 1.85332e-10
+Processed 70800 events.
+Event weight: 2.64915e-09
+Processed 70900 events.
+Event weight: 6.39155e-11
+Processing event 71000 / 100000
+  Number of JEWEL particles: 176
+  Total number of particles for clustering: 174
+Processed 71000 events.
+Event weight: 3.07257e-09
+Processed 71100 events.
+Event weight: 1.73062e-10
+Processed 71200 events.
+Event weight: 2.01846e-12
+Processed 71300 events.
+Event weight: 1.29648e-12
+Processed 71400 events.
+Event weight: 2.62484e-12
+Processed 71500 events.
+Event weight: 1.64067e-09
+Processed 71600 events.
+Event weight: 1.0602e-10
+Processed 71700 events.
+Event weight: 1.05284e-09
+Processed 71800 events.
+Event weight: 2.0165e-09
+Processed 71900 events.
+Event weight: 1.30656e-09
+Processing event 72000 / 100000
+  Number of JEWEL particles: 128
+  Total number of particles for clustering: 126
+Processed 72000 events.
+Event weight: 1.99336e-10
+Processed 72100 events.
+Event weight: 4.43986e-13
+Processed 72200 events.
+Event weight: 1.28986e-10
+Processed 72300 events.
+Event weight: 7.69263e-12
+Processed 72400 events.
+Event weight: 9.52749e-10
+Processed 72500 events.
+Event weight: 2.33367e-12
+Processed 72600 events.
+Event weight: 8.18183e-10
+Processed 72700 events.
+Event weight: 2.82213e-09
+Processed 72800 events.
+Event weight: 3.20797e-09
+Processed 72900 events.
+Event weight: 1.88926e-12
+Processing event 73000 / 100000
+  Number of JEWEL particles: 175
+  Total number of particles for clustering: 173
+Processed 73000 events.
+Event weight: 9.01168e-10
+Processed 73100 events.
+Event weight: 1.26599e-13
+Processed 73200 events.
+Event weight: 2.10653e-11
+Processed 73300 events.
+Event weight: 2.18553e-09
+Processed 73400 events.
+Event weight: 6.71333e-11
+Processed 73500 events.
+Event weight: 1.24715e-10
+Processed 73600 events.
+Event weight: 4.31987e-09
+Processed 73700 events.
+Event weight: 1.15905e-11
+Processed 73800 events.
+Event weight: 7.16342e-14
+Processed 73900 events.
+Event weight: 7.30077e-10
+Processing event 74000 / 100000
+  Number of JEWEL particles: 184
+  Total number of particles for clustering: 182
+Processed 74000 events.
+Event weight: 1.30275e-10
+Processed 74100 events.
+Event weight: 3.39538e-10
+Processed 74200 events.
+Event weight: 3.1959e-10
+Processed 74300 events.
+Event weight: 1.11375e-09
+Processed 74400 events.
+Event weight: 3.9763e-11
+Processed 74500 events.
+Event weight: 7.18769e-11
+Processed 74600 events.
+Event weight: 1.14413e-10
+Processed 74700 events.
+Event weight: 2.75508e-11
+Processed 74800 events.
+Event weight: 1.29728e-12
+Processed 74900 events.
+Event weight: 3.54168e-13
+Processing event 75000 / 100000
+  Number of JEWEL particles: 194
+  Total number of particles for clustering: 192
+Processed 75000 events.
+Event weight: 9.25894e-12
+Processed 75100 events.
+Event weight: 7.47502e-10
+Processed 75200 events.
+Event weight: 5.99382e-12
+Processed 75300 events.
+Event weight: 9.07815e-11
+Processed 75400 events.
+Event weight: 7.05272e-09
+Processed 75500 events.
+Event weight: 1.36111e-10
+Processed 75600 events.
+Event weight: 8.64563e-12
+Processed 75700 events.
+Event weight: 3.12972e-12
+Processed 75800 events.
+Event weight: 2.20518e-11
+Processed 75900 events.
+Event weight: 1.10539e-11
+Processing event 76000 / 100000
+  Number of JEWEL particles: 147
+  Total number of particles for clustering: 145
+Processed 76000 events.
+Event weight: 6.14639e-13
+Processed 76100 events.
+Event weight: 7.45107e-12
+Processed 76200 events.
+Event weight: 1.06401e-11
+Processed 76300 events.
+Event weight: 3.53331e-09
+Processed 76400 events.
+Event weight: 6.02351e-10
+Processed 76500 events.
+Event weight: 1.29214e-12
+Processed 76600 events.
+Event weight: 4.22213e-11
+Processed 76700 events.
+Event weight: 7.66575e-11
+Processed 76800 events.
+Event weight: 8.32101e-09
+Processed 76900 events.
+Event weight: 1.65389e-09
+Processing event 77000 / 100000
+  Number of JEWEL particles: 131
+  Total number of particles for clustering: 129
+Processed 77000 events.
+Event weight: 2.33516e-10
+Processed 77100 events.
+Event weight: 6.14597e-13
+Processed 77200 events.
+Event weight: 1.04521e-12
+Processed 77300 events.
+Event weight: 9.32022e-11
+Processed 77400 events.
+Event weight: 2.14159e-10
+Processed 77500 events.
+Event weight: 2.34081e-11
+Processed 77600 events.
+Event weight: 1.92966e-11
+Processed 77700 events.
+Event weight: 1.93735e-10
+Processed 77800 events.
+Event weight: 6.26372e-13
+Processed 77900 events.
+Event weight: 4.26841e-12
+Processing event 78000 / 100000
+  Number of JEWEL particles: 157
+  Total number of particles for clustering: 155
+Processed 78000 events.
+Event weight: 3.10752e-12
+Processed 78100 events.
+Event weight: 1.49784e-11
+Processed 78200 events.
+Event weight: 2.32838e-12
+Processed 78300 events.
+Event weight: 1.3964e-11
+Processed 78400 events.
+Event weight: 4.35707e-13
+Processed 78500 events.
+Event weight: 1.02647e-11
+Processed 78600 events.
+Event weight: 2.49356e-10
+Processed 78700 events.
+Event weight: 1.03113e-09
+Processed 78800 events.
+Event weight: 8.49941e-12
+Processed 78900 events.
+Event weight: 2.67114e-09
+Processing event 79000 / 100000
+  Number of JEWEL particles: 184
+  Total number of particles for clustering: 182
+Processed 79000 events.
+Event weight: 3.72602e-09
+Processed 79100 events.
+Event weight: 3.13763e-11
+Processed 79200 events.
+Event weight: 5.75211e-09
+Processed 79300 events.
+Event weight: 2.68623e-09
+Processed 79400 events.
+Event weight: 1.12508e-12
+Processed 79500 events.
+Event weight: 1.06385e-09
+Processed 79600 events.
+Event weight: 6.27239e-10
+Processed 79700 events.
+Event weight: 4.11473e-09
+Processed 79800 events.
+Event weight: 7.36211e-10
+Processed 79900 events.
+Event weight: 3.47676e-09
+Processing event 80000 / 100000
+  Number of JEWEL particles: 131
+  Total number of particles for clustering: 129
+Processed 80000 events.
+Event weight: 1.03768e-09
+Processed 80100 events.
+Event weight: 1.13174e-11
+Processed 80200 events.
+Event weight: 3.08395e-13
+Processed 80300 events.
+Event weight: 2.0826e-09
+Processed 80400 events.
+Event weight: 2.02457e-10
+Processed 80500 events.
+Event weight: 3.27788e-11
+Processed 80600 events.
+Event weight: 3.83999e-10
+Processed 80700 events.
+Event weight: 5.82248e-09
+Processed 80800 events.
+Event weight: 2.42902e-09
+Processed 80900 events.
+Event weight: 6.36955e-12
+Processing event 81000 / 100000
+  Number of JEWEL particles: 196
+  Total number of particles for clustering: 194
+Processed 81000 events.
+Event weight: 3.54136e-10
+Processed 81100 events.
+Event weight: 5.50051e-13
+Processed 81200 events.
+Event weight: 4.51657e-13
+Processed 81300 events.
+Event weight: 8.38727e-11
+Processed 81400 events.
+Event weight: 1.49439e-13
+Processed 81500 events.
+Event weight: 2.21124e-12
+Processed 81600 events.
+Event weight: 1.67997e-12
+Processed 81700 events.
+Event weight: 1.42319e-09
+Processed 81800 events.
+Event weight: 7.13825e-13
+Processed 81900 events.
+Event weight: 5.48786e-09
+Processing event 82000 / 100000
+  Number of JEWEL particles: 156
+  Total number of particles for clustering: 154
+Processed 82000 events.
+Event weight: 4.81478e-12
+Processed 82100 events.
+Event weight: 1.96547e-09
+Processed 82200 events.
+Event weight: 3.15103e-11
+Processed 82300 events.
+Event weight: 1.0314e-09
+Processed 82400 events.
+Event weight: 1.39297e-09
+Processed 82500 events.
+Event weight: 9.05721e-12
+Processed 82600 events.
+Event weight: 4.18847e-10
+Processed 82700 events.
+Event weight: 6.62479e-12
+Processed 82800 events.
+Event weight: 1.07776e-11
+Processed 82900 events.
+Event weight: 2.94857e-10
+Processing event 83000 / 100000
+  Number of JEWEL particles: 183
+  Total number of particles for clustering: 181
+Processed 83000 events.
+Event weight: 2.91952e-13
+Processed 83100 events.
+Event weight: 1.97648e-09
+Processed 83200 events.
+Event weight: 4.39039e-11
+Processed 83300 events.
+Event weight: 5.92377e-10
+Processed 83400 events.
+Event weight: 4.9167e-10
+Processed 83500 events.
+Event weight: 1.05756e-10
+Processed 83600 events.
+Event weight: 1.97807e-11
+Processed 83700 events.
+Event weight: 1.44652e-11
+Processed 83800 events.
+Event weight: 3.73779e-13
+Processed 83900 events.
+Event weight: 8.24291e-11
+Processing event 84000 / 100000
+  Number of JEWEL particles: 194
+  Total number of particles for clustering: 192
+Processed 84000 events.
+Event weight: 2.10952e-11
+Processed 84100 events.
+Event weight: 3.99007e-11
+Processed 84200 events.
+Event weight: 6.335e-12
+Processed 84300 events.
+Event weight: 6.74128e-11
+Processed 84400 events.
+Event weight: 3.50962e-10
+Processed 84500 events.
+Event weight: 1.09722e-12
+Processed 84600 events.
+Event weight: 7.29059e-10
+Processed 84700 events.
+Event weight: 1.02353e-10
+Processed 84800 events.
+Event weight: 5.22746e-09
+Processed 84900 events.
+Event weight: 4.68489e-14
+Processing event 85000 / 100000
+  Number of JEWEL particles: 148
+  Total number of particles for clustering: 146
+Processed 85000 events.
+Event weight: 2.0667e-10
+Processed 85100 events.
+Event weight: 5.01503e-10
+Processed 85200 events.
+Event weight: 5.70187e-12
+Processed 85300 events.
+Event weight: 6.37688e-10
+Processed 85400 events.
+Event weight: 4.07818e-10
+Processed 85500 events.
+Event weight: 4.17279e-10
+Processed 85600 events.
+Event weight: 1.18556e-10
+Processed 85700 events.
+Event weight: 6.6407e-09
+Processed 85800 events.
+Event weight: 3.98098e-10
+Processed 85900 events.
+Event weight: 1.00364e-10
+Processing event 86000 / 100000
+  Number of JEWEL particles: 220
+  Total number of particles for clustering: 218
+Processed 86000 events.
+Event weight: 4.33878e-10
+Processed 86100 events.
+Event weight: 1.45383e-09
+Processed 86200 events.
+Event weight: 2.59683e-11
+Processed 86300 events.
+Event weight: 8.17111e-12
+Processed 86400 events.
+Event weight: 2.61833e-13
+Processed 86500 events.
+Event weight: 6.91615e-09
+Processed 86600 events.
+Event weight: 1.04358e-11
+Processed 86700 events.
+Event weight: 4.70429e-10
+Processed 86800 events.
+Event weight: 1.3125e-12
+Processed 86900 events.
+Event weight: 9.71631e-11
+Processing event 87000 / 100000
+  Number of JEWEL particles: 261
+  Total number of particles for clustering: 259
+Processed 87000 events.
+Event weight: 3.14561e-11
+Processed 87100 events.
+Event weight: 3.61689e-09
+Processed 87200 events.
+Event weight: 2.4881e-12
+Processed 87300 events.
+Event weight: 2.99735e-11
+Processed 87400 events.
+Event weight: 5.36862e-09
+Processed 87500 events.
+Event weight: 3.02258e-09
+Processed 87600 events.
+Event weight: 2.01118e-11
+Processed 87700 events.
+Event weight: 3.57741e-10
+Processed 87800 events.
+Event weight: 2.25047e-09
+Processed 87900 events.
+Event weight: 2.49299e-12
+Processing event 88000 / 100000
+  Number of JEWEL particles: 132
+  Total number of particles for clustering: 130
+Processed 88000 events.
+Event weight: 1.57108e-10
+Processed 88100 events.
+Event weight: 1.47399e-11
+Processed 88200 events.
+Event weight: 3.70363e-12
+Processed 88300 events.
+Event weight: 7.01922e-11
+Processed 88400 events.
+Event weight: 3.20699e-13
+Processed 88500 events.
+Event weight: 5.71067e-09
+Processed 88600 events.
+Event weight: 1.64049e-11
+Processed 88700 events.
+Event weight: 1.20554e-11
+Processed 88800 events.
+Event weight: 4.79372e-12
+Processed 88900 events.
+Event weight: 1.4094e-12
+Processing event 89000 / 100000
+  Number of JEWEL particles: 220
+  Total number of particles for clustering: 218
+Processed 89000 events.
+Event weight: 5.89884e-11
+Processed 89100 events.
+Event weight: 3.24696e-09
+Processed 89200 events.
+Event weight: 1.90744e-10
+Processed 89300 events.
+Event weight: 3.52337e-11
+Processed 89400 events.
+Event weight: 9.76965e-11
+Processed 89500 events.
+Event weight: 2.64487e-11
+Processed 89600 events.
+Event weight: 5.0692e-11
+Processed 89700 events.
+Event weight: 7.05724e-10
+Processed 89800 events.
+Event weight: 2.19935e-12
+Processed 89900 events.
+Event weight: 3.36181e-12
+Processing event 90000 / 100000
+  Number of JEWEL particles: 233
+  Total number of particles for clustering: 231
+Processed 90000 events.
+Event weight: 1.42498e-12
+Processed 90100 events.
+Event weight: 7.88632e-12
+Processed 90200 events.
+Event weight: 5.08778e-11
+Processed 90300 events.
+Event weight: 5.38537e-09
+Processed 90400 events.
+Event weight: 3.23144e-11
+Processed 90500 events.
+Event weight: 1.76371e-09
+Processed 90600 events.
+Event weight: 5.57297e-10
+Processed 90700 events.
+Event weight: 2.60539e-09
+Processed 90800 events.
+Event weight: 6.99853e-09
+Processed 90900 events.
+Event weight: 1.84121e-12
+Processing event 91000 / 100000
+  Number of JEWEL particles: 171
+  Total number of particles for clustering: 169
+Processed 91000 events.
+Event weight: 1.82578e-10
+Processed 91100 events.
+Event weight: 7.877e-10
+Processed 91200 events.
+Event weight: 5.91608e-11
+Processed 91300 events.
+Event weight: 3.04042e-09
+Processed 91400 events.
+Event weight: 3.68622e-13
+Processed 91500 events.
+Event weight: 2.02139e-10
+Processed 91600 events.
+Event weight: 5.40834e-11
+Processed 91700 events.
+Event weight: 7.21468e-12
+Processed 91800 events.
+Event weight: 4.94681e-11
+Processed 91900 events.
+Event weight: 3.91543e-11
+Processing event 92000 / 100000
+  Number of JEWEL particles: 182
+  Total number of particles for clustering: 180
+Processed 92000 events.
+Event weight: 3.26567e-10
+Processed 92100 events.
+Event weight: 9.88665e-10
+Processed 92200 events.
+Event weight: 8.16196e-11
+Processed 92300 events.
+Event weight: 6.03343e-10
+Processed 92400 events.
+Event weight: 3.43563e-10
+Processed 92500 events.
+Event weight: 1.2439e-10
+Processed 92600 events.
+Event weight: 2.15161e-10
+Processed 92700 events.
+Event weight: 3.91332e-11
+Processed 92800 events.
+Event weight: 6.92708e-09
+Processed 92900 events.
+Event weight: 1.07414e-10
+Processing event 93000 / 100000
+  Number of JEWEL particles: 158
+  Total number of particles for clustering: 156
+Processed 93000 events.
+Event weight: 4.44622e-12
+Processed 93100 events.
+Event weight: 3.66751e-10
+Processed 93200 events.
+Event weight: 4.21038e-10
+Processed 93300 events.
+Event weight: 6.88476e-11
+Processed 93400 events.
+Event weight: 4.24622e-13
+Processed 93500 events.
+Event weight: 4.32416e-12
+Processed 93600 events.
+Event weight: 5.17935e-10
+Processed 93700 events.
+Event weight: 3.34325e-11
+Processed 93800 events.
+Event weight: 2.34195e-10
+Processed 93900 events.
+Event weight: 1.09388e-12
+Processing event 94000 / 100000
+  Number of JEWEL particles: 141
+  Total number of particles for clustering: 139
+Processed 94000 events.
+Event weight: 4.00458e-10
+Processed 94100 events.
+Event weight: 8.30491e-11
+Processed 94200 events.
+Event weight: 8.0177e-12
+Processed 94300 events.
+Event weight: 2.41454e-12
+Processed 94400 events.
+Event weight: 2.42278e-09
+Processed 94500 events.
+Event weight: 3.18061e-12
+Processed 94600 events.
+Event weight: 2.23611e-12
+Processed 94700 events.
+Event weight: 4.166e-13
+Processed 94800 events.
+Event weight: 3.60169e-10
+Processed 94900 events.
+Event weight: 4.40795e-09
+Processing event 95000 / 100000
+  Number of JEWEL particles: 120
+  Total number of particles for clustering: 118
+Processed 95000 events.
+Event weight: 5.15253e-10
+Processed 95100 events.
+Event weight: 7.91707e-09
+Processed 95200 events.
+Event weight: 1.72213e-10
+Processed 95300 events.
+Event weight: 7.74724e-11
+Processed 95400 events.
+Event weight: 1.9652e-11
+Processed 95500 events.
+Event weight: 4.5768e-10
+Processed 95600 events.
+Event weight: 2.41731e-12
+Processed 95700 events.
+Event weight: 7.0312e-12
+Processed 95800 events.
+Event weight: 4.80928e-11
+Processed 95900 events.
+Event weight: 9.38325e-10
+Processing event 96000 / 100000
+  Number of JEWEL particles: 206
+  Total number of particles for clustering: 204
+Processed 96000 events.
+Event weight: 3.35126e-12
+Processed 96100 events.
+Event weight: 5.3991e-10
+Processed 96200 events.
+Event weight: 1.041e-11
+Processed 96300 events.
+Event weight: 2.02806e-10
+Processed 96400 events.
+Event weight: 2.03682e-10
+Processed 96500 events.
+Event weight: 7.8899e-13
+Processed 96600 events.
+Event weight: 9.56238e-10
+Processed 96700 events.
+Event weight: 1.1933e-12
+Processed 96800 events.
+Event weight: 3.29222e-11
+Processed 96900 events.
+Event weight: 4.00557e-09
+Processing event 97000 / 100000
+  Number of JEWEL particles: 183
+  Total number of particles for clustering: 181
+Processed 97000 events.
+Event weight: 3.05992e-11
+Processed 97100 events.
+Event weight: 3.33789e-11
+Processed 97200 events.
+Event weight: 5.19944e-09
+Processed 97300 events.
+Event weight: 6.11461e-11
+Processed 97400 events.
+Event weight: 2.145e-10
+Processed 97500 events.
+Event weight: 3.70557e-10
+Processed 97600 events.
+Event weight: 4.68635e-11
+Processed 97700 events.
+Event weight: 2.26234e-10
+Processed 97800 events.
+Event weight: 1.82743e-12
+Processed 97900 events.
+Event weight: 3.771e-10
+Processing event 98000 / 100000
+  Number of JEWEL particles: 88
+  Total number of particles for clustering: 86
+Processed 98000 events.
+Event weight: 2.9029e-10
+Processed 98100 events.
+Event weight: 5.4361e-11
+Processed 98200 events.
+Event weight: 1.58774e-10
+Processed 98300 events.
+Event weight: 7.47925e-09
+Processed 98400 events.
+Event weight: 6.41621e-12
+Processed 98500 events.
+Event weight: 8.49935e-09
+Processed 98600 events.
+Event weight: 2.15099e-09
+Processed 98700 events.
+Event weight: 2.11211e-09
+Processed 98800 events.
+Event weight: 9.56269e-10
+Processed 98900 events.
+Event weight: 3.48243e-13
+Processing event 99000 / 100000
+  Number of JEWEL particles: 167
+  Total number of particles for clustering: 165
+Processed 99000 events.
+Event weight: 3.43709e-09
+Processed 99100 events.
+Event weight: 3.00603e-12
+Processed 99200 events.
+Event weight: 7.28636e-11
+Processed 99300 events.
+Event weight: 2.54143e-09
+Processed 99400 events.
+Event weight: 8.778e-10
+Processed 99500 events.
+Event weight: 3.15771e-09
+Processed 99600 events.
+Event weight: 1.39472e-13
+Processed 99700 events.
+Event weight: 4.38227e-09
+Processed 99800 events.
+Event weight: 6.57458e-11
+Processed 99900 events.
+Event weight: 2.359e-13

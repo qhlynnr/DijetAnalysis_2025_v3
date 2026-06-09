@@ -5,9 +5,9 @@
 # ======== USER SETTINGS ========
 #/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/Jewel_pbpb_HepMC_5360GeV/Jewel_pbpb_5360GeV_ptmin250_nevt10K_103125_vac.hepmc
 INPUT_DIR="/home/data/public/xirong/Packages/jewel/jewel-2.4.0/"
-INPUT="$INPUT_DIR/0220NewPtHat40/Jewelpbpb_5360GeV_ptm40_10Kevt_022026_C5_med_11050627.hepmc" # input HepMC file
+INPUT="$INPUT_DIR/Jewel_pbpb_100K_2760GeV_ptm250_C10_med_12345.hepmc" # input HepMC file
 OUTPUT_DIR="/home/xirong/DijetAnalysis_2025_v3_svmit/MonteCarlo/"
-OUTPUT="$OUTPUT_DIR/022426_JewelPtHat40_10KEvt_2/Jewelpbpb_5360GeV_ptm40_10Kevt_022026_C5_med_11050627_precluster.root"   # output ROOT file
+OUTPUT="$OUTPUT_DIR/033126ValidationAJ/Jewel_pbpb_100K_2760GeV_ptm250_C10_med_12345.root"   # output ROOT file
 SRC="HepMCtoRoot.cpp"  # your C++ source
 EXE="HepMCtoRoot"  # compiled binary name
 # ===============================
